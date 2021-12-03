@@ -1,6 +1,6 @@
 1. System log anomaly pattern detection and causal analysis
 
-The codes and data are in /log folder.
+The codes and data are in /logs folder.
 
 1) Each bug's data is stored in folder "bugID" like mapreduce5066 folder. "bugid".out is the funtion call trace. "bugid"-mix.log contains both buggy run and normal log. "bugid"-normal.log only contains normal run log. The generated intermediary data including function time series and log sequence time series are stored in functimevector-"bugid".pickle and logseq-"bugid".pickle.
 
