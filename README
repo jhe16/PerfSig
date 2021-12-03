@@ -1,0 +1,29 @@
+1. System log anomaly pattern detection and causal analysis
+
+The codes and data are in /log folder.
+
+1) Each bug's data is stored in folder "bugID" like mapreduce5066 folder. "bugid".out is the funtion call trace. "bugid"-mix.log contains both buggy run and normal log. "bugid"-normal.log only contains normal run log. The generated intermediary data including function time series and log sequence time series are stored in functimevector-"bugid".pickle and logseq-"bugid".pickle.
+
+2) Replace log data directory in logprocessing.py. Run the logprocessing.py to perform log anomaly pattern detection (including semantics-based grouping and frequent sequence mining). Check the main function and uncomment certain lines to see the results of alternative approaches.
+
+
+3) Go into each bug directory, run dappertrace.py to get the function time series. The results are stored in functimevector-"bugid".pickle.
+
+
+4) Go into each bug directory, run getLogSequence.py to get the log sequence time series. The results are stored in logseq-"bugid".pickle.
+
+
+5) Go into each bug directory, run mi.py to perform causal analysis.
+
+
+2. System metric anomaly detection and causal analysis
+
+The codes and data are in /metrics folder.
+
+1) The raw metric data are stored in "bugid"-workload.txt. The function call trace is stored in "bugid".out.
+
+1) Go into each bug directory, run drawseries.py to generate system metric time series. The results are stored in "bugid"-cpu.csv.
+
+2) Go into each bug directory, run dappertrace.py to get the function time series. The results are stored in functimevector-"bugid".pickle.
+
+5) Go into each bug directory, run mi.py to perform causal analysis.

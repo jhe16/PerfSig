@@ -1,0 +1,1047 @@
+bug triggering time: Thu May  6 19:12:55 EDT 2021
+
+19:12:05
+procs running: 1
+cpu utilization: 12.25%
+disk reads: 1283
+disk writes: 84
+mem used: 13362143232
+mem total: 16738144256
+net bytes received: 207756288486
+net bytes sent: 207756288486
+19:12:06
+procs running: 2
+cpu utilization: 31.79%
+disk reads: 1283
+disk writes: 84
+mem used: 13474603008
+mem total: 16738144256
+net bytes received: 207756297300
+net bytes sent: 207756297300
+19:12:07
+procs running: 4
+cpu utilization: 28.16%
+disk reads: 1283
+disk writes: 84
+mem used: 13545123840
+mem total: 16738144256
+net bytes received: 207756900820
+net bytes sent: 207756900820
+19:12:08
+procs running: 3
+cpu utilization: 16.10%
+disk reads: 1283
+disk writes: 84
+mem used: 13605638144
+mem total: 16738144256
+net bytes received: 207757303155
+net bytes sent: 207757303155
+19:12:09
+procs running: 3
+cpu utilization: 33.29%
+disk reads: 1283
+disk writes: 84
+mem used: 13705945088
+mem total: 16738144256
+net bytes received: 207757308791
+net bytes sent: 207757308791
+19:12:10
+procs running: 2
+cpu utilization: 40.65%
+disk reads: 1283
+disk writes: 84
+mem used: 13815541760
+mem total: 16738144256
+net bytes received: 207757590286
+net bytes sent: 207757590286
+19:12:11
+procs running: 1
+cpu utilization: 3.88%
+disk reads: 1283
+disk writes: 84
+mem used: 13817786368
+mem total: 16738144256
+net bytes received: 207757593727
+net bytes sent: 207757593727
+19:12:12
+procs running: 1
+cpu utilization: 6.78%
+disk reads: 1283
+disk writes: 84
+mem used: 13836197888
+mem total: 16738144256
+net bytes received: 207757603014
+net bytes sent: 207757603014
+19:12:13
+procs running: 2
+cpu utilization: 35.67%
+disk reads: 1283
+disk writes: 84
+mem used: 13961940992
+mem total: 16738144256
+net bytes received: 207757763045
+net bytes sent: 207757763045
+19:12:14
+procs running: 9
+cpu utilization: 16.10%
+disk reads: 1283
+disk writes: 84
+mem used: 13814554624
+mem total: 16738144256
+net bytes received: 207757799343
+net bytes sent: 207757799343
+19:12:15
+procs running: 3
+cpu utilization: 8.81%
+disk reads: 1283
+disk writes: 84
+mem used: 13838782464
+mem total: 16738144256
+net bytes received: 207757808009
+net bytes sent: 207757808009
+19:12:16
+procs running: 2
+cpu utilization: 38.31%
+disk reads: 1283
+disk writes: 84
+mem used: 13970444288
+mem total: 16738144256
+net bytes received: 207757967697
+net bytes sent: 207757967697
+19:12:17
+procs running: 3
+cpu utilization: 14.02%
+disk reads: 1283
+disk writes: 84
+mem used: 13815660544
+mem total: 16738144256
+net bytes received: 207757989911
+net bytes sent: 207757989911
+19:12:18
+procs running: 1
+cpu utilization: 6.68%
+disk reads: 1283
+disk writes: 84
+mem used: 13836013568
+mem total: 16738144256
+net bytes received: 207757998216
+net bytes sent: 207757998216
+19:12:19
+procs running: 4
+cpu utilization: 37.22%
+disk reads: 1283
+disk writes: 84
+mem used: 13971324928
+mem total: 16738144256
+net bytes received: 207758157905
+net bytes sent: 207758157905
+19:12:20
+procs running: 3
+cpu utilization: 15.66%
+disk reads: 1283
+disk writes: 84
+mem used: 13816066048
+mem total: 16738144256
+net bytes received: 207758180140
+net bytes sent: 207758180140
+19:12:21
+procs running: 1
+cpu utilization: 5.42%
+disk reads: 1283
+disk writes: 84
+mem used: 13836824576
+mem total: 16738144256
+net bytes received: 207758188150
+net bytes sent: 207758188150
+19:12:22
+procs running: 4
+cpu utilization: 35.62%
+disk reads: 1283
+disk writes: 84
+mem used: 13954101248
+mem total: 16738144256
+net bytes received: 207758348218
+net bytes sent: 207758348218
+19:12:23
+procs running: 3
+cpu utilization: 17.99%
+disk reads: 1283
+disk writes: 84
+mem used: 13815644160
+mem total: 16738144256
+net bytes received: 207758369975
+net bytes sent: 207758369975
+19:12:24
+procs running: 1
+cpu utilization: 6.63%
+disk reads: 1283
+disk writes: 84
+mem used: 13821132800
+mem total: 16738144256
+net bytes received: 207758377627
+net bytes sent: 207758377627
+19:12:25
+procs running: 2
+cpu utilization: 38.60%
+disk reads: 1283
+disk writes: 84
+mem used: 13946634240
+mem total: 16738144256
+net bytes received: 207758537799
+net bytes sent: 207758537799
+19:12:26
+procs running: 2
+cpu utilization: 13.28%
+disk reads: 1283
+disk writes: 84
+mem used: 13798739968
+mem total: 16738144256
+net bytes received: 207758558697
+net bytes sent: 207758558697
+19:12:27
+procs running: 1
+cpu utilization: 5.29%
+disk reads: 1283
+disk writes: 84
+mem used: 13818175488
+mem total: 16738144256
+net bytes received: 207758566005
+net bytes sent: 207758566005
+19:12:28
+procs running: 6
+cpu utilization: 37.08%
+disk reads: 1283
+disk writes: 84
+mem used: 13950922752
+mem total: 16738144256
+net bytes received: 207758726449
+net bytes sent: 207758726449
+19:12:29
+procs running: 6
+cpu utilization: 14.38%
+disk reads: 1283
+disk writes: 84
+mem used: 13798969344
+mem total: 16738144256
+net bytes received: 207758748049
+net bytes sent: 207758748049
+19:12:30
+procs running: 1
+cpu utilization: 7.28%
+disk reads: 1283
+disk writes: 84
+mem used: 13821349888
+mem total: 16738144256
+net bytes received: 207758755169
+net bytes sent: 207758755169
+19:12:31
+procs running: 2
+cpu utilization: 35.55%
+disk reads: 1283
+disk writes: 84
+mem used: 13951811584
+mem total: 16738144256
+net bytes received: 207758915425
+net bytes sent: 207758915425
+19:12:32
+procs running: 2
+cpu utilization: 14.16%
+disk reads: 1283
+disk writes: 84
+mem used: 13799268352
+mem total: 16738144256
+net bytes received: 207758937088
+net bytes sent: 207758937088
+19:12:33
+procs running: 4
+cpu utilization: 5.91%
+disk reads: 1283
+disk writes: 84
+mem used: 13823680512
+mem total: 16738144256
+net bytes received: 207758944208
+net bytes sent: 207758944208
+19:12:34
+procs running: 3
+cpu utilization: 35.77%
+disk reads: 1283
+disk writes: 84
+mem used: 13947359232
+mem total: 16738144256
+net bytes received: 207759104464
+net bytes sent: 207759104464
+19:12:35
+procs running: 4
+cpu utilization: 15.32%
+disk reads: 1283
+disk writes: 84
+mem used: 13800017920
+mem total: 16738144256
+net bytes received: 207759125810
+net bytes sent: 207759125810
+19:12:36
+procs running: 1
+cpu utilization: 6.20%
+disk reads: 1283
+disk writes: 84
+mem used: 13824061440
+mem total: 16738144256
+net bytes received: 207759132744
+net bytes sent: 207759132744
+19:12:37
+procs running: 4
+cpu utilization: 36.42%
+disk reads: 1283
+disk writes: 84
+mem used: 13955649536
+mem total: 16738144256
+net bytes received: 207759292813
+net bytes sent: 207759292813
+19:12:38
+procs running: 2
+cpu utilization: 13.19%
+disk reads: 1283
+disk writes: 84
+mem used: 13800861696
+mem total: 16738144256
+net bytes received: 207759317636
+net bytes sent: 207759317636
+19:12:39
+procs running: 1
+cpu utilization: 6.53%
+disk reads: 1283
+disk writes: 84
+mem used: 13825191936
+mem total: 16738144256
+net bytes received: 207759324571
+net bytes sent: 207759324571
+19:12:40
+procs running: 2
+cpu utilization: 37.02%
+disk reads: 1283
+disk writes: 84
+mem used: 13956878336
+mem total: 16738144256
+net bytes received: 207759485676
+net bytes sent: 207759485676
+19:12:41
+procs running: 2
+cpu utilization: 14.18%
+disk reads: 1283
+disk writes: 84
+mem used: 13800189952
+mem total: 16738144256
+net bytes received: 207759506521
+net bytes sent: 207759506521
+19:12:42
+procs running: 1
+cpu utilization: 5.79%
+disk reads: 1283
+disk writes: 84
+mem used: 13825044480
+mem total: 16738144256
+net bytes received: 207759513832
+net bytes sent: 207759513832
+19:12:43
+procs running: 3
+cpu utilization: 35.09%
+disk reads: 1283
+disk writes: 84
+mem used: 13946855424
+mem total: 16738144256
+net bytes received: 207759673713
+net bytes sent: 207759673713
+19:12:44
+procs running: 2
+cpu utilization: 13.53%
+disk reads: 1283
+disk writes: 84
+mem used: 13802192896
+mem total: 16738144256
+net bytes received: 207759695161
+net bytes sent: 207759695161
+19:12:45
+procs running: 1
+cpu utilization: 5.55%
+disk reads: 1283
+disk writes: 84
+mem used: 13825826816
+mem total: 16738144256
+net bytes received: 207759702472
+net bytes sent: 207759702472
+19:12:46
+procs running: 3
+cpu utilization: 38.28%
+disk reads: 1283
+disk writes: 84
+mem used: 13957980160
+mem total: 16738144256
+net bytes received: 207759862165
+net bytes sent: 207759862165
+19:12:47
+procs running: 5
+cpu utilization: 13.46%
+disk reads: 1283
+disk writes: 84
+mem used: 13804818432
+mem total: 16738144256
+net bytes received: 207759883210
+net bytes sent: 207759883210
+19:12:48
+procs running: 1
+cpu utilization: 5.55%
+disk reads: 1283
+disk writes: 84
+mem used: 13827739648
+mem total: 16738144256
+net bytes received: 207759890897
+net bytes sent: 207759890897
+19:12:49
+procs running: 3
+cpu utilization: 35.83%
+disk reads: 1283
+disk writes: 84
+mem used: 13959421952
+mem total: 16738144256
+net bytes received: 207760050590
+net bytes sent: 207760050590
+19:12:50
+procs running: 8
+cpu utilization: 15.24%
+disk reads: 1283
+disk writes: 84
+mem used: 13805813760
+mem total: 16738144256
+net bytes received: 207760071856
+net bytes sent: 207760071856
+19:12:51
+procs running: 1
+cpu utilization: 6.79%
+disk reads: 1283
+disk writes: 84
+mem used: 13824884736
+mem total: 16738144256
+net bytes received: 207760079713
+net bytes sent: 207760079713
+19:12:52
+procs running: 3
+cpu utilization: 36.09%
+disk reads: 1283
+disk writes: 84
+mem used: 13954043904
+mem total: 16738144256
+net bytes received: 207760239782
+net bytes sent: 207760239782
+19:12:53
+procs running: 2
+cpu utilization: 14.48%
+disk reads: 1283
+disk writes: 84
+mem used: 13806145536
+mem total: 16738144256
+net bytes received: 207760259957
+net bytes sent: 207760259957
+19:12:54
+procs running: 1
+cpu utilization: 5.88%
+disk reads: 1283
+disk writes: 84
+mem used: 13828079616
+mem total: 16738144256
+net bytes received: 207760267456
+net bytes sent: 207760267456
+19:12:55
+procs running: 4
+cpu utilization: 44.84%
+disk reads: 1283
+disk writes: 84
+mem used: 13771706368
+mem total: 16738144256
+net bytes received: 207760427681
+net bytes sent: 207760427681
+19:12:56
+procs running: 11
+cpu utilization: 31.78%
+disk reads: 1283
+disk writes: 84
+mem used: 13657251840
+mem total: 16738144256
+net bytes received: 207760445917
+net bytes sent: 207760445917
+19:12:57
+procs running: 2
+cpu utilization: 19.77%
+disk reads: 1283
+disk writes: 84
+mem used: 13683146752
+mem total: 16738144256
+net bytes received: 207760451790
+net bytes sent: 207760451790
+19:12:58
+procs running: 4
+cpu utilization: 47.80%
+disk reads: 1283
+disk writes: 84
+mem used: 13809188864
+mem total: 16738144256
+net bytes received: 207760610874
+net bytes sent: 207760610874
+19:12:59
+procs running: 5
+cpu utilization: 26.94%
+disk reads: 1283
+disk writes: 84
+mem used: 13659881472
+mem total: 16738144256
+net bytes received: 207760628846
+net bytes sent: 207760628846
+19:13:00
+procs running: 2
+cpu utilization: 18.57%
+disk reads: 1283
+disk writes: 84
+mem used: 13685948416
+mem total: 16738144256
+net bytes received: 207760634722
+net bytes sent: 207760634722
+19:13:01
+procs running: 3
+cpu utilization: 49.56%
+disk reads: 1283
+disk writes: 84
+mem used: 13810561024
+mem total: 16738144256
+net bytes received: 207760793609
+net bytes sent: 207760793609
+19:13:02
+procs running: 5
+cpu utilization: 38.42%
+disk reads: 1283
+disk writes: 84
+mem used: 13670772736
+mem total: 16738144256
+net bytes received: 207761119427
+net bytes sent: 207761119427
+19:13:03
+procs running: 2
+cpu utilization: 17.04%
+disk reads: 1283
+disk writes: 84
+mem used: 13672132608
+mem total: 16738144256
+net bytes received: 207761361027
+net bytes sent: 207761361027
+19:13:04
+procs running: 2
+cpu utilization: 15.11%
+disk reads: 1283
+disk writes: 84
+mem used: 13668556800
+mem total: 16738144256
+net bytes received: 207761518214
+net bytes sent: 207761518214
+19:13:05
+procs running: 2
+cpu utilization: 14.04%
+disk reads: 1283
+disk writes: 84
+mem used: 13668024320
+mem total: 16738144256
+net bytes received: 207761519010
+net bytes sent: 207761519010
+19:13:06
+procs running: 2
+cpu utilization: 15.04%
+disk reads: 1283
+disk writes: 84
+mem used: 13668020224
+mem total: 16738144256
+net bytes received: 207761520197
+net bytes sent: 207761520197
+19:13:07
+procs running: 2
+cpu utilization: 14.18%
+disk reads: 1283
+disk writes: 84
+mem used: 13667815424
+mem total: 16738144256
+net bytes received: 207761676605
+net bytes sent: 207761676605
+19:13:08
+procs running: 2
+cpu utilization: 14.02%
+disk reads: 1283
+disk writes: 84
+mem used: 13668081664
+mem total: 16738144256
+net bytes received: 207761677777
+net bytes sent: 207761677777
+19:13:09
+procs running: 2
+cpu utilization: 13.57%
+disk reads: 1283
+disk writes: 84
+mem used: 13667745792
+mem total: 16738144256
+net bytes received: 207761678788
+net bytes sent: 207761678788
+19:13:10
+procs running: 2
+cpu utilization: 14.02%
+disk reads: 1283
+disk writes: 84
+mem used: 13667643392
+mem total: 16738144256
+net bytes received: 207761835226
+net bytes sent: 207761835226
+19:13:11
+procs running: 2
+cpu utilization: 15.85%
+disk reads: 1283
+disk writes: 84
+mem used: 13668327424
+mem total: 16738144256
+net bytes received: 207761836210
+net bytes sent: 207761836210
+19:13:12
+procs running: 2
+cpu utilization: 13.68%
+disk reads: 1283
+disk writes: 84
+mem used: 13668610048
+mem total: 16738144256
+net bytes received: 207761837597
+net bytes sent: 207761837597
+19:13:13
+procs running: 2
+cpu utilization: 14.68%
+disk reads: 1283
+disk writes: 84
+mem used: 13669011456
+mem total: 16738144256
+net bytes received: 207761993661
+net bytes sent: 207761993661
+19:13:14
+procs running: 2
+cpu utilization: 14.32%
+disk reads: 1283
+disk writes: 84
+mem used: 13669654528
+mem total: 16738144256
+net bytes received: 207761994957
+net bytes sent: 207761994957
+19:13:15
+procs running: 2
+cpu utilization: 13.68%
+disk reads: 1283
+disk writes: 84
+mem used: 13669904384
+mem total: 16738144256
+net bytes received: 207761997083
+net bytes sent: 207761997083
+19:13:16
+procs running: 2
+cpu utilization: 15.64%
+disk reads: 1283
+disk writes: 84
+mem used: 13669904384
+mem total: 16738144256
+net bytes received: 207762152959
+net bytes sent: 207762152959
+19:13:17
+procs running: 2
+cpu utilization: 14.04%
+disk reads: 1283
+disk writes: 84
+mem used: 13669629952
+mem total: 16738144256
+net bytes received: 207762153755
+net bytes sent: 207762153755
+19:13:18
+procs running: 2
+cpu utilization: 13.82%
+disk reads: 1283
+disk writes: 84
+mem used: 13668978688
+mem total: 16738144256
+net bytes received: 207762155518
+net bytes sent: 207762155518
+19:13:19
+procs running: 2
+cpu utilization: 14.02%
+disk reads: 1283
+disk writes: 84
+mem used: 13669363712
+mem total: 16738144256
+net bytes received: 207762311394
+net bytes sent: 207762311394
+19:13:20
+procs running: 3
+cpu utilization: 13.18%
+disk reads: 1283
+disk writes: 84
+mem used: 13669617664
+mem total: 16738144256
+net bytes received: 207762312002
+net bytes sent: 207762312002
+19:13:21
+procs running: 2
+cpu utilization: 14.45%
+disk reads: 1283
+disk writes: 84
+mem used: 13669416960
+mem total: 16738144256
+net bytes received: 207762313935
+net bytes sent: 207762313935
+19:13:22
+procs running: 2
+cpu utilization: 15.09%
+disk reads: 1283
+disk writes: 84
+mem used: 13669437440
+mem total: 16738144256
+net bytes received: 207762470187
+net bytes sent: 207762470187
+19:13:23
+procs running: 2
+cpu utilization: 13.71%
+disk reads: 1283
+disk writes: 84
+mem used: 13670006784
+mem total: 16738144256
+net bytes received: 207762470795
+net bytes sent: 207762470795
+19:13:24
+procs running: 2
+cpu utilization: 13.55%
+disk reads: 1283
+disk writes: 84
+mem used: 13670273024
+mem total: 16738144256
+net bytes received: 207762472370
+net bytes sent: 207762472370
+19:13:25
+procs running: 2
+cpu utilization: 13.62%
+disk reads: 1283
+disk writes: 84
+mem used: 13671194624
+mem total: 16738144256
+net bytes received: 207762628778
+net bytes sent: 207762628778
+19:13:26
+procs running: 2
+cpu utilization: 14.02%
+disk reads: 1283
+disk writes: 84
+mem used: 13671415808
+mem total: 16738144256
+net bytes received: 207762629198
+net bytes sent: 207762629198
+19:13:27
+procs running: 2
+cpu utilization: 15.89%
+disk reads: 1283
+disk writes: 84
+mem used: 13670727680
+mem total: 16738144256
+net bytes received: 207762630585
+net bytes sent: 207762630585
+19:13:28
+procs running: 2
+cpu utilization: 14.45%
+disk reads: 1283
+disk writes: 84
+mem used: 13671530496
+mem total: 16738144256
+net bytes received: 207762787213
+net bytes sent: 207762787213
+19:13:29
+procs running: 2
+cpu utilization: 13.82%
+disk reads: 1283
+disk writes: 84
+mem used: 13671542784
+mem total: 16738144256
+net bytes received: 207762787633
+net bytes sent: 207762787633
+19:13:30
+procs running: 2
+cpu utilization: 13.48%
+disk reads: 1283
+disk writes: 84
+mem used: 13671108608
+mem total: 16738144256
+net bytes received: 207762788832
+net bytes sent: 207762788832
+19:13:31
+procs running: 2
+cpu utilization: 13.58%
+disk reads: 1283
+disk writes: 84
+mem used: 13671383040
+mem total: 16738144256
+net bytes received: 207762945460
+net bytes sent: 207762945460
+19:13:32
+procs running: 2
+cpu utilization: 15.89%
+disk reads: 1283
+disk writes: 84
+mem used: 13671383040
+mem total: 16738144256
+net bytes received: 207762946068
+net bytes sent: 207762946068
+19:13:33
+procs running: 2
+cpu utilization: 13.88%
+disk reads: 1283
+disk writes: 84
+mem used: 13671399424
+mem total: 16738144256
+net bytes received: 207762947267
+net bytes sent: 207762947267
+19:13:34
+procs running: 2
+cpu utilization: 13.68%
+disk reads: 1283
+disk writes: 84
+mem used: 13671686144
+mem total: 16738144256
+net bytes received: 207763103707
+net bytes sent: 207763103707
+19:13:35
+procs running: 2
+cpu utilization: 14.77%
+disk reads: 1283
+disk writes: 84
+mem used: 13671579648
+mem total: 16738144256
+net bytes received: 207763107463
+net bytes sent: 207763107463
+19:13:36
+procs running: 2
+cpu utilization: 13.66%
+disk reads: 1283
+disk writes: 84
+mem used: 13671809024
+mem total: 16738144256
+net bytes received: 207763108474
+net bytes sent: 207763108474
+19:13:37
+procs running: 2
+cpu utilization: 15.49%
+disk reads: 1283
+disk writes: 84
+mem used: 13672230912
+mem total: 16738144256
+net bytes received: 207763264726
+net bytes sent: 207763264726
+19:13:38
+procs running: 2
+cpu utilization: 13.69%
+disk reads: 1283
+disk writes: 84
+mem used: 13672517632
+mem total: 16738144256
+net bytes received: 207763265898
+net bytes sent: 207763265898
+19:13:39
+procs running: 2
+cpu utilization: 13.48%
+disk reads: 1283
+disk writes: 84
+mem used: 13673259008
+mem total: 16738144256
+net bytes received: 207763266909
+net bytes sent: 207763266909
+19:13:40
+procs running: 2
+cpu utilization: 13.69%
+disk reads: 1283
+disk writes: 84
+mem used: 13673488384
+mem total: 16738144256
+net bytes received: 207763422973
+net bytes sent: 207763422973
+19:13:41
+procs running: 3
+cpu utilization: 14.29%
+disk reads: 1283
+disk writes: 84
+mem used: 13674115072
+mem total: 16738144256
+net bytes received: 207763424145
+net bytes sent: 207763424145
+19:13:42
+procs running: 2
+cpu utilization: 15.99%
+disk reads: 1283
+disk writes: 84
+mem used: 13674016768
+mem total: 16738144256
+net bytes received: 207763425344
+net bytes sent: 207763425344
+19:13:43
+procs running: 2
+cpu utilization: 13.57%
+disk reads: 1283
+disk writes: 84
+mem used: 13674315776
+mem total: 16738144256
+net bytes received: 207763581408
+net bytes sent: 207763581408
+19:13:44
+procs running: 2
+cpu utilization: 13.84%
+disk reads: 1283
+disk writes: 84
+mem used: 13674582016
+mem total: 16738144256
+net bytes received: 207763582392
+net bytes sent: 207763582392
+19:13:45
+procs running: 2
+cpu utilization: 13.44%
+disk reads: 1283
+disk writes: 84
+mem used: 13674336256
+mem total: 16738144256
+net bytes received: 207763583779
+net bytes sent: 207763583779
+19:13:46
+procs running: 2
+cpu utilization: 13.96%
+disk reads: 1283
+disk writes: 84
+mem used: 13674954752
+mem total: 16738144256
+net bytes received: 207763739655
+net bytes sent: 207763739655
+19:13:47
+procs running: 2
+cpu utilization: 16.56%
+disk reads: 1283
+disk writes: 84
+mem used: 13675532288
+mem total: 16738144256
+net bytes received: 207763740451
+net bytes sent: 207763740451
+19:13:48
+procs running: 2
+cpu utilization: 13.55%
+disk reads: 1283
+disk writes: 84
+mem used: 13675532288
+mem total: 16738144256
+net bytes received: 207763742214
+net bytes sent: 207763742214
+19:13:49
+procs running: 2
+cpu utilization: 13.96%
+disk reads: 1283
+disk writes: 84
+mem used: 13675524096
+mem total: 16738144256
+net bytes received: 207763897976
+net bytes sent: 207763897976
+19:13:50
+procs running: 3
+cpu utilization: 14.50%
+disk reads: 1283
+disk writes: 84
+mem used: 13675810816
+mem total: 16738144256
+net bytes received: 207763898698
+net bytes sent: 207763898698
+19:13:51
+procs running: 2
+cpu utilization: 13.68%
+disk reads: 1283
+disk writes: 84
+mem used: 13676154880
+mem total: 16738144256
+net bytes received: 207763900819
+net bytes sent: 207763900819
+19:13:52
+procs running: 2
+cpu utilization: 16.50%
+disk reads: 1283
+disk writes: 84
+mem used: 13676613632
+mem total: 16738144256
+net bytes received: 207763901427
+net bytes sent: 207763901427
+19:13:53
+procs running: 3
+cpu utilization: 14.16%
+disk reads: 1283
+disk writes: 84
+mem used: 13676445696
+mem total: 16738144256
+net bytes received: 207764057491
+net bytes sent: 207764057491
+19:13:54
+procs running: 2
+cpu utilization: 13.68%
+disk reads: 1283
+disk writes: 84
+mem used: 13676740608
+mem total: 16738144256
+net bytes received: 207764059066
+net bytes sent: 207764059066
+19:13:55
+procs running: 7
+cpu utilization: 13.88%
+disk reads: 1283
+disk writes: 84
+mem used: 13676064768
+mem total: 16738144256
+net bytes received: 207764059862
+net bytes sent: 207764059862
+19:13:56
+procs running: 4
+cpu utilization: 14.47%
+disk reads: 1283
+disk writes: 84
+mem used: 13676953600
+mem total: 16738144256
+net bytes received: 207764215738
+net bytes sent: 207764215738
+19:13:57
+procs running: 2
+cpu utilization: 15.43%
+disk reads: 1283
+disk writes: 84
+mem used: 13673639936
+mem total: 16738144256
+net bytes received: 207764217125
+net bytes sent: 207764217125
+19:13:58
+procs running: 2
+cpu utilization: 16.33%
+disk reads: 1283
+disk writes: 84
+mem used: 13673738240
+mem total: 16738144256
+net bytes received: 207764218297
+net bytes sent: 207764218297
+19:13:59
+procs running: 2
+cpu utilization: 14.11%
+disk reads: 1283
+disk writes: 84
+mem used: 13672763392
+mem total: 16738144256
+net bytes received: 207764374173
+net bytes sent: 207764374173
+19:14:00
+procs running: 2
+cpu utilization: 14.05%
+disk reads: 1283
+disk writes: 84
+mem used: 13673754624
+mem total: 16738144256
+net bytes received: 207764375372
+net bytes sent: 207764375372
+
