@@ -1,0 +1,95 @@
+50..
+nohup: appending output to 'nohup.out'
+21/04/15 21:41:21 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+21/04/15 21:41:21 INFO server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+21/04/15 21:41:21 INFO http.HttpRequestLog: Http request log for http.requests.namenode is not defined
+21/04/15 21:41:21 INFO http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+21/04/15 21:41:21 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context hdfs
+21/04/15 21:41:21 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/04/15 21:41:21 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/15 21:41:21 INFO http.HttpServer2: Jetty bound to port 46459
+21/04/15 21:41:21 INFO mortbay.log: jetty-6.1.26
+21/04/15 21:41:21 INFO mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:46459
+!!!http://localhost:46459
+21/04/15 21:41:22 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/15 21:41:22 INFO namenode.TransferFsImage: Image Transfer timeout configured to 60000 milliseconds
+21/04/15 21:41:27 INFO namenode.TransferFsImage: Uploaded image with txid 1 to namenode at http://localhost:46459 in 5.091 seconds
+21/04/15 21:41:27 INFO mortbay.log: Stopped HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:0
+40..
+21/04/15 21:41:37 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+21/04/15 21:41:37 INFO server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+21/04/15 21:41:37 INFO http.HttpRequestLog: Http request log for http.requests.namenode is not defined
+21/04/15 21:41:37 INFO http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+21/04/15 21:41:37 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context hdfs
+21/04/15 21:41:37 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/04/15 21:41:37 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/15 21:41:38 INFO http.HttpServer2: Jetty bound to port 42997
+21/04/15 21:41:38 INFO mortbay.log: jetty-6.1.26
+21/04/15 21:41:38 INFO mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:42997
+!!!http://localhost:42997
+21/04/15 21:41:38 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/15 21:41:38 INFO namenode.TransferFsImage: Image Transfer timeout configured to 60000 milliseconds
+21/04/15 21:41:43 INFO namenode.TransferFsImage: Uploaded image with txid 1 to namenode at http://localhost:42997 in 5.093 seconds
+21/04/15 21:41:43 INFO mortbay.log: Stopped HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:0
+30..
+21/04/15 21:41:54 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+21/04/15 21:41:54 INFO server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+21/04/15 21:41:54 INFO http.HttpRequestLog: Http request log for http.requests.namenode is not defined
+21/04/15 21:41:54 INFO http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+21/04/15 21:41:54 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context hdfs
+21/04/15 21:41:54 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/04/15 21:41:54 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/15 21:41:54 INFO http.HttpServer2: Jetty bound to port 43057
+21/04/15 21:41:54 INFO mortbay.log: jetty-6.1.26
+21/04/15 21:41:54 INFO mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:43057
+!!!http://localhost:43057
+21/04/15 21:41:54 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/15 21:41:54 INFO namenode.TransferFsImage: Image Transfer timeout configured to 60000 milliseconds
+21/04/15 21:41:59 INFO namenode.TransferFsImage: Uploaded image with txid 1 to namenode at http://localhost:43057 in 5.093 seconds
+21/04/15 21:41:59 INFO mortbay.log: Stopped HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:0
+20..
+21/04/15 21:42:10 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+21/04/15 21:42:10 INFO server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+21/04/15 21:42:10 INFO http.HttpRequestLog: Http request log for http.requests.namenode is not defined
+21/04/15 21:42:10 INFO http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+21/04/15 21:42:10 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context hdfs
+21/04/15 21:42:10 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/04/15 21:42:10 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/15 21:42:10 INFO http.HttpServer2: Jetty bound to port 37705
+21/04/15 21:42:10 INFO mortbay.log: jetty-6.1.26
+21/04/15 21:42:10 INFO mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:37705
+!!!http://localhost:37705
+21/04/15 21:42:11 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/15 21:42:11 INFO namenode.TransferFsImage: Image Transfer timeout configured to 60000 milliseconds
+21/04/15 21:42:16 INFO namenode.TransferFsImage: Uploaded image with txid 1 to namenode at http://localhost:37705 in 5.083 seconds
+21/04/15 21:42:16 INFO mortbay.log: Stopped HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:0
+10..
+21/04/15 21:42:26 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+21/04/15 21:42:26 INFO server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+21/04/15 21:42:26 INFO http.HttpRequestLog: Http request log for http.requests.namenode is not defined
+21/04/15 21:42:26 INFO http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+21/04/15 21:42:26 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context hdfs
+21/04/15 21:42:26 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/04/15 21:42:26 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/15 21:42:27 INFO http.HttpServer2: Jetty bound to port 43123
+21/04/15 21:42:27 INFO mortbay.log: jetty-6.1.26
+21/04/15 21:42:27 INFO mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:43123
+!!!http://localhost:43123
+21/04/15 21:42:27 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/15 21:42:27 INFO namenode.TransferFsImage: Image Transfer timeout configured to 60000 milliseconds
+21/04/15 21:42:32 INFO namenode.TransferFsImage: Uploaded image with txid 1 to namenode at http://localhost:43123 in 5.078 seconds
+21/04/15 21:42:32 INFO mortbay.log: Stopped HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:0
+trigger the bug!!!
+21/04/15 21:42:42 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+21/04/15 21:42:43 INFO server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+21/04/15 21:42:43 INFO http.HttpRequestLog: Http request log for http.requests.namenode is not defined
+21/04/15 21:42:43 INFO http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+21/04/15 21:42:43 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context hdfs
+21/04/15 21:42:43 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/04/15 21:42:43 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/15 21:42:43 INFO http.HttpServer2: Jetty bound to port 36049
+21/04/15 21:42:43 INFO mortbay.log: jetty-6.1.26
+21/04/15 21:42:43 INFO mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:36049
+21/04/15 21:42:43 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/15 21:42:43 INFO namenode.TransferFsImage: Opening connection to http://localhost:36049/imagetransfer?txid=1
+

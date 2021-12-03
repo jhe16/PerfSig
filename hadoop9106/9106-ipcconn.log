@@ -1,0 +1,56 @@
+50..
+nohup: appending output to 'nohup.out'
+21/04/09 12:13:27 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/09 12:13:27 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/04/09 12:13:27 INFO ipc.Server: Starting Socket Reader #1 for port 46071
+21/04/09 12:13:27 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/09 12:13:27 INFO ipc.Server: IPC Server Responder: starting
+21/04/09 12:13:27 INFO ipc.Server: IPC Server listener on 46071: starting
+21/04/09 12:13:29 INFO ipc.Server: Stopping server on 46071
+21/04/09 12:13:29 INFO ipc.Server: Stopping IPC Server listener on 46071
+21/04/09 12:13:29 INFO ipc.Server: Stopping IPC Server Responder
+40..
+21/04/09 12:13:39 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/09 12:13:39 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/04/09 12:13:39 INFO ipc.Server: Starting Socket Reader #1 for port 40805
+21/04/09 12:13:40 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/09 12:13:40 INFO ipc.Server: IPC Server Responder: starting
+21/04/09 12:13:40 INFO ipc.Server: IPC Server listener on 40805: starting
+21/04/09 12:13:41 INFO ipc.Server: Stopping server on 40805
+21/04/09 12:13:41 INFO ipc.Server: Stopping IPC Server listener on 40805
+21/04/09 12:13:41 INFO ipc.Server: Stopping IPC Server Responder
+30..
+21/04/09 12:13:52 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/09 12:13:52 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/04/09 12:13:52 INFO ipc.Server: Starting Socket Reader #1 for port 46639
+21/04/09 12:13:52 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/09 12:13:52 INFO ipc.Server: IPC Server Responder: starting
+21/04/09 12:13:52 INFO ipc.Server: IPC Server listener on 46639: starting
+21/04/09 12:13:53 INFO ipc.Server: Stopping server on 46639
+21/04/09 12:13:53 INFO ipc.Server: Stopping IPC Server listener on 46639
+21/04/09 12:13:53 INFO ipc.Server: Stopping IPC Server Responder
+20..
+21/04/09 12:14:04 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/09 12:14:04 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/04/09 12:14:04 INFO ipc.Server: Starting Socket Reader #1 for port 46185
+21/04/09 12:14:04 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/09 12:14:04 INFO ipc.Server: IPC Server listener on 46185: starting
+21/04/09 12:14:04 INFO ipc.Server: IPC Server Responder: starting
+21/04/09 12:14:05 INFO ipc.Server: Stopping server on 46185
+21/04/09 12:14:05 INFO ipc.Server: Stopping IPC Server listener on 46185
+21/04/09 12:14:05 INFO ipc.Server: Stopping IPC Server Responder
+10..
+21/04/09 12:14:16 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/09 12:14:16 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/04/09 12:14:16 INFO ipc.Server: Starting Socket Reader #1 for port 34013
+21/04/09 12:14:16 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/09 12:14:16 INFO ipc.Server: IPC Server Responder: starting
+21/04/09 12:14:16 INFO ipc.Server: IPC Server listener on 34013: starting
+21/04/09 12:14:17 INFO ipc.Server: Stopping server on 34013
+21/04/09 12:14:17 INFO ipc.Server: Stopping IPC Server listener on 34013
+21/04/09 12:14:17 INFO ipc.Server: Stopping IPC Server Responder
+trigger the bug ===============
+21/04/09 12:14:28 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/09 12:14:28 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/04/09 12:14:28 INFO ipc.Server: Starting Socket Reader #1 for port 32947
+21/04/09 12:14:28 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable

@@ -1,0 +1,113 @@
+start time
+Fri Apr 23 14:52:28 EDT 2021
+50..
+2021-04-23 14:52:29,014 INFO  [main] trace.SpanReceiverHost: SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver was loaded successfully.
+2021-04-23 14:52:29,251 INFO  [pool-2-thread-1] regionserver.ReplicationSource: Closing source testPeer because: testing source termination
+2021-04-23 14:52:29,252 INFO  [main] hbase.Waiter: Waiting up to [2,000] milli-secs(wait.for.ratio=[1])
+Exception in thread "main" junit.framework.AssertionFailedError: Waiting timed out after [2,000] msec
+	at junit.framework.Assert.fail(Assert.java:57)
+	at org.apache.hadoop.hbase.Waiter.waitFor(Waiter.java:209)
+	at org.apache.hadoop.hbase.Waiter.waitFor(Waiter.java:143)
+	at TestReplicationSource.main(TestReplicationSource.java:83)
+2021-04-23 14:52:32,253 WARN  [pool-2-thread-1] regionserver.ReplicationSource: Got exception while waiting for endpoint to shutdown for replication source :testPeer
+java.util.concurrent.TimeoutException:  [STOPPING]
+	at com.google.common.util.concurrent.AbstractService$Transition.get(AbstractService.java:252)
+	at com.google.common.util.concurrent.AbstractService$Transition.get(AbstractService.java:245)
+	at org.apache.hadoop.hbase.replication.regionserver.ReplicationSource.terminate(ReplicationSource.java:408)
+	at org.apache.hadoop.hbase.replication.regionserver.ReplicationSource.terminate(ReplicationSource.java:379)
+	at org.apache.hadoop.hbase.replication.regionserver.ReplicationSource.terminate(ReplicationSource.java:374)
+	at TestReplicationSource$2.run(TestReplicationSource.java:78)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+40..
+2021-04-23 14:52:43,019 INFO  [main] trace.SpanReceiverHost: SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver was loaded successfully.
+2021-04-23 14:52:43,252 INFO  [pool-2-thread-1] regionserver.ReplicationSource: Closing source testPeer because: testing source termination
+2021-04-23 14:52:43,254 INFO  [main] hbase.Waiter: Waiting up to [2,000] milli-secs(wait.for.ratio=[1])
+Exception in thread "main" junit.framework.AssertionFailedError: Waiting timed out after [2,000] msec
+	at junit.framework.Assert.fail(Assert.java:57)
+	at org.apache.hadoop.hbase.Waiter.waitFor(Waiter.java:209)
+	at org.apache.hadoop.hbase.Waiter.waitFor(Waiter.java:143)
+	at TestReplicationSource.main(TestReplicationSource.java:83)
+2021-04-23 14:52:46,254 WARN  [pool-2-thread-1] regionserver.ReplicationSource: Got exception while waiting for endpoint to shutdown for replication source :testPeer
+java.util.concurrent.TimeoutException:  [STOPPING]
+	at com.google.common.util.concurrent.AbstractService$Transition.get(AbstractService.java:252)
+	at com.google.common.util.concurrent.AbstractService$Transition.get(AbstractService.java:245)
+	at org.apache.hadoop.hbase.replication.regionserver.ReplicationSource.terminate(ReplicationSource.java:408)
+	at org.apache.hadoop.hbase.replication.regionserver.ReplicationSource.terminate(ReplicationSource.java:379)
+	at org.apache.hadoop.hbase.replication.regionserver.ReplicationSource.terminate(ReplicationSource.java:374)
+	at TestReplicationSource$2.run(TestReplicationSource.java:78)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+30..
+2021-04-23 14:52:57,035 INFO  [main] trace.SpanReceiverHost: SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver was loaded successfully.
+2021-04-23 14:52:57,265 INFO  [pool-2-thread-1] regionserver.ReplicationSource: Closing source testPeer because: testing source termination
+2021-04-23 14:52:57,266 INFO  [main] hbase.Waiter: Waiting up to [2,000] milli-secs(wait.for.ratio=[1])
+Exception in thread "main" junit.framework.AssertionFailedError: Waiting timed out after [2,000] msec
+	at junit.framework.Assert.fail(Assert.java:57)
+	at org.apache.hadoop.hbase.Waiter.waitFor(Waiter.java:209)
+	at org.apache.hadoop.hbase.Waiter.waitFor(Waiter.java:143)
+	at TestReplicationSource.main(TestReplicationSource.java:83)
+2021-04-23 14:53:00,267 WARN  [pool-2-thread-1] regionserver.ReplicationSource: Got exception while waiting for endpoint to shutdown for replication source :testPeer
+java.util.concurrent.TimeoutException:  [STOPPING]
+	at com.google.common.util.concurrent.AbstractService$Transition.get(AbstractService.java:252)
+	at com.google.common.util.concurrent.AbstractService$Transition.get(AbstractService.java:245)
+	at org.apache.hadoop.hbase.replication.regionserver.ReplicationSource.terminate(ReplicationSource.java:408)
+	at org.apache.hadoop.hbase.replication.regionserver.ReplicationSource.terminate(ReplicationSource.java:379)
+	at org.apache.hadoop.hbase.replication.regionserver.ReplicationSource.terminate(ReplicationSource.java:374)
+	at TestReplicationSource$2.run(TestReplicationSource.java:78)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+20..
+2021-04-23 14:53:11,034 INFO  [main] trace.SpanReceiverHost: SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver was loaded successfully.
+2021-04-23 14:53:11,293 INFO  [pool-2-thread-1] regionserver.ReplicationSource: Closing source testPeer because: testing source termination
+2021-04-23 14:53:11,294 INFO  [main] hbase.Waiter: Waiting up to [2,000] milli-secs(wait.for.ratio=[1])
+Exception in thread "main" junit.framework.AssertionFailedError: Waiting timed out after [2,000] msec
+	at junit.framework.Assert.fail(Assert.java:57)
+	at org.apache.hadoop.hbase.Waiter.waitFor(Waiter.java:209)
+	at org.apache.hadoop.hbase.Waiter.waitFor(Waiter.java:143)
+	at TestReplicationSource.main(TestReplicationSource.java:83)
+2021-04-23 14:53:14,295 WARN  [pool-2-thread-1] regionserver.ReplicationSource: Got exception while waiting for endpoint to shutdown for replication source :testPeer
+java.util.concurrent.TimeoutException:  [STOPPING]
+	at com.google.common.util.concurrent.AbstractService$Transition.get(AbstractService.java:252)
+	at com.google.common.util.concurrent.AbstractService$Transition.get(AbstractService.java:245)
+	at org.apache.hadoop.hbase.replication.regionserver.ReplicationSource.terminate(ReplicationSource.java:408)
+	at org.apache.hadoop.hbase.replication.regionserver.ReplicationSource.terminate(ReplicationSource.java:379)
+	at org.apache.hadoop.hbase.replication.regionserver.ReplicationSource.terminate(ReplicationSource.java:374)
+	at TestReplicationSource$2.run(TestReplicationSource.java:78)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+10..
+2021-04-23 14:53:25,051 INFO  [main] trace.SpanReceiverHost: SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver was loaded successfully.
+2021-04-23 14:53:25,303 INFO  [pool-2-thread-1] regionserver.ReplicationSource: Closing source testPeer because: testing source termination
+2021-04-23 14:53:25,304 INFO  [main] hbase.Waiter: Waiting up to [2,000] milli-secs(wait.for.ratio=[1])
+Exception in thread "main" junit.framework.AssertionFailedError: Waiting timed out after [2,000] msec
+	at junit.framework.Assert.fail(Assert.java:57)
+	at org.apache.hadoop.hbase.Waiter.waitFor(Waiter.java:209)
+	at org.apache.hadoop.hbase.Waiter.waitFor(Waiter.java:143)
+	at TestReplicationSource.main(TestReplicationSource.java:83)
+2021-04-23 14:53:28,305 WARN  [pool-2-thread-1] regionserver.ReplicationSource: Got exception while waiting for endpoint to shutdown for replication source :testPeer
+java.util.concurrent.TimeoutException:  [STOPPING]
+	at com.google.common.util.concurrent.AbstractService$Transition.get(AbstractService.java:252)
+	at com.google.common.util.concurrent.AbstractService$Transition.get(AbstractService.java:245)
+	at org.apache.hadoop.hbase.replication.regionserver.ReplicationSource.terminate(ReplicationSource.java:408)
+	at org.apache.hadoop.hbase.replication.regionserver.ReplicationSource.terminate(ReplicationSource.java:379)
+	at org.apache.hadoop.hbase.replication.regionserver.ReplicationSource.terminate(ReplicationSource.java:374)
+	at TestReplicationSource$2.run(TestReplicationSource.java:78)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+

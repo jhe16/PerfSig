@@ -1,0 +1,151 @@
+bug triggering time: 21-04-09 12:14:28
+Number of Maps  = 16
+Samples per Map = 1000
+21/04/09 12:13:27 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/09 12:13:27 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/09 12:13:27 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/04/09 12:13:27 INFO ipc.Server: Starting Socket Reader #1 for port 46071
+21/04/09 12:13:27 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/09 12:13:27 INFO ipc.Server: IPC Server Responder: starting
+21/04/09 12:13:27 INFO ipc.Server: IPC Server listener on 46071: starting
+Wrote input for Map #0
+Wrote input for Map #1
+Wrote input for Map #2
+Wrote input for Map #3
+Wrote input for Map #4
+Wrote input for Map #5
+Wrote input for Map #6
+Wrote input for Map #7
+Wrote input for Map #8
+Wrote input for Map #9
+Wrote input for Map #10
+Wrote input for Map #11
+Wrote input for Map #12
+Wrote input for Map #13
+Wrote input for Map #14
+Wrote input for Map #15
+Starting Job
+21/04/09 12:13:28 INFO client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+21/04/09 12:13:28 INFO input.FileInputFormat: Total input paths to process : 16
+21/04/09 12:13:29 INFO ipc.Server: Stopping server on 46071
+21/04/09 12:13:29 INFO ipc.Server: Stopping IPC Server listener on 46071
+21/04/09 12:13:29 INFO ipc.Server: Stopping IPC Server Responder
+21/04/09 12:13:29 INFO mapreduce.JobSubmitter: number of splits:16
+21/04/09 12:13:29 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1598481421677_0047
+21/04/09 12:13:29 INFO impl.YarnClientImpl: Submitted application application_1598481421677_0047
+21/04/09 12:13:29 INFO mapreduce.Job: The url to track the job: http://santaclara:8088/proxy/application_1598481421677_0047/
+21/04/09 12:13:29 INFO mapreduce.Job: Running job: job_1598481421677_0047
+21/04/09 12:13:33 INFO mapreduce.Job: Job job_1598481421677_0047 running in uber mode : false
+21/04/09 12:13:33 INFO mapreduce.Job:  map 0% reduce 0%
+21/04/09 12:13:37 INFO mapreduce.Job:  map 6% reduce 0%
+21/04/09 12:13:39 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/09 12:13:39 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/04/09 12:13:39 INFO ipc.Server: Starting Socket Reader #1 for port 40805
+21/04/09 12:13:40 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/09 12:13:40 INFO ipc.Server: IPC Server Responder: starting
+21/04/09 12:13:40 INFO ipc.Server: IPC Server listener on 40805: starting
+21/04/09 12:13:41 INFO mapreduce.Job:  map 13% reduce 0%
+21/04/09 12:13:41 INFO ipc.Server: Stopping server on 40805
+21/04/09 12:13:41 INFO ipc.Server: Stopping IPC Server listener on 40805
+21/04/09 12:13:41 INFO ipc.Server: Stopping IPC Server Responder
+21/04/09 12:13:44 INFO mapreduce.Job:  map 19% reduce 0%
+21/04/09 12:13:47 INFO mapreduce.Job:  map 25% reduce 0%
+21/04/09 12:13:50 INFO mapreduce.Job:  map 31% reduce 0%
+21/04/09 12:13:52 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/09 12:13:52 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/04/09 12:13:52 INFO ipc.Server: Starting Socket Reader #1 for port 46639
+21/04/09 12:13:52 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/09 12:13:52 INFO ipc.Server: IPC Server Responder: starting
+21/04/09 12:13:52 INFO ipc.Server: IPC Server listener on 46639: starting
+21/04/09 12:13:53 INFO mapreduce.Job:  map 38% reduce 0%
+21/04/09 12:13:53 INFO ipc.Server: Stopping server on 46639
+21/04/09 12:13:53 INFO ipc.Server: Stopping IPC Server listener on 46639
+21/04/09 12:13:53 INFO ipc.Server: Stopping IPC Server Responder
+21/04/09 12:13:56 INFO mapreduce.Job:  map 44% reduce 0%
+21/04/09 12:13:59 INFO mapreduce.Job:  map 50% reduce 0%
+21/04/09 12:14:02 INFO mapreduce.Job:  map 56% reduce 0%
+21/04/09 12:14:04 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/09 12:14:04 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/04/09 12:14:04 INFO ipc.Server: Starting Socket Reader #1 for port 46185
+21/04/09 12:14:04 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/09 12:14:04 INFO ipc.Server: IPC Server listener on 46185: starting
+21/04/09 12:14:04 INFO ipc.Server: IPC Server Responder: starting
+21/04/09 12:14:05 INFO ipc.Server: Stopping server on 46185
+21/04/09 12:14:05 INFO ipc.Server: Stopping IPC Server listener on 46185
+21/04/09 12:14:05 INFO ipc.Server: Stopping IPC Server Responder
+21/04/09 12:14:05 INFO mapreduce.Job:  map 63% reduce 0%
+21/04/09 12:14:08 INFO mapreduce.Job:  map 69% reduce 0%
+21/04/09 12:14:11 INFO mapreduce.Job:  map 75% reduce 0%
+21/04/09 12:14:14 INFO mapreduce.Job:  map 81% reduce 0%
+21/04/09 12:14:16 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/09 12:14:16 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/04/09 12:14:16 INFO ipc.Server: Starting Socket Reader #1 for port 34013
+21/04/09 12:14:16 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/09 12:14:16 INFO ipc.Server: IPC Server Responder: starting
+21/04/09 12:14:16 INFO ipc.Server: IPC Server listener on 34013: starting
+21/04/09 12:14:17 INFO ipc.Server: Stopping server on 34013
+21/04/09 12:14:17 INFO ipc.Server: Stopping IPC Server listener on 34013
+21/04/09 12:14:17 INFO ipc.Server: Stopping IPC Server Responder
+21/04/09 12:14:17 INFO mapreduce.Job:  map 88% reduce 0%
+21/04/09 12:14:20 INFO mapreduce.Job:  map 94% reduce 0%
+21/04/09 12:14:23 INFO mapreduce.Job:  map 100% reduce 0%
+21/04/09 12:14:26 INFO mapreduce.Job:  map 100% reduce 100%
+21/04/09 12:14:26 INFO mapreduce.Job: Job job_1598481421677_0047 completed successfully
+21/04/09 12:14:26 INFO mapreduce.Job: Counters: 49
+        File System Counters
+                FILE: Number of bytes read=358
+                FILE: Number of bytes written=1970683
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=4230
+                HDFS: Number of bytes written=215
+                HDFS: Number of read operations=67
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=3
+        Job Counters
+                Launched map tasks=16
+                Launched reduce tasks=1
+                Data-local map tasks=16
+                Total time spent by all maps in occupied slots (ms)=858048
+                Total time spent by all reduces in occupied slots (ms)=59200
+                Total time spent by all map tasks (ms)=26814
+                Total time spent by all reduce tasks (ms)=1850
+                Total vcore-seconds taken by all map tasks=26814
+                Total vcore-seconds taken by all reduce tasks=1850
+                Total megabyte-seconds taken by all map tasks=109830144
+                Total megabyte-seconds taken by all reduce tasks=7577600
+        Map-Reduce Framework
+                Map input records=16
+                Map output records=32
+                Map output bytes=288
+                Map output materialized bytes=448
+                Input split bytes=2342
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=2
+                Reduce shuffle bytes=448
+                Reduce input records=32
+                Reduce output records=0
+                Spilled Records=64
+                Shuffled Maps =16
+                Failed Shuffles=0
+                Merged Map outputs=16
+                GC time elapsed (ms)=778
+                CPU time spent (ms)=10810
+                Physical memory (bytes) snapshot=5040095232
+                Virtual memory (bytes) snapshot=48277319680
+                Total committed heap usage (bytes)=5431099392
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=1888
+        File Output Format Counters
+                Bytes Written=97
+Job Finished in 58.29 seconds
+Estimated value of Pi is 3.14250000000000000000

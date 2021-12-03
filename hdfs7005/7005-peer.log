@@ -1,0 +1,1780 @@
+start time!!!
+Fri May 21 11:10:53 EDT 2021
+50..
+21/05/21 11:10:54 INFO hdfs.MiniDFSCluster: starting cluster: numNameNodes=1, numDataNodes=1
+21/05/21 11:10:54 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Formatting using clusterid: testClusterID
+21/05/21 11:10:54 INFO namenode.FSNamesystem: No KeyProvider found.
+21/05/21 11:10:54 INFO namenode.FSNamesystem: fsLock is fair:true
+21/05/21 11:10:54 INFO Configuration.deprecation: hadoop.configured.node.mapping is deprecated. Instead, use net.topology.configured.node.mapping
+21/05/21 11:10:54 INFO blockmanagement.DatanodeManager: dfs.block.invalidate.limit=1000
+21/05/21 11:10:54 INFO blockmanagement.DatanodeManager: dfs.namenode.datanode.registration.ip-hostname-check=true
+21/05/21 11:10:54 INFO blockmanagement.BlockManager: dfs.namenode.startup.delay.block.deletion.sec is set to 000:00:00:00.000
+21/05/21 11:10:54 INFO blockmanagement.BlockManager: The block deletion will start around 2021 May 21 11:10:54
+21/05/21 11:10:54 INFO util.GSet: Computing capacity for map BlocksMap
+21/05/21 11:10:54 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:10:54 INFO util.GSet: 2.0% max memory 3.5 GB = 71.0 MB
+21/05/21 11:10:54 INFO util.GSet: capacity      = 2^23 = 8388608 entries
+21/05/21 11:10:54 INFO blockmanagement.BlockManager: dfs.block.access.token.enable=false
+21/05/21 11:10:54 INFO blockmanagement.BlockManager: defaultReplication         = 1
+21/05/21 11:10:54 INFO blockmanagement.BlockManager: maxReplication             = 512
+21/05/21 11:10:54 INFO blockmanagement.BlockManager: minReplication             = 1
+21/05/21 11:10:54 INFO blockmanagement.BlockManager: maxReplicationStreams      = 2
+21/05/21 11:10:54 INFO blockmanagement.BlockManager: shouldCheckForEnoughRacks  = false
+21/05/21 11:10:54 INFO blockmanagement.BlockManager: replicationRecheckInterval = 3000
+21/05/21 11:10:54 INFO blockmanagement.BlockManager: encryptDataTransfer        = false
+21/05/21 11:10:54 INFO blockmanagement.BlockManager: maxNumBlocksToLog          = 1000
+21/05/21 11:10:54 INFO namenode.FSNamesystem: fsOwner             = jhe16 (auth:SIMPLE)
+21/05/21 11:10:54 INFO namenode.FSNamesystem: supergroup          = supergroup
+21/05/21 11:10:54 INFO namenode.FSNamesystem: isPermissionEnabled = true
+21/05/21 11:10:54 INFO namenode.FSNamesystem: HA Enabled: false
+21/05/21 11:10:54 INFO namenode.FSNamesystem: Append Enabled: true
+21/05/21 11:10:54 INFO util.GSet: Computing capacity for map INodeMap
+21/05/21 11:10:54 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:10:54 INFO util.GSet: 1.0% max memory 3.5 GB = 35.5 MB
+21/05/21 11:10:54 INFO util.GSet: capacity      = 2^22 = 4194304 entries
+21/05/21 11:10:54 INFO namenode.FSDirectory: ACLs enabled? false
+21/05/21 11:10:54 INFO namenode.FSDirectory: XAttrs enabled? true
+21/05/21 11:10:54 INFO namenode.FSDirectory: Maximum size of an xattr: 16384
+21/05/21 11:10:54 INFO namenode.NameNode: Caching file names occuring more than 10 times
+21/05/21 11:10:54 INFO util.GSet: Computing capacity for map cachedBlocks
+21/05/21 11:10:54 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:10:54 INFO util.GSet: 0.25% max memory 3.5 GB = 8.9 MB
+21/05/21 11:10:54 INFO util.GSet: capacity      = 2^20 = 1048576 entries
+21/05/21 11:10:54 INFO namenode.FSNamesystem: dfs.namenode.safemode.threshold-pct = 0.9990000128746033
+21/05/21 11:10:54 INFO namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+21/05/21 11:10:54 INFO namenode.FSNamesystem: dfs.namenode.safemode.extension     = 0
+21/05/21 11:10:54 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.window.num.buckets = 10
+21/05/21 11:10:54 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.num.users = 10
+21/05/21 11:10:54 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.windows.minutes = 1,5,25
+21/05/21 11:10:54 INFO namenode.FSNamesystem: Retry cache on namenode is enabled
+21/05/21 11:10:54 INFO namenode.FSNamesystem: Retry cache will use 0.03 of total heap and retry cache entry expiry time is 600000 millis
+21/05/21 11:10:54 INFO util.GSet: Computing capacity for map NameNodeRetryCache
+21/05/21 11:10:54 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:10:54 INFO util.GSet: 0.029999999329447746% max memory 3.5 GB = 1.1 MB
+21/05/21 11:10:54 INFO util.GSet: capacity      = 2^17 = 131072 entries
+21/05/21 11:10:54 INFO namenode.FSImage: Allocated new BlockPoolId: BP-1603205281-127.0.1.1-1621609854669
+21/05/21 11:10:54 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1 has been successfully formatted.
+21/05/21 11:10:54 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2 has been successfully formatted.
+21/05/21 11:10:55 INFO namenode.NNStorageRetentionManager: Going to retain 1 images with txid >= 0
+21/05/21 11:10:55 INFO namenode.NameNode: createNameNode []
+21/05/21 11:10:55 INFO impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+21/05/21 11:10:55 INFO impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+21/05/21 11:10:55 INFO impl.MetricsSystemImpl: NameNode metrics system started
+21/05/21 11:10:55 INFO namenode.NameNode: fs.defaultFS is hdfs://127.0.0.1:0
+21/05/21 11:10:55 INFO hdfs.DFSUtil: Starting Web-server for hdfs at: http://localhost:0
+21/05/21 11:10:55 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+21/05/21 11:10:55 INFO server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+21/05/21 11:10:55 INFO http.HttpRequestLog: Http request log for http.requests.namenode is not defined
+21/05/21 11:10:55 INFO http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+21/05/21 11:10:55 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context hdfs
+21/05/21 11:10:55 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/05/21 11:10:55 INFO http.HttpServer2: Added filter 'org.apache.hadoop.hdfs.web.AuthFilter' (class=org.apache.hadoop.hdfs.web.AuthFilter)
+21/05/21 11:10:55 INFO http.HttpServer2: addJerseyResourcePackage: packageName=org.apache.hadoop.hdfs.server.namenode.web.resources;org.apache.hadoop.hdfs.web.resources, pathSpec=/webhdfs/v1/*
+21/05/21 11:10:55 INFO http.HttpServer2: Jetty bound to port 39043
+21/05/21 11:10:55 INFO mortbay.log: jetty-6.1.26
+21/05/21 11:10:55 INFO mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:39043
+21/05/21 11:10:55 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/05/21 11:10:55 INFO namenode.FSNamesystem: No KeyProvider found.
+21/05/21 11:10:55 INFO namenode.FSNamesystem: fsLock is fair:true
+21/05/21 11:10:55 INFO blockmanagement.DatanodeManager: dfs.block.invalidate.limit=1000
+21/05/21 11:10:55 INFO blockmanagement.DatanodeManager: dfs.namenode.datanode.registration.ip-hostname-check=true
+21/05/21 11:10:55 INFO blockmanagement.BlockManager: dfs.namenode.startup.delay.block.deletion.sec is set to 000:00:00:00.000
+21/05/21 11:10:55 INFO blockmanagement.BlockManager: The block deletion will start around 2021 May 21 11:10:55
+21/05/21 11:10:55 INFO util.GSet: Computing capacity for map BlocksMap
+21/05/21 11:10:55 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:10:55 INFO util.GSet: 2.0% max memory 3.5 GB = 71.0 MB
+21/05/21 11:10:55 INFO util.GSet: capacity      = 2^23 = 8388608 entries
+21/05/21 11:10:55 INFO blockmanagement.BlockManager: dfs.block.access.token.enable=false
+21/05/21 11:10:55 INFO blockmanagement.BlockManager: defaultReplication         = 1
+21/05/21 11:10:55 INFO blockmanagement.BlockManager: maxReplication             = 512
+21/05/21 11:10:55 INFO blockmanagement.BlockManager: minReplication             = 1
+21/05/21 11:10:55 INFO blockmanagement.BlockManager: maxReplicationStreams      = 2
+21/05/21 11:10:55 INFO blockmanagement.BlockManager: shouldCheckForEnoughRacks  = false
+21/05/21 11:10:55 INFO blockmanagement.BlockManager: replicationRecheckInterval = 3000
+21/05/21 11:10:55 INFO blockmanagement.BlockManager: encryptDataTransfer        = false
+21/05/21 11:10:55 INFO blockmanagement.BlockManager: maxNumBlocksToLog          = 1000
+21/05/21 11:10:55 INFO namenode.FSNamesystem: fsOwner             = jhe16 (auth:SIMPLE)
+21/05/21 11:10:55 INFO namenode.FSNamesystem: supergroup          = supergroup
+21/05/21 11:10:55 INFO namenode.FSNamesystem: isPermissionEnabled = true
+21/05/21 11:10:55 INFO namenode.FSNamesystem: HA Enabled: false
+21/05/21 11:10:55 INFO namenode.FSNamesystem: Append Enabled: true
+21/05/21 11:10:55 INFO util.GSet: Computing capacity for map INodeMap
+21/05/21 11:10:55 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:10:55 INFO util.GSet: 1.0% max memory 3.5 GB = 35.5 MB
+21/05/21 11:10:55 INFO util.GSet: capacity      = 2^22 = 4194304 entries
+21/05/21 11:10:55 INFO namenode.FSDirectory: ACLs enabled? false
+21/05/21 11:10:55 INFO namenode.FSDirectory: XAttrs enabled? true
+21/05/21 11:10:55 INFO namenode.FSDirectory: Maximum size of an xattr: 16384
+21/05/21 11:10:55 INFO namenode.NameNode: Caching file names occuring more than 10 times
+21/05/21 11:10:55 INFO util.GSet: Computing capacity for map cachedBlocks
+21/05/21 11:10:55 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:10:55 INFO util.GSet: 0.25% max memory 3.5 GB = 8.9 MB
+21/05/21 11:10:55 INFO util.GSet: capacity      = 2^20 = 1048576 entries
+21/05/21 11:10:55 INFO namenode.FSNamesystem: dfs.namenode.safemode.threshold-pct = 0.9990000128746033
+21/05/21 11:10:55 INFO namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+21/05/21 11:10:55 INFO namenode.FSNamesystem: dfs.namenode.safemode.extension     = 0
+21/05/21 11:10:55 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.window.num.buckets = 10
+21/05/21 11:10:55 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.num.users = 10
+21/05/21 11:10:55 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.windows.minutes = 1,5,25
+21/05/21 11:10:55 INFO namenode.FSNamesystem: Retry cache on namenode is enabled
+21/05/21 11:10:55 INFO namenode.FSNamesystem: Retry cache will use 0.03 of total heap and retry cache entry expiry time is 600000 millis
+21/05/21 11:10:55 INFO util.GSet: Computing capacity for map NameNodeRetryCache
+21/05/21 11:10:55 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:10:55 INFO util.GSet: 0.029999999329447746% max memory 3.5 GB = 1.1 MB
+21/05/21 11:10:55 INFO util.GSet: capacity      = 2^17 = 131072 entries
+21/05/21 11:10:55 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/in_use.lock acquired by nodename 29705@santaclara
+21/05/21 11:10:55 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2/in_use.lock acquired by nodename 29705@santaclara
+21/05/21 11:10:55 INFO namenode.FileJournalManager: Recovering unfinalized segments in /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/current
+21/05/21 11:10:55 INFO namenode.FileJournalManager: Recovering unfinalized segments in /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2/current
+21/05/21 11:10:55 INFO namenode.FSImage: No edit log streams selected.
+21/05/21 11:10:55 INFO namenode.FSImageFormatPBINode: Loading 1 INodes.
+21/05/21 11:10:55 INFO namenode.FSImageFormatProtobuf: Loaded FSImage in 0 seconds.
+21/05/21 11:10:55 INFO namenode.FSImage: Loaded image for txid 0 from /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/current/fsimage_0000000000000000000
+21/05/21 11:10:55 INFO namenode.FSNamesystem: Need to save fs image? false (staleImage=false, haEnabled=false, isRollingUpgrade=false)
+21/05/21 11:10:55 INFO namenode.FSEditLog: Starting log segment at 1
+21/05/21 11:10:55 INFO namenode.NameCache: initialized with 0 entries 0 lookups
+21/05/21 11:10:55 INFO namenode.FSNamesystem: Finished loading FSImage in 228 msecs
+21/05/21 11:10:55 INFO namenode.NameNode: RPC server is binding to localhost:0
+21/05/21 11:10:55 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/05/21 11:10:55 INFO ipc.Server: Starting Socket Reader #1 for port 45687
+21/05/21 11:10:55 INFO namenode.NameNode: Clients are to use localhost:45687 to access this namenode/service.
+21/05/21 11:10:55 INFO namenode.FSNamesystem: Registered FSNamesystemState MBean
+21/05/21 11:10:55 INFO namenode.LeaseManager: Number of blocks under construction: 0
+21/05/21 11:10:55 INFO namenode.LeaseManager: Number of blocks under construction: 0
+21/05/21 11:10:55 INFO namenode.FSNamesystem: initializing replication queues
+21/05/21 11:10:55 INFO hdfs.StateChange: STATE* Leaving safe mode after 0 secs
+21/05/21 11:10:55 INFO hdfs.StateChange: STATE* Network topology has 0 racks and 0 datanodes
+21/05/21 11:10:55 INFO hdfs.StateChange: STATE* UnderReplicatedBlocks has 0 blocks
+21/05/21 11:10:55 INFO blockmanagement.DatanodeDescriptor: Number of failed storage changes from 0 to 0
+21/05/21 11:10:55 INFO blockmanagement.BlockManager: Total number of blocks            = 0
+21/05/21 11:10:55 INFO blockmanagement.BlockManager: Number of invalid blocks          = 0
+21/05/21 11:10:55 INFO blockmanagement.BlockManager: Number of under-replicated blocks = 0
+21/05/21 11:10:55 INFO blockmanagement.BlockManager: Number of  over-replicated blocks = 0
+21/05/21 11:10:55 INFO blockmanagement.BlockManager: Number of blocks being written    = 0
+21/05/21 11:10:55 INFO hdfs.StateChange: STATE* Replication Queue initialization scan for invalid, over- and under-replicated blocks completed in 11 msec
+21/05/21 11:10:55 INFO ipc.Server: IPC Server Responder: starting
+21/05/21 11:10:55 INFO ipc.Server: IPC Server listener on 45687: starting
+21/05/21 11:10:55 INFO namenode.NameNode: NameNode RPC up at: localhost/127.0.0.1:45687
+21/05/21 11:10:55 INFO namenode.FSNamesystem: Starting services required for active state
+21/05/21 11:10:55 INFO blockmanagement.CacheReplicationMonitor: Starting CacheReplicationMonitor with interval 30000 milliseconds
+21/05/21 11:10:55 INFO hdfs.MiniDFSCluster: Starting DataNode 0 with dfs.datanode.data.dir: [DISK]file:/home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1,[DISK]file:/home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2
+21/05/21 11:10:55 INFO impl.MetricsSystemImpl: DataNode metrics system started (again)
+21/05/21 11:10:55 INFO datanode.BlockScanner: Disabled block scanner.
+21/05/21 11:10:55 INFO datanode.DataNode: Configured hostname is 127.0.0.1
+21/05/21 11:10:55 INFO datanode.DataNode: Starting DataNode with maxLockedMemory = 0
+21/05/21 11:10:55 INFO datanode.DataNode: Opened streaming server at /127.0.0.1:46429
+21/05/21 11:10:55 INFO datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+21/05/21 11:10:55 INFO datanode.DataNode: Number threads for balancing is 5
+21/05/21 11:10:55 INFO server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+21/05/21 11:10:55 INFO http.HttpRequestLog: Http request log for http.requests.datanode is not defined
+21/05/21 11:10:55 INFO http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+21/05/21 11:10:55 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context datanode
+21/05/21 11:10:55 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/05/21 11:10:55 INFO http.HttpServer2: Jetty bound to port 39863
+21/05/21 11:10:55 INFO mortbay.log: jetty-6.1.26
+21/05/21 11:10:55 INFO mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:39863
+21/05/21 11:10:55 INFO web.DatanodeHttpServer: Listening HTTP traffic on /127.0.0.1:43027
+21/05/21 11:10:55 INFO datanode.DataNode: dnUserName = jhe16
+21/05/21 11:10:55 INFO datanode.DataNode: supergroup = supergroup
+21/05/21 11:10:56 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/05/21 11:10:56 INFO ipc.Server: Starting Socket Reader #1 for port 40493
+21/05/21 11:10:56 INFO datanode.DataNode: Opened IPC server at /127.0.0.1:40493
+21/05/21 11:10:56 INFO datanode.DataNode: Refresh request received for nameservices: null
+21/05/21 11:10:56 INFO datanode.DataNode: Starting BPOfferServices for nameservices: <default>
+21/05/21 11:10:56 INFO datanode.DataNode: Block pool <registering> (Datanode Uuid unassigned) service to localhost/127.0.0.1:45687 starting to offer service
+21/05/21 11:10:56 INFO ipc.Server: IPC Server Responder: starting
+21/05/21 11:10:56 INFO ipc.Server: IPC Server listener on 40493: starting
+21/05/21 11:10:56 WARN security.ShellBasedUnixGroupsMapping: got exception trying to get groups for user jhe16: id: cannot find name for group ID 1000842239
+id: cannot find name for group ID 1000359299
+
+21/05/21 11:10:56 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:10:56 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/in_use.lock acquired by nodename 29705@santaclara
+21/05/21 11:10:56 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1 is not formatted for BP-1603205281-127.0.1.1-1621609854669
+21/05/21 11:10:56 INFO common.Storage: Formatting ...
+21/05/21 11:10:56 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:10:56 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:10:56 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:10:56 INFO common.Storage: Analyzing storage directories for bpid BP-1603205281-127.0.1.1-1621609854669
+21/05/21 11:10:56 INFO common.Storage: Locking is disabled for /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current/BP-1603205281-127.0.1.1-1621609854669
+21/05/21 11:10:56 INFO common.Storage: Block pool storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current/BP-1603205281-127.0.1.1-1621609854669 is not formatted for BP-1603205281-127.0.1.1-1621609854669
+21/05/21 11:10:56 INFO common.Storage: Formatting ...
+21/05/21 11:10:56 INFO common.Storage: Formatting block pool BP-1603205281-127.0.1.1-1621609854669 directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current/BP-1603205281-127.0.1.1-1621609854669/current
+21/05/21 11:10:56 INFO common.Storage: Restored 0 block files from trash.
+21/05/21 11:10:56 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:10:56 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:10:56 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:10:56 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:10:56 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:10:56 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:10:56 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/in_use.lock acquired by nodename 29705@santaclara
+21/05/21 11:10:56 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2 is not formatted for BP-1603205281-127.0.1.1-1621609854669
+21/05/21 11:10:56 INFO common.Storage: Formatting ...
+21/05/21 11:10:56 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:10:56 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:10:56 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:10:56 INFO common.Storage: Analyzing storage directories for bpid BP-1603205281-127.0.1.1-1621609854669
+21/05/21 11:10:56 INFO common.Storage: Locking is disabled for /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current/BP-1603205281-127.0.1.1-1621609854669
+21/05/21 11:10:56 INFO common.Storage: Block pool storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current/BP-1603205281-127.0.1.1-1621609854669 is not formatted for BP-1603205281-127.0.1.1-1621609854669
+21/05/21 11:10:56 INFO common.Storage: Formatting ...
+21/05/21 11:10:56 INFO common.Storage: Formatting block pool BP-1603205281-127.0.1.1-1621609854669 directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current/BP-1603205281-127.0.1.1-1621609854669/current
+21/05/21 11:10:56 INFO common.Storage: Restored 0 block files from trash.
+21/05/21 11:10:56 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:10:56 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:10:56 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:10:56 INFO datanode.DataNode: Setting up storage: nsid=1029889585;bpid=BP-1603205281-127.0.1.1-1621609854669;lv=-56;nsInfo=lv=-63;cid=testClusterID;nsid=1029889585;c=0;bpid=BP-1603205281-127.0.1.1-1621609854669;dnuuid=null
+21/05/21 11:10:56 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:10:56 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:10:56 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:10:56 INFO datanode.DataNode: Generated and persisted new Datanode UUID ecbdfc9f-42ba-4b8c-8c51-1c0c07e1b218
+21/05/21 11:10:56 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:10:56 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:10:56 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:10:56 INFO impl.FsDatasetImpl: Added new volume: DS-6ad4d9e1-66d7-4e8f-afa5-d0390ff0ff5a
+21/05/21 11:10:56 INFO impl.FsDatasetImpl: Added volume - /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current, StorageType: DISK
+21/05/21 11:10:56 INFO impl.FsDatasetImpl: Added new volume: DS-85d44192-dfac-474d-85a5-33208f7bf796
+21/05/21 11:10:56 INFO impl.FsDatasetImpl: Added volume - /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current, StorageType: DISK
+21/05/21 11:10:56 INFO impl.FsDatasetImpl: Registered FSDatasetState MBean
+21/05/21 11:10:56 INFO datanode.DirectoryScanner: Periodic Directory Tree Verification scan starting at 1621623797984 with interval 21600000
+21/05/21 11:10:56 INFO impl.FsDatasetImpl: Adding block pool BP-1603205281-127.0.1.1-1621609854669
+21/05/21 11:10:56 INFO impl.FsDatasetImpl: Scanning block pool BP-1603205281-127.0.1.1-1621609854669 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current...
+21/05/21 11:10:56 INFO impl.FsDatasetImpl: Scanning block pool BP-1603205281-127.0.1.1-1621609854669 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current...
+21/05/21 11:10:56 INFO impl.FsDatasetImpl: Time taken to scan block pool BP-1603205281-127.0.1.1-1621609854669 on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current: 5ms
+21/05/21 11:10:56 INFO impl.FsDatasetImpl: Time taken to scan block pool BP-1603205281-127.0.1.1-1621609854669 on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current: 6ms
+21/05/21 11:10:56 INFO impl.FsDatasetImpl: Total time to scan all replicas for block pool BP-1603205281-127.0.1.1-1621609854669: 6ms
+21/05/21 11:10:56 INFO impl.FsDatasetImpl: Adding replicas to map for block pool BP-1603205281-127.0.1.1-1621609854669 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current...
+21/05/21 11:10:56 INFO impl.FsDatasetImpl: Adding replicas to map for block pool BP-1603205281-127.0.1.1-1621609854669 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current...
+21/05/21 11:10:56 INFO impl.FsDatasetImpl: Time to add replicas to map for block pool BP-1603205281-127.0.1.1-1621609854669 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current: 0ms
+21/05/21 11:10:56 INFO impl.FsDatasetImpl: Time to add replicas to map for block pool BP-1603205281-127.0.1.1-1621609854669 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current: 0ms
+21/05/21 11:10:56 INFO impl.FsDatasetImpl: Total time to add all replicas to map: 1ms
+21/05/21 11:10:56 INFO datanode.DataNode: Block pool BP-1603205281-127.0.1.1-1621609854669 (Datanode Uuid null) service to localhost/127.0.0.1:45687 beginning handshake with NN
+21/05/21 11:10:56 INFO hdfs.StateChange: BLOCK* registerDatanode: from DatanodeRegistration(127.0.0.1:46429, datanodeUuid=ecbdfc9f-42ba-4b8c-8c51-1c0c07e1b218, infoPort=43027, infoSecurePort=0, ipcPort=40493, storageInfo=lv=-56;cid=testClusterID;nsid=1029889585;c=0) storage ecbdfc9f-42ba-4b8c-8c51-1c0c07e1b218
+21/05/21 11:10:56 INFO blockmanagement.DatanodeDescriptor: Number of failed storage changes from 0 to 0
+21/05/21 11:10:57 INFO net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:46429
+21/05/21 11:10:57 INFO datanode.DataNode: Block pool Block pool BP-1603205281-127.0.1.1-1621609854669 (Datanode Uuid null) service to localhost/127.0.0.1:45687 successfully registered with NN
+21/05/21 11:10:57 INFO datanode.DataNode: For namenode localhost/127.0.0.1:45687 using DELETEREPORT_INTERVAL of 300000 msec  BLOCKREPORT_INTERVAL of 21600000msec CACHEREPORT_INTERVAL of 10000msec Initial delay: 0msec; heartBeatInterval=3000
+21/05/21 11:10:57 INFO blockmanagement.DatanodeDescriptor: Number of failed storage changes from 0 to 0
+21/05/21 11:10:57 INFO blockmanagement.DatanodeDescriptor: Adding new storage ID DS-6ad4d9e1-66d7-4e8f-afa5-d0390ff0ff5a for DN 127.0.0.1:46429
+21/05/21 11:10:57 INFO blockmanagement.DatanodeDescriptor: Adding new storage ID DS-85d44192-dfac-474d-85a5-33208f7bf796 for DN 127.0.0.1:46429
+21/05/21 11:10:57 INFO datanode.DataNode: Namenode Block pool BP-1603205281-127.0.1.1-1621609854669 (Datanode Uuid ecbdfc9f-42ba-4b8c-8c51-1c0c07e1b218) service to localhost/127.0.0.1:45687 trying to claim ACTIVE state with txid=1
+21/05/21 11:10:57 INFO datanode.DataNode: Acknowledging ACTIVE Namenode Block pool BP-1603205281-127.0.1.1-1621609854669 (Datanode Uuid ecbdfc9f-42ba-4b8c-8c51-1c0c07e1b218) service to localhost/127.0.0.1:45687
+21/05/21 11:10:57 INFO BlockStateChange: BLOCK* processReport: from storage DS-6ad4d9e1-66d7-4e8f-afa5-d0390ff0ff5a node DatanodeRegistration(127.0.0.1:46429, datanodeUuid=ecbdfc9f-42ba-4b8c-8c51-1c0c07e1b218, infoPort=43027, infoSecurePort=0, ipcPort=40493, storageInfo=lv=-56;cid=testClusterID;nsid=1029889585;c=0), blocks: 0, hasStaleStorage: true, processing time: 0 msecs
+21/05/21 11:10:57 INFO BlockStateChange: BLOCK* processReport: from storage DS-85d44192-dfac-474d-85a5-33208f7bf796 node DatanodeRegistration(127.0.0.1:46429, datanodeUuid=ecbdfc9f-42ba-4b8c-8c51-1c0c07e1b218, infoPort=43027, infoSecurePort=0, ipcPort=40493, storageInfo=lv=-56;cid=testClusterID;nsid=1029889585;c=0), blocks: 0, hasStaleStorage: false, processing time: 0 msecs
+21/05/21 11:10:57 INFO datanode.DataNode: Successfully sent block report 0xd5a15cf8dbdc,  containing 2 storage report(s), of which we sent 2. The reports had 0 total blocks and used 1 RPC(s). This took 2 msec to generate and 21 msecs for RPC and NN processing. Got back one command: FinalizeCommand/5.
+21/05/21 11:10:57 INFO datanode.DataNode: Got finalize command for block pool BP-1603205281-127.0.1.1-1621609854669
+21/05/21 11:10:57 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:10:57 INFO hdfs.MiniDFSCluster: Cluster is active
+21/05/21 11:10:57 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:10:57 INFO hdfs.MiniDFSCluster: Cluster is active
+21/05/21 11:10:59 INFO hdfs.MiniDFSCluster: Shutting down the Mini HDFS Cluster
+21/05/21 11:10:59 INFO hdfs.MiniDFSCluster: Shutting down DataNode 0
+21/05/21 11:10:59 WARN datanode.DirectoryScanner: DirectoryScanner: shutdown has been called
+21/05/21 11:10:59 INFO datanode.DataNode: Closing all peers.
+21/05/21 11:10:59 INFO mortbay.log: Stopped HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:0
+21/05/21 11:10:59 INFO ipc.Server: Stopping server on 40493
+21/05/21 11:10:59 INFO ipc.Server: Stopping IPC Server listener on 40493
+21/05/21 11:10:59 WARN datanode.DataNode: BPOfferService for Block pool BP-1603205281-127.0.1.1-1621609854669 (Datanode Uuid ecbdfc9f-42ba-4b8c-8c51-1c0c07e1b218) service to localhost/127.0.0.1:45687 interrupted
+21/05/21 11:10:59 INFO ipc.Server: Stopping IPC Server Responder
+21/05/21 11:10:59 WARN datanode.DataNode: Ending block pool service for: Block pool BP-1603205281-127.0.1.1-1621609854669 (Datanode Uuid ecbdfc9f-42ba-4b8c-8c51-1c0c07e1b218) service to localhost/127.0.0.1:45687
+21/05/21 11:10:59 INFO datanode.DataNode: Removed Block pool BP-1603205281-127.0.1.1-1621609854669 (Datanode Uuid ecbdfc9f-42ba-4b8c-8c51-1c0c07e1b218)
+21/05/21 11:10:59 INFO impl.FsDatasetImpl: Removing block pool BP-1603205281-127.0.1.1-1621609854669
+21/05/21 11:10:59 INFO impl.FsDatasetImpl: LazyWriter was interrupted, exiting
+21/05/21 11:10:59 INFO impl.FsDatasetAsyncDiskService: Shutting down all async disk service threads
+21/05/21 11:10:59 INFO impl.FsDatasetAsyncDiskService: All async disk service threads have been shut down
+21/05/21 11:10:59 INFO impl.RamDiskAsyncLazyPersistService: Shutting down all async lazy persist service threads
+21/05/21 11:10:59 INFO impl.RamDiskAsyncLazyPersistService: All async lazy persist service threads have been shut down
+21/05/21 11:10:59 INFO datanode.DataNode: Shutdown complete.
+21/05/21 11:10:59 INFO namenode.FSNamesystem: Stopping services started for active state
+21/05/21 11:10:59 INFO namenode.FSEditLog: Ending log segment 1
+21/05/21 11:10:59 INFO namenode.FSNamesystem: LazyPersistFileScrubber was interrupted, exiting
+21/05/21 11:10:59 INFO namenode.FSEditLog: Number of transactions: 2 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 3 SyncTimes(ms): 0 1 
+21/05/21 11:10:59 INFO namenode.FSNamesystem: NameNodeEditLogRoller was interrupted, exiting
+21/05/21 11:10:59 INFO namenode.FileJournalManager: Finalizing edits file /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/current/edits_inprogress_0000000000000000001 -> /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/current/edits_0000000000000000001-0000000000000000002
+21/05/21 11:10:59 INFO namenode.FileJournalManager: Finalizing edits file /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2/current/edits_inprogress_0000000000000000001 -> /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2/current/edits_0000000000000000001-0000000000000000002
+21/05/21 11:10:59 INFO ipc.Server: Stopping server on 45687
+21/05/21 11:10:59 INFO ipc.Server: Stopping IPC Server listener on 45687
+21/05/21 11:10:59 INFO ipc.Server: Stopping IPC Server Responder
+21/05/21 11:10:59 INFO blockmanagement.BlockManager: Stopping ReplicationMonitor.
+21/05/21 11:10:59 INFO namenode.FSNamesystem: Stopping services started for active state
+21/05/21 11:10:59 INFO namenode.FSNamesystem: Stopping services started for standby state
+21/05/21 11:10:59 INFO mortbay.log: Stopped HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:0
+21/05/21 11:10:59 INFO impl.MetricsSystemImpl: Stopping DataNode metrics system...
+21/05/21 11:10:59 INFO impl.MetricsSystemImpl: DataNode metrics system stopped.
+21/05/21 11:10:59 INFO impl.MetricsSystemImpl: DataNode metrics system shutdown complete.
+40..
+21/05/21 11:11:10 INFO hdfs.MiniDFSCluster: starting cluster: numNameNodes=1, numDataNodes=1
+21/05/21 11:11:10 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Formatting using clusterid: testClusterID
+21/05/21 11:11:10 INFO namenode.FSNamesystem: No KeyProvider found.
+21/05/21 11:11:10 INFO namenode.FSNamesystem: fsLock is fair:true
+21/05/21 11:11:10 INFO Configuration.deprecation: hadoop.configured.node.mapping is deprecated. Instead, use net.topology.configured.node.mapping
+21/05/21 11:11:10 INFO blockmanagement.DatanodeManager: dfs.block.invalidate.limit=1000
+21/05/21 11:11:10 INFO blockmanagement.DatanodeManager: dfs.namenode.datanode.registration.ip-hostname-check=true
+21/05/21 11:11:10 INFO blockmanagement.BlockManager: dfs.namenode.startup.delay.block.deletion.sec is set to 000:00:00:00.000
+21/05/21 11:11:10 INFO blockmanagement.BlockManager: The block deletion will start around 2021 May 21 11:11:10
+21/05/21 11:11:10 INFO util.GSet: Computing capacity for map BlocksMap
+21/05/21 11:11:10 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:10 INFO util.GSet: 2.0% max memory 3.5 GB = 71.0 MB
+21/05/21 11:11:10 INFO util.GSet: capacity      = 2^23 = 8388608 entries
+21/05/21 11:11:10 INFO blockmanagement.BlockManager: dfs.block.access.token.enable=false
+21/05/21 11:11:10 INFO blockmanagement.BlockManager: defaultReplication         = 1
+21/05/21 11:11:10 INFO blockmanagement.BlockManager: maxReplication             = 512
+21/05/21 11:11:10 INFO blockmanagement.BlockManager: minReplication             = 1
+21/05/21 11:11:10 INFO blockmanagement.BlockManager: maxReplicationStreams      = 2
+21/05/21 11:11:10 INFO blockmanagement.BlockManager: shouldCheckForEnoughRacks  = false
+21/05/21 11:11:10 INFO blockmanagement.BlockManager: replicationRecheckInterval = 3000
+21/05/21 11:11:10 INFO blockmanagement.BlockManager: encryptDataTransfer        = false
+21/05/21 11:11:10 INFO blockmanagement.BlockManager: maxNumBlocksToLog          = 1000
+21/05/21 11:11:10 INFO namenode.FSNamesystem: fsOwner             = jhe16 (auth:SIMPLE)
+21/05/21 11:11:10 INFO namenode.FSNamesystem: supergroup          = supergroup
+21/05/21 11:11:10 INFO namenode.FSNamesystem: isPermissionEnabled = true
+21/05/21 11:11:10 INFO namenode.FSNamesystem: HA Enabled: false
+21/05/21 11:11:10 INFO namenode.FSNamesystem: Append Enabled: true
+21/05/21 11:11:10 INFO util.GSet: Computing capacity for map INodeMap
+21/05/21 11:11:10 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:10 INFO util.GSet: 1.0% max memory 3.5 GB = 35.5 MB
+21/05/21 11:11:10 INFO util.GSet: capacity      = 2^22 = 4194304 entries
+21/05/21 11:11:10 INFO namenode.FSDirectory: ACLs enabled? false
+21/05/21 11:11:10 INFO namenode.FSDirectory: XAttrs enabled? true
+21/05/21 11:11:10 INFO namenode.FSDirectory: Maximum size of an xattr: 16384
+21/05/21 11:11:10 INFO namenode.NameNode: Caching file names occuring more than 10 times
+21/05/21 11:11:10 INFO util.GSet: Computing capacity for map cachedBlocks
+21/05/21 11:11:10 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:10 INFO util.GSet: 0.25% max memory 3.5 GB = 8.9 MB
+21/05/21 11:11:10 INFO util.GSet: capacity      = 2^20 = 1048576 entries
+21/05/21 11:11:10 INFO namenode.FSNamesystem: dfs.namenode.safemode.threshold-pct = 0.9990000128746033
+21/05/21 11:11:10 INFO namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+21/05/21 11:11:10 INFO namenode.FSNamesystem: dfs.namenode.safemode.extension     = 0
+21/05/21 11:11:10 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.window.num.buckets = 10
+21/05/21 11:11:10 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.num.users = 10
+21/05/21 11:11:10 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.windows.minutes = 1,5,25
+21/05/21 11:11:10 INFO namenode.FSNamesystem: Retry cache on namenode is enabled
+21/05/21 11:11:10 INFO namenode.FSNamesystem: Retry cache will use 0.03 of total heap and retry cache entry expiry time is 600000 millis
+21/05/21 11:11:10 INFO util.GSet: Computing capacity for map NameNodeRetryCache
+21/05/21 11:11:10 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:10 INFO util.GSet: 0.029999999329447746% max memory 3.5 GB = 1.1 MB
+21/05/21 11:11:10 INFO util.GSet: capacity      = 2^17 = 131072 entries
+21/05/21 11:11:10 INFO namenode.FSImage: Allocated new BlockPoolId: BP-1926014818-127.0.1.1-1621609870662
+21/05/21 11:11:10 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1 has been successfully formatted.
+21/05/21 11:11:10 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2 has been successfully formatted.
+21/05/21 11:11:11 INFO namenode.NNStorageRetentionManager: Going to retain 1 images with txid >= 0
+21/05/21 11:11:11 INFO namenode.NameNode: createNameNode []
+21/05/21 11:11:11 INFO impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+21/05/21 11:11:11 INFO impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+21/05/21 11:11:11 INFO impl.MetricsSystemImpl: NameNode metrics system started
+21/05/21 11:11:11 INFO namenode.NameNode: fs.defaultFS is hdfs://127.0.0.1:0
+21/05/21 11:11:11 INFO hdfs.DFSUtil: Starting Web-server for hdfs at: http://localhost:0
+21/05/21 11:11:11 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+21/05/21 11:11:11 INFO server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+21/05/21 11:11:11 INFO http.HttpRequestLog: Http request log for http.requests.namenode is not defined
+21/05/21 11:11:11 INFO http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+21/05/21 11:11:11 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context hdfs
+21/05/21 11:11:11 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/05/21 11:11:11 INFO http.HttpServer2: Added filter 'org.apache.hadoop.hdfs.web.AuthFilter' (class=org.apache.hadoop.hdfs.web.AuthFilter)
+21/05/21 11:11:11 INFO http.HttpServer2: addJerseyResourcePackage: packageName=org.apache.hadoop.hdfs.server.namenode.web.resources;org.apache.hadoop.hdfs.web.resources, pathSpec=/webhdfs/v1/*
+21/05/21 11:11:11 INFO http.HttpServer2: Jetty bound to port 44277
+21/05/21 11:11:11 INFO mortbay.log: jetty-6.1.26
+21/05/21 11:11:11 INFO mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:44277
+21/05/21 11:11:11 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/05/21 11:11:11 INFO namenode.FSNamesystem: No KeyProvider found.
+21/05/21 11:11:11 INFO namenode.FSNamesystem: fsLock is fair:true
+21/05/21 11:11:11 INFO blockmanagement.DatanodeManager: dfs.block.invalidate.limit=1000
+21/05/21 11:11:11 INFO blockmanagement.DatanodeManager: dfs.namenode.datanode.registration.ip-hostname-check=true
+21/05/21 11:11:11 INFO blockmanagement.BlockManager: dfs.namenode.startup.delay.block.deletion.sec is set to 000:00:00:00.000
+21/05/21 11:11:11 INFO blockmanagement.BlockManager: The block deletion will start around 2021 May 21 11:11:11
+21/05/21 11:11:11 INFO util.GSet: Computing capacity for map BlocksMap
+21/05/21 11:11:11 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:11 INFO util.GSet: 2.0% max memory 3.5 GB = 71.0 MB
+21/05/21 11:11:11 INFO util.GSet: capacity      = 2^23 = 8388608 entries
+21/05/21 11:11:11 INFO blockmanagement.BlockManager: dfs.block.access.token.enable=false
+21/05/21 11:11:11 INFO blockmanagement.BlockManager: defaultReplication         = 1
+21/05/21 11:11:11 INFO blockmanagement.BlockManager: maxReplication             = 512
+21/05/21 11:11:11 INFO blockmanagement.BlockManager: minReplication             = 1
+21/05/21 11:11:11 INFO blockmanagement.BlockManager: maxReplicationStreams      = 2
+21/05/21 11:11:11 INFO blockmanagement.BlockManager: shouldCheckForEnoughRacks  = false
+21/05/21 11:11:11 INFO blockmanagement.BlockManager: replicationRecheckInterval = 3000
+21/05/21 11:11:11 INFO blockmanagement.BlockManager: encryptDataTransfer        = false
+21/05/21 11:11:11 INFO blockmanagement.BlockManager: maxNumBlocksToLog          = 1000
+21/05/21 11:11:11 INFO namenode.FSNamesystem: fsOwner             = jhe16 (auth:SIMPLE)
+21/05/21 11:11:11 INFO namenode.FSNamesystem: supergroup          = supergroup
+21/05/21 11:11:11 INFO namenode.FSNamesystem: isPermissionEnabled = true
+21/05/21 11:11:11 INFO namenode.FSNamesystem: HA Enabled: false
+21/05/21 11:11:11 INFO namenode.FSNamesystem: Append Enabled: true
+21/05/21 11:11:11 INFO util.GSet: Computing capacity for map INodeMap
+21/05/21 11:11:11 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:11 INFO util.GSet: 1.0% max memory 3.5 GB = 35.5 MB
+21/05/21 11:11:11 INFO util.GSet: capacity      = 2^22 = 4194304 entries
+21/05/21 11:11:11 INFO namenode.FSDirectory: ACLs enabled? false
+21/05/21 11:11:11 INFO namenode.FSDirectory: XAttrs enabled? true
+21/05/21 11:11:11 INFO namenode.FSDirectory: Maximum size of an xattr: 16384
+21/05/21 11:11:11 INFO namenode.NameNode: Caching file names occuring more than 10 times
+21/05/21 11:11:11 INFO util.GSet: Computing capacity for map cachedBlocks
+21/05/21 11:11:11 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:11 INFO util.GSet: 0.25% max memory 3.5 GB = 8.9 MB
+21/05/21 11:11:11 INFO util.GSet: capacity      = 2^20 = 1048576 entries
+21/05/21 11:11:11 INFO namenode.FSNamesystem: dfs.namenode.safemode.threshold-pct = 0.9990000128746033
+21/05/21 11:11:11 INFO namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+21/05/21 11:11:11 INFO namenode.FSNamesystem: dfs.namenode.safemode.extension     = 0
+21/05/21 11:11:11 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.window.num.buckets = 10
+21/05/21 11:11:11 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.num.users = 10
+21/05/21 11:11:11 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.windows.minutes = 1,5,25
+21/05/21 11:11:11 INFO namenode.FSNamesystem: Retry cache on namenode is enabled
+21/05/21 11:11:11 INFO namenode.FSNamesystem: Retry cache will use 0.03 of total heap and retry cache entry expiry time is 600000 millis
+21/05/21 11:11:11 INFO util.GSet: Computing capacity for map NameNodeRetryCache
+21/05/21 11:11:11 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:11 INFO util.GSet: 0.029999999329447746% max memory 3.5 GB = 1.1 MB
+21/05/21 11:11:11 INFO util.GSet: capacity      = 2^17 = 131072 entries
+21/05/21 11:11:11 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/in_use.lock acquired by nodename 29855@santaclara
+21/05/21 11:11:11 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2/in_use.lock acquired by nodename 29855@santaclara
+21/05/21 11:11:11 INFO namenode.FileJournalManager: Recovering unfinalized segments in /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/current
+21/05/21 11:11:11 INFO namenode.FileJournalManager: Recovering unfinalized segments in /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2/current
+21/05/21 11:11:11 INFO namenode.FSImage: No edit log streams selected.
+21/05/21 11:11:11 INFO namenode.FSImageFormatPBINode: Loading 1 INodes.
+21/05/21 11:11:11 INFO namenode.FSImageFormatProtobuf: Loaded FSImage in 0 seconds.
+21/05/21 11:11:11 INFO namenode.FSImage: Loaded image for txid 0 from /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/current/fsimage_0000000000000000000
+21/05/21 11:11:11 INFO namenode.FSNamesystem: Need to save fs image? false (staleImage=false, haEnabled=false, isRollingUpgrade=false)
+21/05/21 11:11:11 INFO namenode.FSEditLog: Starting log segment at 1
+21/05/21 11:11:11 INFO namenode.NameCache: initialized with 0 entries 0 lookups
+21/05/21 11:11:11 INFO namenode.FSNamesystem: Finished loading FSImage in 227 msecs
+21/05/21 11:11:11 INFO namenode.NameNode: RPC server is binding to localhost:0
+21/05/21 11:11:11 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/05/21 11:11:11 INFO ipc.Server: Starting Socket Reader #1 for port 40475
+21/05/21 11:11:11 INFO namenode.NameNode: Clients are to use localhost:40475 to access this namenode/service.
+21/05/21 11:11:11 INFO namenode.FSNamesystem: Registered FSNamesystemState MBean
+21/05/21 11:11:11 INFO namenode.LeaseManager: Number of blocks under construction: 0
+21/05/21 11:11:11 INFO namenode.LeaseManager: Number of blocks under construction: 0
+21/05/21 11:11:11 INFO namenode.FSNamesystem: initializing replication queues
+21/05/21 11:11:11 INFO hdfs.StateChange: STATE* Leaving safe mode after 0 secs
+21/05/21 11:11:11 INFO hdfs.StateChange: STATE* Network topology has 0 racks and 0 datanodes
+21/05/21 11:11:11 INFO hdfs.StateChange: STATE* UnderReplicatedBlocks has 0 blocks
+21/05/21 11:11:11 INFO blockmanagement.DatanodeDescriptor: Number of failed storage changes from 0 to 0
+21/05/21 11:11:11 INFO blockmanagement.BlockManager: Total number of blocks            = 0
+21/05/21 11:11:11 INFO blockmanagement.BlockManager: Number of invalid blocks          = 0
+21/05/21 11:11:11 INFO blockmanagement.BlockManager: Number of under-replicated blocks = 0
+21/05/21 11:11:11 INFO blockmanagement.BlockManager: Number of  over-replicated blocks = 0
+21/05/21 11:11:11 INFO blockmanagement.BlockManager: Number of blocks being written    = 0
+21/05/21 11:11:11 INFO hdfs.StateChange: STATE* Replication Queue initialization scan for invalid, over- and under-replicated blocks completed in 10 msec
+21/05/21 11:11:11 INFO ipc.Server: IPC Server Responder: starting
+21/05/21 11:11:11 INFO ipc.Server: IPC Server listener on 40475: starting
+21/05/21 11:11:11 INFO namenode.NameNode: NameNode RPC up at: localhost/127.0.0.1:40475
+21/05/21 11:11:11 INFO namenode.FSNamesystem: Starting services required for active state
+21/05/21 11:11:11 INFO blockmanagement.CacheReplicationMonitor: Starting CacheReplicationMonitor with interval 30000 milliseconds
+21/05/21 11:11:11 INFO hdfs.MiniDFSCluster: Starting DataNode 0 with dfs.datanode.data.dir: [DISK]file:/home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1,[DISK]file:/home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2
+21/05/21 11:11:11 INFO impl.MetricsSystemImpl: DataNode metrics system started (again)
+21/05/21 11:11:11 INFO datanode.BlockScanner: Disabled block scanner.
+21/05/21 11:11:11 INFO datanode.DataNode: Configured hostname is 127.0.0.1
+21/05/21 11:11:11 INFO datanode.DataNode: Starting DataNode with maxLockedMemory = 0
+21/05/21 11:11:11 INFO datanode.DataNode: Opened streaming server at /127.0.0.1:44351
+21/05/21 11:11:11 INFO datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+21/05/21 11:11:11 INFO datanode.DataNode: Number threads for balancing is 5
+21/05/21 11:11:11 INFO server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+21/05/21 11:11:11 INFO http.HttpRequestLog: Http request log for http.requests.datanode is not defined
+21/05/21 11:11:11 INFO http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+21/05/21 11:11:11 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context datanode
+21/05/21 11:11:11 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/05/21 11:11:11 INFO http.HttpServer2: Jetty bound to port 43423
+21/05/21 11:11:11 INFO mortbay.log: jetty-6.1.26
+21/05/21 11:11:11 INFO mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:43423
+21/05/21 11:11:12 INFO web.DatanodeHttpServer: Listening HTTP traffic on /127.0.0.1:34783
+21/05/21 11:11:12 INFO datanode.DataNode: dnUserName = jhe16
+21/05/21 11:11:12 INFO datanode.DataNode: supergroup = supergroup
+21/05/21 11:11:12 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/05/21 11:11:12 INFO ipc.Server: Starting Socket Reader #1 for port 39733
+21/05/21 11:11:12 INFO datanode.DataNode: Opened IPC server at /127.0.0.1:39733
+21/05/21 11:11:12 INFO datanode.DataNode: Refresh request received for nameservices: null
+21/05/21 11:11:12 INFO datanode.DataNode: Starting BPOfferServices for nameservices: <default>
+21/05/21 11:11:12 INFO datanode.DataNode: Block pool <registering> (Datanode Uuid unassigned) service to localhost/127.0.0.1:40475 starting to offer service
+21/05/21 11:11:12 INFO ipc.Server: IPC Server Responder: starting
+21/05/21 11:11:12 INFO ipc.Server: IPC Server listener on 39733: starting
+21/05/21 11:11:12 WARN security.ShellBasedUnixGroupsMapping: got exception trying to get groups for user jhe16: id: cannot find name for group ID 1000842239
+id: cannot find name for group ID 1000359299
+
+21/05/21 11:11:12 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:12 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/in_use.lock acquired by nodename 29855@santaclara
+21/05/21 11:11:12 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1 is not formatted for BP-1926014818-127.0.1.1-1621609870662
+21/05/21 11:11:12 INFO common.Storage: Formatting ...
+21/05/21 11:11:12 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:12 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:12 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:12 INFO common.Storage: Analyzing storage directories for bpid BP-1926014818-127.0.1.1-1621609870662
+21/05/21 11:11:12 INFO common.Storage: Locking is disabled for /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current/BP-1926014818-127.0.1.1-1621609870662
+21/05/21 11:11:12 INFO common.Storage: Block pool storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current/BP-1926014818-127.0.1.1-1621609870662 is not formatted for BP-1926014818-127.0.1.1-1621609870662
+21/05/21 11:11:12 INFO common.Storage: Formatting ...
+21/05/21 11:11:12 INFO common.Storage: Formatting block pool BP-1926014818-127.0.1.1-1621609870662 directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current/BP-1926014818-127.0.1.1-1621609870662/current
+21/05/21 11:11:12 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:12 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:12 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:12 INFO common.Storage: Restored 0 block files from trash.
+21/05/21 11:11:12 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:12 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:12 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:12 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/in_use.lock acquired by nodename 29855@santaclara
+21/05/21 11:11:12 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2 is not formatted for BP-1926014818-127.0.1.1-1621609870662
+21/05/21 11:11:12 INFO common.Storage: Formatting ...
+21/05/21 11:11:12 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:12 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:12 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:12 INFO common.Storage: Analyzing storage directories for bpid BP-1926014818-127.0.1.1-1621609870662
+21/05/21 11:11:12 INFO common.Storage: Locking is disabled for /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current/BP-1926014818-127.0.1.1-1621609870662
+21/05/21 11:11:12 INFO common.Storage: Block pool storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current/BP-1926014818-127.0.1.1-1621609870662 is not formatted for BP-1926014818-127.0.1.1-1621609870662
+21/05/21 11:11:12 INFO common.Storage: Formatting ...
+21/05/21 11:11:12 INFO common.Storage: Formatting block pool BP-1926014818-127.0.1.1-1621609870662 directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current/BP-1926014818-127.0.1.1-1621609870662/current
+21/05/21 11:11:12 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:12 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:12 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:12 INFO common.Storage: Restored 0 block files from trash.
+21/05/21 11:11:12 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:12 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:12 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:12 INFO datanode.DataNode: Setting up storage: nsid=1157223180;bpid=BP-1926014818-127.0.1.1-1621609870662;lv=-56;nsInfo=lv=-63;cid=testClusterID;nsid=1157223180;c=0;bpid=BP-1926014818-127.0.1.1-1621609870662;dnuuid=null
+21/05/21 11:11:12 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:12 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:12 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:13 INFO datanode.DataNode: Generated and persisted new Datanode UUID 53dce626-99b8-4ce8-b9b0-6fc1b52a1407
+21/05/21 11:11:13 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:13 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:13 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:13 INFO impl.FsDatasetImpl: Added new volume: DS-72a6e194-b295-4de2-90d9-ab87f83ea3d9
+21/05/21 11:11:13 INFO impl.FsDatasetImpl: Added volume - /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current, StorageType: DISK
+21/05/21 11:11:13 INFO impl.FsDatasetImpl: Added new volume: DS-a6e88fe0-59b2-4ac8-bae8-b02b46fed624
+21/05/21 11:11:13 INFO impl.FsDatasetImpl: Added volume - /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current, StorageType: DISK
+21/05/21 11:11:13 INFO impl.FsDatasetImpl: Registered FSDatasetState MBean
+21/05/21 11:11:13 INFO datanode.DirectoryScanner: Periodic Directory Tree Verification scan starting at 1621616685104 with interval 21600000
+21/05/21 11:11:13 INFO impl.FsDatasetImpl: Adding block pool BP-1926014818-127.0.1.1-1621609870662
+21/05/21 11:11:13 INFO impl.FsDatasetImpl: Scanning block pool BP-1926014818-127.0.1.1-1621609870662 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current...
+21/05/21 11:11:13 INFO impl.FsDatasetImpl: Scanning block pool BP-1926014818-127.0.1.1-1621609870662 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current...
+21/05/21 11:11:13 INFO impl.FsDatasetImpl: Time taken to scan block pool BP-1926014818-127.0.1.1-1621609870662 on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current: 5ms
+21/05/21 11:11:13 INFO impl.FsDatasetImpl: Time taken to scan block pool BP-1926014818-127.0.1.1-1621609870662 on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current: 5ms
+21/05/21 11:11:13 INFO impl.FsDatasetImpl: Total time to scan all replicas for block pool BP-1926014818-127.0.1.1-1621609870662: 6ms
+21/05/21 11:11:13 INFO impl.FsDatasetImpl: Adding replicas to map for block pool BP-1926014818-127.0.1.1-1621609870662 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current...
+21/05/21 11:11:13 INFO impl.FsDatasetImpl: Time to add replicas to map for block pool BP-1926014818-127.0.1.1-1621609870662 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current: 0ms
+21/05/21 11:11:13 INFO impl.FsDatasetImpl: Adding replicas to map for block pool BP-1926014818-127.0.1.1-1621609870662 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current...
+21/05/21 11:11:13 INFO impl.FsDatasetImpl: Time to add replicas to map for block pool BP-1926014818-127.0.1.1-1621609870662 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current: 0ms
+21/05/21 11:11:13 INFO impl.FsDatasetImpl: Total time to add all replicas to map: 1ms
+21/05/21 11:11:13 INFO datanode.DataNode: Block pool BP-1926014818-127.0.1.1-1621609870662 (Datanode Uuid null) service to localhost/127.0.0.1:40475 beginning handshake with NN
+21/05/21 11:11:13 INFO hdfs.StateChange: BLOCK* registerDatanode: from DatanodeRegistration(127.0.0.1:44351, datanodeUuid=53dce626-99b8-4ce8-b9b0-6fc1b52a1407, infoPort=34783, infoSecurePort=0, ipcPort=39733, storageInfo=lv=-56;cid=testClusterID;nsid=1157223180;c=0) storage 53dce626-99b8-4ce8-b9b0-6fc1b52a1407
+21/05/21 11:11:13 INFO blockmanagement.DatanodeDescriptor: Number of failed storage changes from 0 to 0
+21/05/21 11:11:13 INFO net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:44351
+21/05/21 11:11:13 INFO datanode.DataNode: Block pool Block pool BP-1926014818-127.0.1.1-1621609870662 (Datanode Uuid null) service to localhost/127.0.0.1:40475 successfully registered with NN
+21/05/21 11:11:13 INFO datanode.DataNode: For namenode localhost/127.0.0.1:40475 using DELETEREPORT_INTERVAL of 300000 msec  BLOCKREPORT_INTERVAL of 21600000msec CACHEREPORT_INTERVAL of 10000msec Initial delay: 0msec; heartBeatInterval=3000
+21/05/21 11:11:13 INFO blockmanagement.DatanodeDescriptor: Number of failed storage changes from 0 to 0
+21/05/21 11:11:13 INFO blockmanagement.DatanodeDescriptor: Adding new storage ID DS-72a6e194-b295-4de2-90d9-ab87f83ea3d9 for DN 127.0.0.1:44351
+21/05/21 11:11:13 INFO blockmanagement.DatanodeDescriptor: Adding new storage ID DS-a6e88fe0-59b2-4ac8-bae8-b02b46fed624 for DN 127.0.0.1:44351
+21/05/21 11:11:13 INFO datanode.DataNode: Namenode Block pool BP-1926014818-127.0.1.1-1621609870662 (Datanode Uuid 53dce626-99b8-4ce8-b9b0-6fc1b52a1407) service to localhost/127.0.0.1:40475 trying to claim ACTIVE state with txid=1
+21/05/21 11:11:13 INFO datanode.DataNode: Acknowledging ACTIVE Namenode Block pool BP-1926014818-127.0.1.1-1621609870662 (Datanode Uuid 53dce626-99b8-4ce8-b9b0-6fc1b52a1407) service to localhost/127.0.0.1:40475
+21/05/21 11:11:13 INFO BlockStateChange: BLOCK* processReport: from storage DS-72a6e194-b295-4de2-90d9-ab87f83ea3d9 node DatanodeRegistration(127.0.0.1:44351, datanodeUuid=53dce626-99b8-4ce8-b9b0-6fc1b52a1407, infoPort=34783, infoSecurePort=0, ipcPort=39733, storageInfo=lv=-56;cid=testClusterID;nsid=1157223180;c=0), blocks: 0, hasStaleStorage: true, processing time: 0 msecs
+21/05/21 11:11:13 INFO BlockStateChange: BLOCK* processReport: from storage DS-a6e88fe0-59b2-4ac8-bae8-b02b46fed624 node DatanodeRegistration(127.0.0.1:44351, datanodeUuid=53dce626-99b8-4ce8-b9b0-6fc1b52a1407, infoPort=34783, infoSecurePort=0, ipcPort=39733, storageInfo=lv=-56;cid=testClusterID;nsid=1157223180;c=0), blocks: 0, hasStaleStorage: false, processing time: 0 msecs
+21/05/21 11:11:13 INFO datanode.DataNode: Successfully sent block report 0xd5a51e2ca8de,  containing 2 storage report(s), of which we sent 2. The reports had 0 total blocks and used 1 RPC(s). This took 4 msec to generate and 20 msecs for RPC and NN processing. Got back one command: FinalizeCommand/5.
+21/05/21 11:11:13 INFO datanode.DataNode: Got finalize command for block pool BP-1926014818-127.0.1.1-1621609870662
+21/05/21 11:11:13 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:13 INFO hdfs.MiniDFSCluster: Cluster is active
+21/05/21 11:11:13 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:13 INFO hdfs.MiniDFSCluster: Cluster is active
+21/05/21 11:11:15 INFO hdfs.MiniDFSCluster: Shutting down the Mini HDFS Cluster
+21/05/21 11:11:15 INFO hdfs.MiniDFSCluster: Shutting down DataNode 0
+21/05/21 11:11:15 WARN datanode.DirectoryScanner: DirectoryScanner: shutdown has been called
+21/05/21 11:11:15 INFO datanode.DataNode: Closing all peers.
+21/05/21 11:11:15 INFO mortbay.log: Stopped HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:0
+21/05/21 11:11:15 INFO ipc.Server: Stopping server on 39733
+21/05/21 11:11:15 INFO ipc.Server: Stopping IPC Server listener on 39733
+21/05/21 11:11:15 WARN datanode.DataNode: BPOfferService for Block pool BP-1926014818-127.0.1.1-1621609870662 (Datanode Uuid 53dce626-99b8-4ce8-b9b0-6fc1b52a1407) service to localhost/127.0.0.1:40475 interrupted
+21/05/21 11:11:15 INFO ipc.Server: Stopping IPC Server Responder
+21/05/21 11:11:15 WARN datanode.DataNode: Ending block pool service for: Block pool BP-1926014818-127.0.1.1-1621609870662 (Datanode Uuid 53dce626-99b8-4ce8-b9b0-6fc1b52a1407) service to localhost/127.0.0.1:40475
+21/05/21 11:11:15 INFO datanode.DataNode: Removed Block pool BP-1926014818-127.0.1.1-1621609870662 (Datanode Uuid 53dce626-99b8-4ce8-b9b0-6fc1b52a1407)
+21/05/21 11:11:15 INFO impl.FsDatasetImpl: Removing block pool BP-1926014818-127.0.1.1-1621609870662
+21/05/21 11:11:15 INFO impl.FsDatasetImpl: LazyWriter was interrupted, exiting
+21/05/21 11:11:15 INFO impl.FsDatasetAsyncDiskService: Shutting down all async disk service threads
+21/05/21 11:11:15 INFO impl.FsDatasetAsyncDiskService: All async disk service threads have been shut down
+21/05/21 11:11:15 INFO impl.RamDiskAsyncLazyPersistService: Shutting down all async lazy persist service threads
+21/05/21 11:11:15 INFO impl.RamDiskAsyncLazyPersistService: All async lazy persist service threads have been shut down
+21/05/21 11:11:15 INFO datanode.DataNode: Shutdown complete.
+21/05/21 11:11:15 INFO namenode.FSNamesystem: Stopping services started for active state
+21/05/21 11:11:15 INFO namenode.FSEditLog: Ending log segment 1
+21/05/21 11:11:15 INFO namenode.FSNamesystem: LazyPersistFileScrubber was interrupted, exiting
+21/05/21 11:11:15 INFO namenode.FSEditLog: Number of transactions: 2 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 3 SyncTimes(ms): 1 0 
+21/05/21 11:11:15 INFO namenode.FileJournalManager: Finalizing edits file /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/current/edits_inprogress_0000000000000000001 -> /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/current/edits_0000000000000000001-0000000000000000002
+21/05/21 11:11:15 INFO namenode.FSNamesystem: NameNodeEditLogRoller was interrupted, exiting
+21/05/21 11:11:15 INFO namenode.FileJournalManager: Finalizing edits file /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2/current/edits_inprogress_0000000000000000001 -> /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2/current/edits_0000000000000000001-0000000000000000002
+21/05/21 11:11:15 INFO ipc.Server: Stopping server on 40475
+21/05/21 11:11:15 INFO ipc.Server: Stopping IPC Server listener on 40475
+21/05/21 11:11:15 INFO blockmanagement.BlockManager: Stopping ReplicationMonitor.
+21/05/21 11:11:15 INFO ipc.Server: Stopping IPC Server Responder
+21/05/21 11:11:15 INFO namenode.FSNamesystem: Stopping services started for active state
+21/05/21 11:11:15 INFO namenode.FSNamesystem: Stopping services started for standby state
+21/05/21 11:11:15 INFO mortbay.log: Stopped HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:0
+21/05/21 11:11:15 INFO impl.MetricsSystemImpl: Stopping DataNode metrics system...
+21/05/21 11:11:15 INFO impl.MetricsSystemImpl: DataNode metrics system stopped.
+21/05/21 11:11:15 INFO impl.MetricsSystemImpl: DataNode metrics system shutdown complete.
+30..
+21/05/21 11:11:26 INFO hdfs.MiniDFSCluster: starting cluster: numNameNodes=1, numDataNodes=1
+21/05/21 11:11:26 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Formatting using clusterid: testClusterID
+21/05/21 11:11:26 INFO namenode.FSNamesystem: No KeyProvider found.
+21/05/21 11:11:26 INFO namenode.FSNamesystem: fsLock is fair:true
+21/05/21 11:11:26 INFO Configuration.deprecation: hadoop.configured.node.mapping is deprecated. Instead, use net.topology.configured.node.mapping
+21/05/21 11:11:26 INFO blockmanagement.DatanodeManager: dfs.block.invalidate.limit=1000
+21/05/21 11:11:26 INFO blockmanagement.DatanodeManager: dfs.namenode.datanode.registration.ip-hostname-check=true
+21/05/21 11:11:26 INFO blockmanagement.BlockManager: dfs.namenode.startup.delay.block.deletion.sec is set to 000:00:00:00.000
+21/05/21 11:11:26 INFO blockmanagement.BlockManager: The block deletion will start around 2021 May 21 11:11:26
+21/05/21 11:11:26 INFO util.GSet: Computing capacity for map BlocksMap
+21/05/21 11:11:26 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:26 INFO util.GSet: 2.0% max memory 3.5 GB = 71.0 MB
+21/05/21 11:11:26 INFO util.GSet: capacity      = 2^23 = 8388608 entries
+21/05/21 11:11:26 INFO blockmanagement.BlockManager: dfs.block.access.token.enable=false
+21/05/21 11:11:26 INFO blockmanagement.BlockManager: defaultReplication         = 1
+21/05/21 11:11:26 INFO blockmanagement.BlockManager: maxReplication             = 512
+21/05/21 11:11:26 INFO blockmanagement.BlockManager: minReplication             = 1
+21/05/21 11:11:26 INFO blockmanagement.BlockManager: maxReplicationStreams      = 2
+21/05/21 11:11:26 INFO blockmanagement.BlockManager: shouldCheckForEnoughRacks  = false
+21/05/21 11:11:26 INFO blockmanagement.BlockManager: replicationRecheckInterval = 3000
+21/05/21 11:11:26 INFO blockmanagement.BlockManager: encryptDataTransfer        = false
+21/05/21 11:11:26 INFO blockmanagement.BlockManager: maxNumBlocksToLog          = 1000
+21/05/21 11:11:26 INFO namenode.FSNamesystem: fsOwner             = jhe16 (auth:SIMPLE)
+21/05/21 11:11:26 INFO namenode.FSNamesystem: supergroup          = supergroup
+21/05/21 11:11:26 INFO namenode.FSNamesystem: isPermissionEnabled = true
+21/05/21 11:11:26 INFO namenode.FSNamesystem: HA Enabled: false
+21/05/21 11:11:26 INFO namenode.FSNamesystem: Append Enabled: true
+21/05/21 11:11:26 INFO util.GSet: Computing capacity for map INodeMap
+21/05/21 11:11:26 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:26 INFO util.GSet: 1.0% max memory 3.5 GB = 35.5 MB
+21/05/21 11:11:26 INFO util.GSet: capacity      = 2^22 = 4194304 entries
+21/05/21 11:11:26 INFO namenode.FSDirectory: ACLs enabled? false
+21/05/21 11:11:26 INFO namenode.FSDirectory: XAttrs enabled? true
+21/05/21 11:11:26 INFO namenode.FSDirectory: Maximum size of an xattr: 16384
+21/05/21 11:11:26 INFO namenode.NameNode: Caching file names occuring more than 10 times
+21/05/21 11:11:26 INFO util.GSet: Computing capacity for map cachedBlocks
+21/05/21 11:11:26 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:26 INFO util.GSet: 0.25% max memory 3.5 GB = 8.9 MB
+21/05/21 11:11:26 INFO util.GSet: capacity      = 2^20 = 1048576 entries
+21/05/21 11:11:26 INFO namenode.FSNamesystem: dfs.namenode.safemode.threshold-pct = 0.9990000128746033
+21/05/21 11:11:26 INFO namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+21/05/21 11:11:26 INFO namenode.FSNamesystem: dfs.namenode.safemode.extension     = 0
+21/05/21 11:11:26 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.window.num.buckets = 10
+21/05/21 11:11:26 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.num.users = 10
+21/05/21 11:11:26 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.windows.minutes = 1,5,25
+21/05/21 11:11:26 INFO namenode.FSNamesystem: Retry cache on namenode is enabled
+21/05/21 11:11:26 INFO namenode.FSNamesystem: Retry cache will use 0.03 of total heap and retry cache entry expiry time is 600000 millis
+21/05/21 11:11:26 INFO util.GSet: Computing capacity for map NameNodeRetryCache
+21/05/21 11:11:26 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:26 INFO util.GSet: 0.029999999329447746% max memory 3.5 GB = 1.1 MB
+21/05/21 11:11:26 INFO util.GSet: capacity      = 2^17 = 131072 entries
+21/05/21 11:11:26 INFO namenode.FSImage: Allocated new BlockPoolId: BP-1354636447-127.0.1.1-1621609886731
+21/05/21 11:11:26 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1 has been successfully formatted.
+21/05/21 11:11:26 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2 has been successfully formatted.
+21/05/21 11:11:27 INFO namenode.NNStorageRetentionManager: Going to retain 1 images with txid >= 0
+21/05/21 11:11:27 INFO namenode.NameNode: createNameNode []
+21/05/21 11:11:27 INFO impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+21/05/21 11:11:27 INFO impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+21/05/21 11:11:27 INFO impl.MetricsSystemImpl: NameNode metrics system started
+21/05/21 11:11:27 INFO namenode.NameNode: fs.defaultFS is hdfs://127.0.0.1:0
+21/05/21 11:11:27 INFO hdfs.DFSUtil: Starting Web-server for hdfs at: http://localhost:0
+21/05/21 11:11:27 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+21/05/21 11:11:27 INFO server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+21/05/21 11:11:27 INFO http.HttpRequestLog: Http request log for http.requests.namenode is not defined
+21/05/21 11:11:27 INFO http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+21/05/21 11:11:27 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context hdfs
+21/05/21 11:11:27 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/05/21 11:11:27 INFO http.HttpServer2: Added filter 'org.apache.hadoop.hdfs.web.AuthFilter' (class=org.apache.hadoop.hdfs.web.AuthFilter)
+21/05/21 11:11:27 INFO http.HttpServer2: addJerseyResourcePackage: packageName=org.apache.hadoop.hdfs.server.namenode.web.resources;org.apache.hadoop.hdfs.web.resources, pathSpec=/webhdfs/v1/*
+21/05/21 11:11:27 INFO http.HttpServer2: Jetty bound to port 35993
+21/05/21 11:11:27 INFO mortbay.log: jetty-6.1.26
+21/05/21 11:11:27 INFO mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:35993
+21/05/21 11:11:27 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/05/21 11:11:27 INFO namenode.FSNamesystem: No KeyProvider found.
+21/05/21 11:11:27 INFO namenode.FSNamesystem: fsLock is fair:true
+21/05/21 11:11:27 INFO blockmanagement.DatanodeManager: dfs.block.invalidate.limit=1000
+21/05/21 11:11:27 INFO blockmanagement.DatanodeManager: dfs.namenode.datanode.registration.ip-hostname-check=true
+21/05/21 11:11:27 INFO blockmanagement.BlockManager: dfs.namenode.startup.delay.block.deletion.sec is set to 000:00:00:00.000
+21/05/21 11:11:27 INFO blockmanagement.BlockManager: The block deletion will start around 2021 May 21 11:11:27
+21/05/21 11:11:27 INFO util.GSet: Computing capacity for map BlocksMap
+21/05/21 11:11:27 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:27 INFO util.GSet: 2.0% max memory 3.5 GB = 71.0 MB
+21/05/21 11:11:27 INFO util.GSet: capacity      = 2^23 = 8388608 entries
+21/05/21 11:11:27 INFO blockmanagement.BlockManager: dfs.block.access.token.enable=false
+21/05/21 11:11:27 INFO blockmanagement.BlockManager: defaultReplication         = 1
+21/05/21 11:11:27 INFO blockmanagement.BlockManager: maxReplication             = 512
+21/05/21 11:11:27 INFO blockmanagement.BlockManager: minReplication             = 1
+21/05/21 11:11:27 INFO blockmanagement.BlockManager: maxReplicationStreams      = 2
+21/05/21 11:11:27 INFO blockmanagement.BlockManager: shouldCheckForEnoughRacks  = false
+21/05/21 11:11:27 INFO blockmanagement.BlockManager: replicationRecheckInterval = 3000
+21/05/21 11:11:27 INFO blockmanagement.BlockManager: encryptDataTransfer        = false
+21/05/21 11:11:27 INFO blockmanagement.BlockManager: maxNumBlocksToLog          = 1000
+21/05/21 11:11:27 INFO namenode.FSNamesystem: fsOwner             = jhe16 (auth:SIMPLE)
+21/05/21 11:11:27 INFO namenode.FSNamesystem: supergroup          = supergroup
+21/05/21 11:11:27 INFO namenode.FSNamesystem: isPermissionEnabled = true
+21/05/21 11:11:27 INFO namenode.FSNamesystem: HA Enabled: false
+21/05/21 11:11:27 INFO namenode.FSNamesystem: Append Enabled: true
+21/05/21 11:11:27 INFO util.GSet: Computing capacity for map INodeMap
+21/05/21 11:11:27 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:27 INFO util.GSet: 1.0% max memory 3.5 GB = 35.5 MB
+21/05/21 11:11:27 INFO util.GSet: capacity      = 2^22 = 4194304 entries
+21/05/21 11:11:27 INFO namenode.FSDirectory: ACLs enabled? false
+21/05/21 11:11:27 INFO namenode.FSDirectory: XAttrs enabled? true
+21/05/21 11:11:27 INFO namenode.FSDirectory: Maximum size of an xattr: 16384
+21/05/21 11:11:27 INFO namenode.NameNode: Caching file names occuring more than 10 times
+21/05/21 11:11:27 INFO util.GSet: Computing capacity for map cachedBlocks
+21/05/21 11:11:27 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:27 INFO util.GSet: 0.25% max memory 3.5 GB = 8.9 MB
+21/05/21 11:11:27 INFO util.GSet: capacity      = 2^20 = 1048576 entries
+21/05/21 11:11:27 INFO namenode.FSNamesystem: dfs.namenode.safemode.threshold-pct = 0.9990000128746033
+21/05/21 11:11:27 INFO namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+21/05/21 11:11:27 INFO namenode.FSNamesystem: dfs.namenode.safemode.extension     = 0
+21/05/21 11:11:27 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.window.num.buckets = 10
+21/05/21 11:11:27 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.num.users = 10
+21/05/21 11:11:27 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.windows.minutes = 1,5,25
+21/05/21 11:11:27 INFO namenode.FSNamesystem: Retry cache on namenode is enabled
+21/05/21 11:11:27 INFO namenode.FSNamesystem: Retry cache will use 0.03 of total heap and retry cache entry expiry time is 600000 millis
+21/05/21 11:11:27 INFO util.GSet: Computing capacity for map NameNodeRetryCache
+21/05/21 11:11:27 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:27 INFO util.GSet: 0.029999999329447746% max memory 3.5 GB = 1.1 MB
+21/05/21 11:11:27 INFO util.GSet: capacity      = 2^17 = 131072 entries
+21/05/21 11:11:27 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/in_use.lock acquired by nodename 30005@santaclara
+21/05/21 11:11:27 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2/in_use.lock acquired by nodename 30005@santaclara
+21/05/21 11:11:27 INFO namenode.FileJournalManager: Recovering unfinalized segments in /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/current
+21/05/21 11:11:27 INFO namenode.FileJournalManager: Recovering unfinalized segments in /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2/current
+21/05/21 11:11:27 INFO namenode.FSImage: No edit log streams selected.
+21/05/21 11:11:27 INFO namenode.FSImageFormatPBINode: Loading 1 INodes.
+21/05/21 11:11:27 INFO namenode.FSImageFormatProtobuf: Loaded FSImage in 0 seconds.
+21/05/21 11:11:27 INFO namenode.FSImage: Loaded image for txid 0 from /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/current/fsimage_0000000000000000000
+21/05/21 11:11:27 INFO namenode.FSNamesystem: Need to save fs image? false (staleImage=false, haEnabled=false, isRollingUpgrade=false)
+21/05/21 11:11:27 INFO namenode.FSEditLog: Starting log segment at 1
+21/05/21 11:11:27 INFO namenode.NameCache: initialized with 0 entries 0 lookups
+21/05/21 11:11:27 INFO namenode.FSNamesystem: Finished loading FSImage in 262 msecs
+21/05/21 11:11:27 INFO namenode.NameNode: RPC server is binding to localhost:0
+21/05/21 11:11:27 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/05/21 11:11:27 INFO ipc.Server: Starting Socket Reader #1 for port 38649
+21/05/21 11:11:27 INFO namenode.NameNode: Clients are to use localhost:38649 to access this namenode/service.
+21/05/21 11:11:27 INFO namenode.FSNamesystem: Registered FSNamesystemState MBean
+21/05/21 11:11:27 INFO namenode.LeaseManager: Number of blocks under construction: 0
+21/05/21 11:11:27 INFO namenode.LeaseManager: Number of blocks under construction: 0
+21/05/21 11:11:27 INFO namenode.FSNamesystem: initializing replication queues
+21/05/21 11:11:27 INFO hdfs.StateChange: STATE* Leaving safe mode after 0 secs
+21/05/21 11:11:27 INFO hdfs.StateChange: STATE* Network topology has 0 racks and 0 datanodes
+21/05/21 11:11:27 INFO hdfs.StateChange: STATE* UnderReplicatedBlocks has 0 blocks
+21/05/21 11:11:27 INFO blockmanagement.DatanodeDescriptor: Number of failed storage changes from 0 to 0
+21/05/21 11:11:27 INFO blockmanagement.BlockManager: Total number of blocks            = 0
+21/05/21 11:11:27 INFO blockmanagement.BlockManager: Number of invalid blocks          = 0
+21/05/21 11:11:27 INFO blockmanagement.BlockManager: Number of under-replicated blocks = 0
+21/05/21 11:11:27 INFO blockmanagement.BlockManager: Number of  over-replicated blocks = 0
+21/05/21 11:11:27 INFO blockmanagement.BlockManager: Number of blocks being written    = 0
+21/05/21 11:11:27 INFO hdfs.StateChange: STATE* Replication Queue initialization scan for invalid, over- and under-replicated blocks completed in 5 msec
+21/05/21 11:11:27 INFO ipc.Server: IPC Server Responder: starting
+21/05/21 11:11:27 INFO ipc.Server: IPC Server listener on 38649: starting
+21/05/21 11:11:27 INFO namenode.NameNode: NameNode RPC up at: localhost/127.0.0.1:38649
+21/05/21 11:11:27 INFO namenode.FSNamesystem: Starting services required for active state
+21/05/21 11:11:27 INFO blockmanagement.CacheReplicationMonitor: Starting CacheReplicationMonitor with interval 30000 milliseconds
+21/05/21 11:11:27 INFO hdfs.MiniDFSCluster: Starting DataNode 0 with dfs.datanode.data.dir: [DISK]file:/home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1,[DISK]file:/home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2
+21/05/21 11:11:27 INFO impl.MetricsSystemImpl: DataNode metrics system started (again)
+21/05/21 11:11:27 INFO datanode.BlockScanner: Disabled block scanner.
+21/05/21 11:11:27 INFO datanode.DataNode: Configured hostname is 127.0.0.1
+21/05/21 11:11:27 INFO datanode.DataNode: Starting DataNode with maxLockedMemory = 0
+21/05/21 11:11:27 INFO datanode.DataNode: Opened streaming server at /127.0.0.1:40069
+21/05/21 11:11:28 INFO datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+21/05/21 11:11:28 INFO datanode.DataNode: Number threads for balancing is 5
+21/05/21 11:11:28 INFO server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+21/05/21 11:11:28 INFO http.HttpRequestLog: Http request log for http.requests.datanode is not defined
+21/05/21 11:11:28 INFO http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+21/05/21 11:11:28 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context datanode
+21/05/21 11:11:28 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/05/21 11:11:28 INFO http.HttpServer2: Jetty bound to port 45235
+21/05/21 11:11:28 INFO mortbay.log: jetty-6.1.26
+21/05/21 11:11:28 INFO mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:45235
+21/05/21 11:11:28 INFO web.DatanodeHttpServer: Listening HTTP traffic on /127.0.0.1:35103
+21/05/21 11:11:28 INFO datanode.DataNode: dnUserName = jhe16
+21/05/21 11:11:28 INFO datanode.DataNode: supergroup = supergroup
+21/05/21 11:11:28 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/05/21 11:11:28 INFO ipc.Server: Starting Socket Reader #1 for port 41237
+21/05/21 11:11:28 INFO datanode.DataNode: Opened IPC server at /127.0.0.1:41237
+21/05/21 11:11:28 INFO datanode.DataNode: Refresh request received for nameservices: null
+21/05/21 11:11:28 INFO datanode.DataNode: Starting BPOfferServices for nameservices: <default>
+21/05/21 11:11:28 INFO datanode.DataNode: Block pool <registering> (Datanode Uuid unassigned) service to localhost/127.0.0.1:38649 starting to offer service
+21/05/21 11:11:28 INFO ipc.Server: IPC Server Responder: starting
+21/05/21 11:11:28 INFO ipc.Server: IPC Server listener on 41237: starting
+21/05/21 11:11:28 WARN security.ShellBasedUnixGroupsMapping: got exception trying to get groups for user jhe16: id: cannot find name for group ID 1000842239
+id: cannot find name for group ID 1000359299
+
+21/05/21 11:11:28 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:28 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/in_use.lock acquired by nodename 30005@santaclara
+21/05/21 11:11:28 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1 is not formatted for BP-1354636447-127.0.1.1-1621609886731
+21/05/21 11:11:28 INFO common.Storage: Formatting ...
+21/05/21 11:11:28 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:28 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:28 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:28 INFO common.Storage: Analyzing storage directories for bpid BP-1354636447-127.0.1.1-1621609886731
+21/05/21 11:11:28 INFO common.Storage: Locking is disabled for /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current/BP-1354636447-127.0.1.1-1621609886731
+21/05/21 11:11:28 INFO common.Storage: Block pool storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current/BP-1354636447-127.0.1.1-1621609886731 is not formatted for BP-1354636447-127.0.1.1-1621609886731
+21/05/21 11:11:28 INFO common.Storage: Formatting ...
+21/05/21 11:11:28 INFO common.Storage: Formatting block pool BP-1354636447-127.0.1.1-1621609886731 directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current/BP-1354636447-127.0.1.1-1621609886731/current
+21/05/21 11:11:28 INFO common.Storage: Restored 0 block files from trash.
+21/05/21 11:11:28 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:28 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:28 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:28 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:28 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:28 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:28 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/in_use.lock acquired by nodename 30005@santaclara
+21/05/21 11:11:28 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2 is not formatted for BP-1354636447-127.0.1.1-1621609886731
+21/05/21 11:11:28 INFO common.Storage: Formatting ...
+21/05/21 11:11:28 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:28 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:28 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:28 INFO common.Storage: Analyzing storage directories for bpid BP-1354636447-127.0.1.1-1621609886731
+21/05/21 11:11:28 INFO common.Storage: Locking is disabled for /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current/BP-1354636447-127.0.1.1-1621609886731
+21/05/21 11:11:28 INFO common.Storage: Block pool storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current/BP-1354636447-127.0.1.1-1621609886731 is not formatted for BP-1354636447-127.0.1.1-1621609886731
+21/05/21 11:11:28 INFO common.Storage: Formatting ...
+21/05/21 11:11:28 INFO common.Storage: Formatting block pool BP-1354636447-127.0.1.1-1621609886731 directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current/BP-1354636447-127.0.1.1-1621609886731/current
+21/05/21 11:11:28 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:28 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:28 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:28 INFO common.Storage: Restored 0 block files from trash.
+21/05/21 11:11:28 INFO datanode.DataNode: Setting up storage: nsid=1818458716;bpid=BP-1354636447-127.0.1.1-1621609886731;lv=-56;nsInfo=lv=-63;cid=testClusterID;nsid=1818458716;c=0;bpid=BP-1354636447-127.0.1.1-1621609886731;dnuuid=null
+21/05/21 11:11:28 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:28 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:28 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:29 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:29 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:29 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:29 INFO datanode.DataNode: Generated and persisted new Datanode UUID 9ce2fe47-74c3-492b-bf98-e56dc0414e61
+21/05/21 11:11:29 INFO impl.FsDatasetImpl: Added new volume: DS-f36d6bb7-0dd8-4c2c-946e-89cafff12fdb
+21/05/21 11:11:29 INFO impl.FsDatasetImpl: Added volume - /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current, StorageType: DISK
+21/05/21 11:11:29 INFO impl.FsDatasetImpl: Added new volume: DS-2b09081a-6a4e-42b2-8e52-6d2fe5a1462c
+21/05/21 11:11:29 INFO impl.FsDatasetImpl: Added volume - /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current, StorageType: DISK
+21/05/21 11:11:29 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:29 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:29 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:29 INFO impl.FsDatasetImpl: Registered FSDatasetState MBean
+21/05/21 11:11:29 INFO datanode.DirectoryScanner: Periodic Directory Tree Verification scan starting at 1621618575162 with interval 21600000
+21/05/21 11:11:29 INFO impl.FsDatasetImpl: Adding block pool BP-1354636447-127.0.1.1-1621609886731
+21/05/21 11:11:29 INFO impl.FsDatasetImpl: Scanning block pool BP-1354636447-127.0.1.1-1621609886731 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current...
+21/05/21 11:11:29 INFO impl.FsDatasetImpl: Scanning block pool BP-1354636447-127.0.1.1-1621609886731 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current...
+21/05/21 11:11:29 INFO impl.FsDatasetImpl: Time taken to scan block pool BP-1354636447-127.0.1.1-1621609886731 on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current: 6ms
+21/05/21 11:11:29 INFO impl.FsDatasetImpl: Time taken to scan block pool BP-1354636447-127.0.1.1-1621609886731 on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current: 6ms
+21/05/21 11:11:29 INFO impl.FsDatasetImpl: Total time to scan all replicas for block pool BP-1354636447-127.0.1.1-1621609886731: 8ms
+21/05/21 11:11:29 INFO impl.FsDatasetImpl: Adding replicas to map for block pool BP-1354636447-127.0.1.1-1621609886731 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current...
+21/05/21 11:11:29 INFO impl.FsDatasetImpl: Adding replicas to map for block pool BP-1354636447-127.0.1.1-1621609886731 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current...
+21/05/21 11:11:29 INFO impl.FsDatasetImpl: Time to add replicas to map for block pool BP-1354636447-127.0.1.1-1621609886731 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current: 0ms
+21/05/21 11:11:29 INFO impl.FsDatasetImpl: Time to add replicas to map for block pool BP-1354636447-127.0.1.1-1621609886731 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current: 0ms
+21/05/21 11:11:29 INFO impl.FsDatasetImpl: Total time to add all replicas to map: 0ms
+21/05/21 11:11:29 INFO datanode.DataNode: Block pool BP-1354636447-127.0.1.1-1621609886731 (Datanode Uuid null) service to localhost/127.0.0.1:38649 beginning handshake with NN
+21/05/21 11:11:29 INFO hdfs.StateChange: BLOCK* registerDatanode: from DatanodeRegistration(127.0.0.1:40069, datanodeUuid=9ce2fe47-74c3-492b-bf98-e56dc0414e61, infoPort=35103, infoSecurePort=0, ipcPort=41237, storageInfo=lv=-56;cid=testClusterID;nsid=1818458716;c=0) storage 9ce2fe47-74c3-492b-bf98-e56dc0414e61
+21/05/21 11:11:29 INFO blockmanagement.DatanodeDescriptor: Number of failed storage changes from 0 to 0
+21/05/21 11:11:29 INFO net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:40069
+21/05/21 11:11:29 INFO datanode.DataNode: Block pool Block pool BP-1354636447-127.0.1.1-1621609886731 (Datanode Uuid null) service to localhost/127.0.0.1:38649 successfully registered with NN
+21/05/21 11:11:29 INFO datanode.DataNode: For namenode localhost/127.0.0.1:38649 using DELETEREPORT_INTERVAL of 300000 msec  BLOCKREPORT_INTERVAL of 21600000msec CACHEREPORT_INTERVAL of 10000msec Initial delay: 0msec; heartBeatInterval=3000
+21/05/21 11:11:29 INFO blockmanagement.DatanodeDescriptor: Number of failed storage changes from 0 to 0
+21/05/21 11:11:29 INFO blockmanagement.DatanodeDescriptor: Adding new storage ID DS-f36d6bb7-0dd8-4c2c-946e-89cafff12fdb for DN 127.0.0.1:40069
+21/05/21 11:11:29 INFO blockmanagement.DatanodeDescriptor: Adding new storage ID DS-2b09081a-6a4e-42b2-8e52-6d2fe5a1462c for DN 127.0.0.1:40069
+21/05/21 11:11:29 INFO datanode.DataNode: Namenode Block pool BP-1354636447-127.0.1.1-1621609886731 (Datanode Uuid 9ce2fe47-74c3-492b-bf98-e56dc0414e61) service to localhost/127.0.0.1:38649 trying to claim ACTIVE state with txid=1
+21/05/21 11:11:29 INFO datanode.DataNode: Acknowledging ACTIVE Namenode Block pool BP-1354636447-127.0.1.1-1621609886731 (Datanode Uuid 9ce2fe47-74c3-492b-bf98-e56dc0414e61) service to localhost/127.0.0.1:38649
+21/05/21 11:11:29 INFO BlockStateChange: BLOCK* processReport: from storage DS-2b09081a-6a4e-42b2-8e52-6d2fe5a1462c node DatanodeRegistration(127.0.0.1:40069, datanodeUuid=9ce2fe47-74c3-492b-bf98-e56dc0414e61, infoPort=35103, infoSecurePort=0, ipcPort=41237, storageInfo=lv=-56;cid=testClusterID;nsid=1818458716;c=0), blocks: 0, hasStaleStorage: true, processing time: 0 msecs
+21/05/21 11:11:29 INFO BlockStateChange: BLOCK* processReport: from storage DS-f36d6bb7-0dd8-4c2c-946e-89cafff12fdb node DatanodeRegistration(127.0.0.1:40069, datanodeUuid=9ce2fe47-74c3-492b-bf98-e56dc0414e61, infoPort=35103, infoSecurePort=0, ipcPort=41237, storageInfo=lv=-56;cid=testClusterID;nsid=1818458716;c=0), blocks: 0, hasStaleStorage: false, processing time: 0 msecs
+21/05/21 11:11:29 INFO datanode.DataNode: Successfully sent block report 0xd5a8dad87ef4,  containing 2 storage report(s), of which we sent 2. The reports had 0 total blocks and used 1 RPC(s). This took 2 msec to generate and 19 msecs for RPC and NN processing. Got back one command: FinalizeCommand/5.
+21/05/21 11:11:29 INFO datanode.DataNode: Got finalize command for block pool BP-1354636447-127.0.1.1-1621609886731
+21/05/21 11:11:29 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:29 INFO hdfs.MiniDFSCluster: Cluster is active
+21/05/21 11:11:29 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:29 INFO hdfs.MiniDFSCluster: Cluster is active
+21/05/21 11:11:31 INFO hdfs.MiniDFSCluster: Shutting down the Mini HDFS Cluster
+21/05/21 11:11:31 INFO hdfs.MiniDFSCluster: Shutting down DataNode 0
+21/05/21 11:11:31 WARN datanode.DirectoryScanner: DirectoryScanner: shutdown has been called
+21/05/21 11:11:31 INFO datanode.DataNode: Closing all peers.
+21/05/21 11:11:31 INFO mortbay.log: Stopped HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:0
+21/05/21 11:11:31 INFO ipc.Server: Stopping server on 41237
+21/05/21 11:11:31 INFO ipc.Server: Stopping IPC Server listener on 41237
+21/05/21 11:11:31 INFO ipc.Server: Stopping IPC Server Responder
+21/05/21 11:11:31 WARN datanode.DataNode: BPOfferService for Block pool BP-1354636447-127.0.1.1-1621609886731 (Datanode Uuid 9ce2fe47-74c3-492b-bf98-e56dc0414e61) service to localhost/127.0.0.1:38649 interrupted
+21/05/21 11:11:31 WARN datanode.DataNode: Ending block pool service for: Block pool BP-1354636447-127.0.1.1-1621609886731 (Datanode Uuid 9ce2fe47-74c3-492b-bf98-e56dc0414e61) service to localhost/127.0.0.1:38649
+21/05/21 11:11:31 INFO datanode.DataNode: Removed Block pool BP-1354636447-127.0.1.1-1621609886731 (Datanode Uuid 9ce2fe47-74c3-492b-bf98-e56dc0414e61)
+21/05/21 11:11:31 INFO impl.FsDatasetImpl: Removing block pool BP-1354636447-127.0.1.1-1621609886731
+21/05/21 11:11:31 INFO impl.FsDatasetImpl: LazyWriter was interrupted, exiting
+21/05/21 11:11:31 INFO impl.FsDatasetAsyncDiskService: Shutting down all async disk service threads
+21/05/21 11:11:31 INFO impl.FsDatasetAsyncDiskService: All async disk service threads have been shut down
+21/05/21 11:11:31 INFO impl.RamDiskAsyncLazyPersistService: Shutting down all async lazy persist service threads
+21/05/21 11:11:31 INFO impl.RamDiskAsyncLazyPersistService: All async lazy persist service threads have been shut down
+21/05/21 11:11:31 INFO datanode.DataNode: Shutdown complete.
+21/05/21 11:11:31 INFO namenode.FSNamesystem: Stopping services started for active state
+21/05/21 11:11:31 INFO namenode.FSEditLog: Ending log segment 1
+21/05/21 11:11:31 INFO namenode.FSNamesystem: LazyPersistFileScrubber was interrupted, exiting
+21/05/21 11:11:31 INFO namenode.FSEditLog: Number of transactions: 2 Total time for transactions(ms): 1 Number of transactions batched in Syncs: 0 Number of syncs: 3 SyncTimes(ms): 1 0 
+21/05/21 11:11:31 INFO namenode.FSNamesystem: NameNodeEditLogRoller was interrupted, exiting
+21/05/21 11:11:31 INFO namenode.FileJournalManager: Finalizing edits file /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/current/edits_inprogress_0000000000000000001 -> /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/current/edits_0000000000000000001-0000000000000000002
+21/05/21 11:11:31 INFO namenode.FileJournalManager: Finalizing edits file /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2/current/edits_inprogress_0000000000000000001 -> /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2/current/edits_0000000000000000001-0000000000000000002
+21/05/21 11:11:31 INFO ipc.Server: Stopping server on 38649
+21/05/21 11:11:31 INFO ipc.Server: Stopping IPC Server listener on 38649
+21/05/21 11:11:31 INFO ipc.Server: Stopping IPC Server Responder
+21/05/21 11:11:31 INFO blockmanagement.BlockManager: Stopping ReplicationMonitor.
+21/05/21 11:11:31 INFO namenode.FSNamesystem: Stopping services started for active state
+21/05/21 11:11:31 INFO namenode.FSNamesystem: Stopping services started for standby state
+21/05/21 11:11:31 INFO mortbay.log: Stopped HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:0
+21/05/21 11:11:31 INFO impl.MetricsSystemImpl: Stopping DataNode metrics system...
+21/05/21 11:11:31 INFO impl.MetricsSystemImpl: DataNode metrics system stopped.
+21/05/21 11:11:31 INFO impl.MetricsSystemImpl: DataNode metrics system shutdown complete.
+20..
+21/05/21 11:11:42 INFO hdfs.MiniDFSCluster: starting cluster: numNameNodes=1, numDataNodes=1
+21/05/21 11:11:42 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Formatting using clusterid: testClusterID
+21/05/21 11:11:42 INFO namenode.FSNamesystem: No KeyProvider found.
+21/05/21 11:11:42 INFO namenode.FSNamesystem: fsLock is fair:true
+21/05/21 11:11:42 INFO Configuration.deprecation: hadoop.configured.node.mapping is deprecated. Instead, use net.topology.configured.node.mapping
+21/05/21 11:11:42 INFO blockmanagement.DatanodeManager: dfs.block.invalidate.limit=1000
+21/05/21 11:11:42 INFO blockmanagement.DatanodeManager: dfs.namenode.datanode.registration.ip-hostname-check=true
+21/05/21 11:11:42 INFO blockmanagement.BlockManager: dfs.namenode.startup.delay.block.deletion.sec is set to 000:00:00:00.000
+21/05/21 11:11:42 INFO blockmanagement.BlockManager: The block deletion will start around 2021 May 21 11:11:42
+21/05/21 11:11:42 INFO util.GSet: Computing capacity for map BlocksMap
+21/05/21 11:11:42 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:42 INFO util.GSet: 2.0% max memory 3.5 GB = 71.0 MB
+21/05/21 11:11:42 INFO util.GSet: capacity      = 2^23 = 8388608 entries
+21/05/21 11:11:42 INFO blockmanagement.BlockManager: dfs.block.access.token.enable=false
+21/05/21 11:11:42 INFO blockmanagement.BlockManager: defaultReplication         = 1
+21/05/21 11:11:42 INFO blockmanagement.BlockManager: maxReplication             = 512
+21/05/21 11:11:42 INFO blockmanagement.BlockManager: minReplication             = 1
+21/05/21 11:11:42 INFO blockmanagement.BlockManager: maxReplicationStreams      = 2
+21/05/21 11:11:42 INFO blockmanagement.BlockManager: shouldCheckForEnoughRacks  = false
+21/05/21 11:11:42 INFO blockmanagement.BlockManager: replicationRecheckInterval = 3000
+21/05/21 11:11:42 INFO blockmanagement.BlockManager: encryptDataTransfer        = false
+21/05/21 11:11:42 INFO blockmanagement.BlockManager: maxNumBlocksToLog          = 1000
+21/05/21 11:11:42 INFO namenode.FSNamesystem: fsOwner             = jhe16 (auth:SIMPLE)
+21/05/21 11:11:42 INFO namenode.FSNamesystem: supergroup          = supergroup
+21/05/21 11:11:42 INFO namenode.FSNamesystem: isPermissionEnabled = true
+21/05/21 11:11:42 INFO namenode.FSNamesystem: HA Enabled: false
+21/05/21 11:11:42 INFO namenode.FSNamesystem: Append Enabled: true
+21/05/21 11:11:42 INFO util.GSet: Computing capacity for map INodeMap
+21/05/21 11:11:42 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:42 INFO util.GSet: 1.0% max memory 3.5 GB = 35.5 MB
+21/05/21 11:11:42 INFO util.GSet: capacity      = 2^22 = 4194304 entries
+21/05/21 11:11:42 INFO namenode.FSDirectory: ACLs enabled? false
+21/05/21 11:11:42 INFO namenode.FSDirectory: XAttrs enabled? true
+21/05/21 11:11:42 INFO namenode.FSDirectory: Maximum size of an xattr: 16384
+21/05/21 11:11:42 INFO namenode.NameNode: Caching file names occuring more than 10 times
+21/05/21 11:11:42 INFO util.GSet: Computing capacity for map cachedBlocks
+21/05/21 11:11:42 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:42 INFO util.GSet: 0.25% max memory 3.5 GB = 8.9 MB
+21/05/21 11:11:42 INFO util.GSet: capacity      = 2^20 = 1048576 entries
+21/05/21 11:11:42 INFO namenode.FSNamesystem: dfs.namenode.safemode.threshold-pct = 0.9990000128746033
+21/05/21 11:11:42 INFO namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+21/05/21 11:11:42 INFO namenode.FSNamesystem: dfs.namenode.safemode.extension     = 0
+21/05/21 11:11:42 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.window.num.buckets = 10
+21/05/21 11:11:42 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.num.users = 10
+21/05/21 11:11:42 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.windows.minutes = 1,5,25
+21/05/21 11:11:42 INFO namenode.FSNamesystem: Retry cache on namenode is enabled
+21/05/21 11:11:42 INFO namenode.FSNamesystem: Retry cache will use 0.03 of total heap and retry cache entry expiry time is 600000 millis
+21/05/21 11:11:42 INFO util.GSet: Computing capacity for map NameNodeRetryCache
+21/05/21 11:11:42 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:42 INFO util.GSet: 0.029999999329447746% max memory 3.5 GB = 1.1 MB
+21/05/21 11:11:42 INFO util.GSet: capacity      = 2^17 = 131072 entries
+21/05/21 11:11:42 INFO namenode.FSImage: Allocated new BlockPoolId: BP-1700516583-127.0.1.1-1621609902836
+21/05/21 11:11:42 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1 has been successfully formatted.
+21/05/21 11:11:43 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2 has been successfully formatted.
+21/05/21 11:11:43 INFO namenode.NNStorageRetentionManager: Going to retain 1 images with txid >= 0
+21/05/21 11:11:43 INFO namenode.NameNode: createNameNode []
+21/05/21 11:11:43 INFO impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+21/05/21 11:11:43 INFO impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+21/05/21 11:11:43 INFO impl.MetricsSystemImpl: NameNode metrics system started
+21/05/21 11:11:43 INFO namenode.NameNode: fs.defaultFS is hdfs://127.0.0.1:0
+21/05/21 11:11:43 INFO hdfs.DFSUtil: Starting Web-server for hdfs at: http://localhost:0
+21/05/21 11:11:43 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+21/05/21 11:11:43 INFO server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+21/05/21 11:11:43 INFO http.HttpRequestLog: Http request log for http.requests.namenode is not defined
+21/05/21 11:11:43 INFO http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+21/05/21 11:11:43 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context hdfs
+21/05/21 11:11:43 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/05/21 11:11:43 INFO http.HttpServer2: Added filter 'org.apache.hadoop.hdfs.web.AuthFilter' (class=org.apache.hadoop.hdfs.web.AuthFilter)
+21/05/21 11:11:43 INFO http.HttpServer2: addJerseyResourcePackage: packageName=org.apache.hadoop.hdfs.server.namenode.web.resources;org.apache.hadoop.hdfs.web.resources, pathSpec=/webhdfs/v1/*
+21/05/21 11:11:43 INFO http.HttpServer2: Jetty bound to port 44729
+21/05/21 11:11:43 INFO mortbay.log: jetty-6.1.26
+21/05/21 11:11:43 INFO mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:44729
+21/05/21 11:11:43 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/05/21 11:11:43 INFO namenode.FSNamesystem: No KeyProvider found.
+21/05/21 11:11:43 INFO namenode.FSNamesystem: fsLock is fair:true
+21/05/21 11:11:43 INFO blockmanagement.DatanodeManager: dfs.block.invalidate.limit=1000
+21/05/21 11:11:43 INFO blockmanagement.DatanodeManager: dfs.namenode.datanode.registration.ip-hostname-check=true
+21/05/21 11:11:43 INFO blockmanagement.BlockManager: dfs.namenode.startup.delay.block.deletion.sec is set to 000:00:00:00.000
+21/05/21 11:11:43 INFO blockmanagement.BlockManager: The block deletion will start around 2021 May 21 11:11:43
+21/05/21 11:11:43 INFO util.GSet: Computing capacity for map BlocksMap
+21/05/21 11:11:43 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:43 INFO util.GSet: 2.0% max memory 3.5 GB = 71.0 MB
+21/05/21 11:11:43 INFO util.GSet: capacity      = 2^23 = 8388608 entries
+21/05/21 11:11:43 INFO blockmanagement.BlockManager: dfs.block.access.token.enable=false
+21/05/21 11:11:43 INFO blockmanagement.BlockManager: defaultReplication         = 1
+21/05/21 11:11:43 INFO blockmanagement.BlockManager: maxReplication             = 512
+21/05/21 11:11:43 INFO blockmanagement.BlockManager: minReplication             = 1
+21/05/21 11:11:43 INFO blockmanagement.BlockManager: maxReplicationStreams      = 2
+21/05/21 11:11:43 INFO blockmanagement.BlockManager: shouldCheckForEnoughRacks  = false
+21/05/21 11:11:43 INFO blockmanagement.BlockManager: replicationRecheckInterval = 3000
+21/05/21 11:11:43 INFO blockmanagement.BlockManager: encryptDataTransfer        = false
+21/05/21 11:11:43 INFO blockmanagement.BlockManager: maxNumBlocksToLog          = 1000
+21/05/21 11:11:43 INFO namenode.FSNamesystem: fsOwner             = jhe16 (auth:SIMPLE)
+21/05/21 11:11:43 INFO namenode.FSNamesystem: supergroup          = supergroup
+21/05/21 11:11:43 INFO namenode.FSNamesystem: isPermissionEnabled = true
+21/05/21 11:11:43 INFO namenode.FSNamesystem: HA Enabled: false
+21/05/21 11:11:43 INFO namenode.FSNamesystem: Append Enabled: true
+21/05/21 11:11:43 INFO util.GSet: Computing capacity for map INodeMap
+21/05/21 11:11:43 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:43 INFO util.GSet: 1.0% max memory 3.5 GB = 35.5 MB
+21/05/21 11:11:43 INFO util.GSet: capacity      = 2^22 = 4194304 entries
+21/05/21 11:11:43 INFO namenode.FSDirectory: ACLs enabled? false
+21/05/21 11:11:43 INFO namenode.FSDirectory: XAttrs enabled? true
+21/05/21 11:11:43 INFO namenode.FSDirectory: Maximum size of an xattr: 16384
+21/05/21 11:11:43 INFO namenode.NameNode: Caching file names occuring more than 10 times
+21/05/21 11:11:43 INFO util.GSet: Computing capacity for map cachedBlocks
+21/05/21 11:11:43 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:43 INFO util.GSet: 0.25% max memory 3.5 GB = 8.9 MB
+21/05/21 11:11:43 INFO util.GSet: capacity      = 2^20 = 1048576 entries
+21/05/21 11:11:43 INFO namenode.FSNamesystem: dfs.namenode.safemode.threshold-pct = 0.9990000128746033
+21/05/21 11:11:43 INFO namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+21/05/21 11:11:43 INFO namenode.FSNamesystem: dfs.namenode.safemode.extension     = 0
+21/05/21 11:11:43 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.window.num.buckets = 10
+21/05/21 11:11:43 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.num.users = 10
+21/05/21 11:11:43 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.windows.minutes = 1,5,25
+21/05/21 11:11:43 INFO namenode.FSNamesystem: Retry cache on namenode is enabled
+21/05/21 11:11:43 INFO namenode.FSNamesystem: Retry cache will use 0.03 of total heap and retry cache entry expiry time is 600000 millis
+21/05/21 11:11:43 INFO util.GSet: Computing capacity for map NameNodeRetryCache
+21/05/21 11:11:43 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:43 INFO util.GSet: 0.029999999329447746% max memory 3.5 GB = 1.1 MB
+21/05/21 11:11:43 INFO util.GSet: capacity      = 2^17 = 131072 entries
+21/05/21 11:11:43 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/in_use.lock acquired by nodename 30158@santaclara
+21/05/21 11:11:43 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2/in_use.lock acquired by nodename 30158@santaclara
+21/05/21 11:11:43 INFO namenode.FileJournalManager: Recovering unfinalized segments in /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/current
+21/05/21 11:11:43 INFO namenode.FileJournalManager: Recovering unfinalized segments in /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2/current
+21/05/21 11:11:43 INFO namenode.FSImage: No edit log streams selected.
+21/05/21 11:11:43 INFO namenode.FSImageFormatPBINode: Loading 1 INodes.
+21/05/21 11:11:43 INFO namenode.FSImageFormatProtobuf: Loaded FSImage in 0 seconds.
+21/05/21 11:11:43 INFO namenode.FSImage: Loaded image for txid 0 from /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/current/fsimage_0000000000000000000
+21/05/21 11:11:43 INFO namenode.FSNamesystem: Need to save fs image? false (staleImage=false, haEnabled=false, isRollingUpgrade=false)
+21/05/21 11:11:43 INFO namenode.FSEditLog: Starting log segment at 1
+21/05/21 11:11:43 INFO namenode.NameCache: initialized with 0 entries 0 lookups
+21/05/21 11:11:43 INFO namenode.FSNamesystem: Finished loading FSImage in 229 msecs
+21/05/21 11:11:43 INFO namenode.NameNode: RPC server is binding to localhost:0
+21/05/21 11:11:43 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/05/21 11:11:43 INFO ipc.Server: Starting Socket Reader #1 for port 38977
+21/05/21 11:11:43 INFO namenode.NameNode: Clients are to use localhost:38977 to access this namenode/service.
+21/05/21 11:11:43 INFO namenode.FSNamesystem: Registered FSNamesystemState MBean
+21/05/21 11:11:43 INFO namenode.LeaseManager: Number of blocks under construction: 0
+21/05/21 11:11:43 INFO namenode.LeaseManager: Number of blocks under construction: 0
+21/05/21 11:11:43 INFO namenode.FSNamesystem: initializing replication queues
+21/05/21 11:11:43 INFO hdfs.StateChange: STATE* Leaving safe mode after 0 secs
+21/05/21 11:11:43 INFO hdfs.StateChange: STATE* Network topology has 0 racks and 0 datanodes
+21/05/21 11:11:43 INFO hdfs.StateChange: STATE* UnderReplicatedBlocks has 0 blocks
+21/05/21 11:11:43 INFO blockmanagement.DatanodeDescriptor: Number of failed storage changes from 0 to 0
+21/05/21 11:11:43 INFO blockmanagement.BlockManager: Total number of blocks            = 0
+21/05/21 11:11:43 INFO blockmanagement.BlockManager: Number of invalid blocks          = 0
+21/05/21 11:11:43 INFO blockmanagement.BlockManager: Number of under-replicated blocks = 0
+21/05/21 11:11:43 INFO blockmanagement.BlockManager: Number of  over-replicated blocks = 0
+21/05/21 11:11:43 INFO blockmanagement.BlockManager: Number of blocks being written    = 0
+21/05/21 11:11:43 INFO hdfs.StateChange: STATE* Replication Queue initialization scan for invalid, over- and under-replicated blocks completed in 8 msec
+21/05/21 11:11:43 INFO ipc.Server: IPC Server listener on 38977: starting
+21/05/21 11:11:43 INFO ipc.Server: IPC Server Responder: starting
+21/05/21 11:11:43 INFO namenode.NameNode: NameNode RPC up at: localhost/127.0.0.1:38977
+21/05/21 11:11:43 INFO namenode.FSNamesystem: Starting services required for active state
+21/05/21 11:11:43 INFO blockmanagement.CacheReplicationMonitor: Starting CacheReplicationMonitor with interval 30000 milliseconds
+21/05/21 11:11:43 INFO hdfs.MiniDFSCluster: Starting DataNode 0 with dfs.datanode.data.dir: [DISK]file:/home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1,[DISK]file:/home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2
+21/05/21 11:11:44 INFO impl.MetricsSystemImpl: DataNode metrics system started (again)
+21/05/21 11:11:44 INFO datanode.BlockScanner: Disabled block scanner.
+21/05/21 11:11:44 INFO datanode.DataNode: Configured hostname is 127.0.0.1
+21/05/21 11:11:44 INFO datanode.DataNode: Starting DataNode with maxLockedMemory = 0
+21/05/21 11:11:44 INFO datanode.DataNode: Opened streaming server at /127.0.0.1:39551
+21/05/21 11:11:44 INFO datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+21/05/21 11:11:44 INFO datanode.DataNode: Number threads for balancing is 5
+21/05/21 11:11:44 INFO server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+21/05/21 11:11:44 INFO http.HttpRequestLog: Http request log for http.requests.datanode is not defined
+21/05/21 11:11:44 INFO http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+21/05/21 11:11:44 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context datanode
+21/05/21 11:11:44 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/05/21 11:11:44 INFO http.HttpServer2: Jetty bound to port 40463
+21/05/21 11:11:44 INFO mortbay.log: jetty-6.1.26
+21/05/21 11:11:44 INFO mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:40463
+21/05/21 11:11:44 INFO web.DatanodeHttpServer: Listening HTTP traffic on /127.0.0.1:40153
+21/05/21 11:11:44 INFO datanode.DataNode: dnUserName = jhe16
+21/05/21 11:11:44 INFO datanode.DataNode: supergroup = supergroup
+21/05/21 11:11:44 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/05/21 11:11:44 INFO ipc.Server: Starting Socket Reader #1 for port 40973
+21/05/21 11:11:44 INFO datanode.DataNode: Opened IPC server at /127.0.0.1:40973
+21/05/21 11:11:44 INFO datanode.DataNode: Refresh request received for nameservices: null
+21/05/21 11:11:44 INFO datanode.DataNode: Starting BPOfferServices for nameservices: <default>
+21/05/21 11:11:44 INFO datanode.DataNode: Block pool <registering> (Datanode Uuid unassigned) service to localhost/127.0.0.1:38977 starting to offer service
+21/05/21 11:11:44 INFO ipc.Server: IPC Server listener on 40973: starting
+21/05/21 11:11:44 INFO ipc.Server: IPC Server Responder: starting
+21/05/21 11:11:44 WARN security.ShellBasedUnixGroupsMapping: got exception trying to get groups for user jhe16: id: cannot find name for group ID 1000842239
+id: cannot find name for group ID 1000359299
+
+21/05/21 11:11:44 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:44 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/in_use.lock acquired by nodename 30158@santaclara
+21/05/21 11:11:44 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1 is not formatted for BP-1700516583-127.0.1.1-1621609902836
+21/05/21 11:11:44 INFO common.Storage: Formatting ...
+21/05/21 11:11:44 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:44 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:44 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:44 INFO common.Storage: Analyzing storage directories for bpid BP-1700516583-127.0.1.1-1621609902836
+21/05/21 11:11:44 INFO common.Storage: Locking is disabled for /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current/BP-1700516583-127.0.1.1-1621609902836
+21/05/21 11:11:44 INFO common.Storage: Block pool storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current/BP-1700516583-127.0.1.1-1621609902836 is not formatted for BP-1700516583-127.0.1.1-1621609902836
+21/05/21 11:11:44 INFO common.Storage: Formatting ...
+21/05/21 11:11:44 INFO common.Storage: Formatting block pool BP-1700516583-127.0.1.1-1621609902836 directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current/BP-1700516583-127.0.1.1-1621609902836/current
+21/05/21 11:11:44 INFO common.Storage: Restored 0 block files from trash.
+21/05/21 11:11:44 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:44 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:44 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:44 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/in_use.lock acquired by nodename 30158@santaclara
+21/05/21 11:11:44 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2 is not formatted for BP-1700516583-127.0.1.1-1621609902836
+21/05/21 11:11:44 INFO common.Storage: Formatting ...
+21/05/21 11:11:44 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:44 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:44 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:44 INFO common.Storage: Analyzing storage directories for bpid BP-1700516583-127.0.1.1-1621609902836
+21/05/21 11:11:44 INFO common.Storage: Locking is disabled for /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current/BP-1700516583-127.0.1.1-1621609902836
+21/05/21 11:11:44 INFO common.Storage: Block pool storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current/BP-1700516583-127.0.1.1-1621609902836 is not formatted for BP-1700516583-127.0.1.1-1621609902836
+21/05/21 11:11:44 INFO common.Storage: Formatting ...
+21/05/21 11:11:44 INFO common.Storage: Formatting block pool BP-1700516583-127.0.1.1-1621609902836 directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current/BP-1700516583-127.0.1.1-1621609902836/current
+21/05/21 11:11:44 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:44 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:44 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:44 INFO common.Storage: Restored 0 block files from trash.
+21/05/21 11:11:44 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:44 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:44 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:44 INFO datanode.DataNode: Setting up storage: nsid=1556651324;bpid=BP-1700516583-127.0.1.1-1621609902836;lv=-56;nsInfo=lv=-63;cid=testClusterID;nsid=1556651324;c=0;bpid=BP-1700516583-127.0.1.1-1621609902836;dnuuid=null
+21/05/21 11:11:45 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:45 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:45 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:45 INFO datanode.DataNode: Generated and persisted new Datanode UUID d8b854c9-cacc-4edd-b7b8-ad10d1a952b4
+21/05/21 11:11:45 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:45 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:11:45 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:11:45 INFO impl.FsDatasetImpl: Added new volume: DS-b496ea51-9340-47cd-9fe6-9123342a7278
+21/05/21 11:11:45 INFO impl.FsDatasetImpl: Added volume - /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current, StorageType: DISK
+21/05/21 11:11:45 INFO impl.FsDatasetImpl: Added new volume: DS-5b2d96d1-73ed-43c7-a75c-f83256a746f1
+21/05/21 11:11:45 INFO impl.FsDatasetImpl: Added volume - /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current, StorageType: DISK
+21/05/21 11:11:45 INFO impl.FsDatasetImpl: Registered FSDatasetState MBean
+21/05/21 11:11:45 INFO datanode.DirectoryScanner: Periodic Directory Tree Verification scan starting at 1621628596163 with interval 21600000
+21/05/21 11:11:45 INFO impl.FsDatasetImpl: Adding block pool BP-1700516583-127.0.1.1-1621609902836
+21/05/21 11:11:45 INFO impl.FsDatasetImpl: Scanning block pool BP-1700516583-127.0.1.1-1621609902836 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current...
+21/05/21 11:11:45 INFO impl.FsDatasetImpl: Scanning block pool BP-1700516583-127.0.1.1-1621609902836 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current...
+21/05/21 11:11:45 INFO impl.FsDatasetImpl: Time taken to scan block pool BP-1700516583-127.0.1.1-1621609902836 on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current: 6ms
+21/05/21 11:11:45 INFO impl.FsDatasetImpl: Time taken to scan block pool BP-1700516583-127.0.1.1-1621609902836 on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current: 6ms
+21/05/21 11:11:45 INFO impl.FsDatasetImpl: Total time to scan all replicas for block pool BP-1700516583-127.0.1.1-1621609902836: 6ms
+21/05/21 11:11:45 INFO impl.FsDatasetImpl: Adding replicas to map for block pool BP-1700516583-127.0.1.1-1621609902836 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current...
+21/05/21 11:11:45 INFO impl.FsDatasetImpl: Adding replicas to map for block pool BP-1700516583-127.0.1.1-1621609902836 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current...
+21/05/21 11:11:45 INFO impl.FsDatasetImpl: Time to add replicas to map for block pool BP-1700516583-127.0.1.1-1621609902836 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current: 0ms
+21/05/21 11:11:45 INFO impl.FsDatasetImpl: Time to add replicas to map for block pool BP-1700516583-127.0.1.1-1621609902836 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current: 0ms
+21/05/21 11:11:45 INFO impl.FsDatasetImpl: Total time to add all replicas to map: 1ms
+21/05/21 11:11:45 INFO datanode.DataNode: Block pool BP-1700516583-127.0.1.1-1621609902836 (Datanode Uuid null) service to localhost/127.0.0.1:38977 beginning handshake with NN
+21/05/21 11:11:45 INFO hdfs.StateChange: BLOCK* registerDatanode: from DatanodeRegistration(127.0.0.1:39551, datanodeUuid=d8b854c9-cacc-4edd-b7b8-ad10d1a952b4, infoPort=40153, infoSecurePort=0, ipcPort=40973, storageInfo=lv=-56;cid=testClusterID;nsid=1556651324;c=0) storage d8b854c9-cacc-4edd-b7b8-ad10d1a952b4
+21/05/21 11:11:45 INFO blockmanagement.DatanodeDescriptor: Number of failed storage changes from 0 to 0
+21/05/21 11:11:45 INFO net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:39551
+21/05/21 11:11:45 INFO datanode.DataNode: Block pool Block pool BP-1700516583-127.0.1.1-1621609902836 (Datanode Uuid null) service to localhost/127.0.0.1:38977 successfully registered with NN
+21/05/21 11:11:45 INFO datanode.DataNode: For namenode localhost/127.0.0.1:38977 using DELETEREPORT_INTERVAL of 300000 msec  BLOCKREPORT_INTERVAL of 21600000msec CACHEREPORT_INTERVAL of 10000msec Initial delay: 0msec; heartBeatInterval=3000
+21/05/21 11:11:45 INFO blockmanagement.DatanodeDescriptor: Number of failed storage changes from 0 to 0
+21/05/21 11:11:45 INFO blockmanagement.DatanodeDescriptor: Adding new storage ID DS-b496ea51-9340-47cd-9fe6-9123342a7278 for DN 127.0.0.1:39551
+21/05/21 11:11:45 INFO blockmanagement.DatanodeDescriptor: Adding new storage ID DS-5b2d96d1-73ed-43c7-a75c-f83256a746f1 for DN 127.0.0.1:39551
+21/05/21 11:11:45 INFO datanode.DataNode: Namenode Block pool BP-1700516583-127.0.1.1-1621609902836 (Datanode Uuid d8b854c9-cacc-4edd-b7b8-ad10d1a952b4) service to localhost/127.0.0.1:38977 trying to claim ACTIVE state with txid=1
+21/05/21 11:11:45 INFO datanode.DataNode: Acknowledging ACTIVE Namenode Block pool BP-1700516583-127.0.1.1-1621609902836 (Datanode Uuid d8b854c9-cacc-4edd-b7b8-ad10d1a952b4) service to localhost/127.0.0.1:38977
+21/05/21 11:11:45 INFO BlockStateChange: BLOCK* processReport: from storage DS-b496ea51-9340-47cd-9fe6-9123342a7278 node DatanodeRegistration(127.0.0.1:39551, datanodeUuid=d8b854c9-cacc-4edd-b7b8-ad10d1a952b4, infoPort=40153, infoSecurePort=0, ipcPort=40973, storageInfo=lv=-56;cid=testClusterID;nsid=1556651324;c=0), blocks: 0, hasStaleStorage: true, processing time: 1 msecs
+21/05/21 11:11:45 INFO BlockStateChange: BLOCK* processReport: from storage DS-5b2d96d1-73ed-43c7-a75c-f83256a746f1 node DatanodeRegistration(127.0.0.1:39551, datanodeUuid=d8b854c9-cacc-4edd-b7b8-ad10d1a952b4, infoPort=40153, infoSecurePort=0, ipcPort=40973, storageInfo=lv=-56;cid=testClusterID;nsid=1556651324;c=0), blocks: 0, hasStaleStorage: false, processing time: 0 msecs
+21/05/21 11:11:45 INFO datanode.DataNode: Successfully sent block report 0xd5ac9494287f,  containing 2 storage report(s), of which we sent 2. The reports had 0 total blocks and used 1 RPC(s). This took 3 msec to generate and 28 msecs for RPC and NN processing. Got back one command: FinalizeCommand/5.
+21/05/21 11:11:45 INFO datanode.DataNode: Got finalize command for block pool BP-1700516583-127.0.1.1-1621609902836
+21/05/21 11:11:45 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:45 INFO hdfs.MiniDFSCluster: Cluster is active
+21/05/21 11:11:45 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:11:45 INFO hdfs.MiniDFSCluster: Cluster is active
+21/05/21 11:11:47 INFO hdfs.MiniDFSCluster: Shutting down the Mini HDFS Cluster
+21/05/21 11:11:47 INFO hdfs.MiniDFSCluster: Shutting down DataNode 0
+21/05/21 11:11:47 WARN datanode.DirectoryScanner: DirectoryScanner: shutdown has been called
+21/05/21 11:11:47 INFO datanode.DataNode: Closing all peers.
+21/05/21 11:11:47 INFO mortbay.log: Stopped HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:0
+21/05/21 11:11:47 INFO ipc.Server: Stopping server on 40973
+21/05/21 11:11:47 INFO ipc.Server: Stopping IPC Server listener on 40973
+21/05/21 11:11:47 INFO ipc.Server: Stopping IPC Server Responder
+21/05/21 11:11:47 WARN datanode.DataNode: BPOfferService for Block pool BP-1700516583-127.0.1.1-1621609902836 (Datanode Uuid d8b854c9-cacc-4edd-b7b8-ad10d1a952b4) service to localhost/127.0.0.1:38977 interrupted
+21/05/21 11:11:47 WARN datanode.DataNode: Ending block pool service for: Block pool BP-1700516583-127.0.1.1-1621609902836 (Datanode Uuid d8b854c9-cacc-4edd-b7b8-ad10d1a952b4) service to localhost/127.0.0.1:38977
+21/05/21 11:11:47 INFO datanode.DataNode: Removed Block pool BP-1700516583-127.0.1.1-1621609902836 (Datanode Uuid d8b854c9-cacc-4edd-b7b8-ad10d1a952b4)
+21/05/21 11:11:47 INFO impl.FsDatasetImpl: Removing block pool BP-1700516583-127.0.1.1-1621609902836
+21/05/21 11:11:47 INFO impl.FsDatasetImpl: LazyWriter was interrupted, exiting
+21/05/21 11:11:47 INFO impl.FsDatasetAsyncDiskService: Shutting down all async disk service threads
+21/05/21 11:11:47 INFO impl.FsDatasetAsyncDiskService: All async disk service threads have been shut down
+21/05/21 11:11:47 INFO impl.RamDiskAsyncLazyPersistService: Shutting down all async lazy persist service threads
+21/05/21 11:11:47 INFO impl.RamDiskAsyncLazyPersistService: All async lazy persist service threads have been shut down
+21/05/21 11:11:47 INFO datanode.DataNode: Shutdown complete.
+21/05/21 11:11:47 INFO namenode.FSNamesystem: Stopping services started for active state
+21/05/21 11:11:47 INFO namenode.FSEditLog: Ending log segment 1
+21/05/21 11:11:47 INFO namenode.FSNamesystem: LazyPersistFileScrubber was interrupted, exiting
+21/05/21 11:11:47 INFO namenode.FSEditLog: Number of transactions: 2 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 3 SyncTimes(ms): 1 0 
+21/05/21 11:11:47 INFO namenode.FSNamesystem: NameNodeEditLogRoller was interrupted, exiting
+21/05/21 11:11:47 INFO namenode.FileJournalManager: Finalizing edits file /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/current/edits_inprogress_0000000000000000001 -> /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/current/edits_0000000000000000001-0000000000000000002
+21/05/21 11:11:47 INFO namenode.FileJournalManager: Finalizing edits file /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2/current/edits_inprogress_0000000000000000001 -> /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2/current/edits_0000000000000000001-0000000000000000002
+21/05/21 11:11:47 INFO ipc.Server: Stopping server on 38977
+21/05/21 11:11:47 INFO ipc.Server: Stopping IPC Server listener on 38977
+21/05/21 11:11:47 INFO ipc.Server: Stopping IPC Server Responder
+21/05/21 11:11:47 INFO blockmanagement.BlockManager: Stopping ReplicationMonitor.
+21/05/21 11:11:47 INFO namenode.FSNamesystem: Stopping services started for active state
+21/05/21 11:11:47 INFO namenode.FSNamesystem: Stopping services started for standby state
+21/05/21 11:11:47 INFO mortbay.log: Stopped HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:0
+21/05/21 11:11:47 INFO impl.MetricsSystemImpl: Stopping DataNode metrics system...
+21/05/21 11:11:47 INFO impl.MetricsSystemImpl: DataNode metrics system stopped.
+21/05/21 11:11:47 INFO impl.MetricsSystemImpl: DataNode metrics system shutdown complete.
+10..
+21/05/21 11:11:58 INFO hdfs.MiniDFSCluster: starting cluster: numNameNodes=1, numDataNodes=1
+21/05/21 11:11:58 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Formatting using clusterid: testClusterID
+21/05/21 11:11:58 INFO namenode.FSNamesystem: No KeyProvider found.
+21/05/21 11:11:58 INFO namenode.FSNamesystem: fsLock is fair:true
+21/05/21 11:11:58 INFO Configuration.deprecation: hadoop.configured.node.mapping is deprecated. Instead, use net.topology.configured.node.mapping
+21/05/21 11:11:58 INFO blockmanagement.DatanodeManager: dfs.block.invalidate.limit=1000
+21/05/21 11:11:58 INFO blockmanagement.DatanodeManager: dfs.namenode.datanode.registration.ip-hostname-check=true
+21/05/21 11:11:58 INFO blockmanagement.BlockManager: dfs.namenode.startup.delay.block.deletion.sec is set to 000:00:00:00.000
+21/05/21 11:11:58 INFO blockmanagement.BlockManager: The block deletion will start around 2021 May 21 11:11:58
+21/05/21 11:11:58 INFO util.GSet: Computing capacity for map BlocksMap
+21/05/21 11:11:58 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:58 INFO util.GSet: 2.0% max memory 3.5 GB = 71.0 MB
+21/05/21 11:11:58 INFO util.GSet: capacity      = 2^23 = 8388608 entries
+21/05/21 11:11:58 INFO blockmanagement.BlockManager: dfs.block.access.token.enable=false
+21/05/21 11:11:58 INFO blockmanagement.BlockManager: defaultReplication         = 1
+21/05/21 11:11:58 INFO blockmanagement.BlockManager: maxReplication             = 512
+21/05/21 11:11:58 INFO blockmanagement.BlockManager: minReplication             = 1
+21/05/21 11:11:58 INFO blockmanagement.BlockManager: maxReplicationStreams      = 2
+21/05/21 11:11:58 INFO blockmanagement.BlockManager: shouldCheckForEnoughRacks  = false
+21/05/21 11:11:58 INFO blockmanagement.BlockManager: replicationRecheckInterval = 3000
+21/05/21 11:11:58 INFO blockmanagement.BlockManager: encryptDataTransfer        = false
+21/05/21 11:11:58 INFO blockmanagement.BlockManager: maxNumBlocksToLog          = 1000
+21/05/21 11:11:58 INFO namenode.FSNamesystem: fsOwner             = jhe16 (auth:SIMPLE)
+21/05/21 11:11:58 INFO namenode.FSNamesystem: supergroup          = supergroup
+21/05/21 11:11:58 INFO namenode.FSNamesystem: isPermissionEnabled = true
+21/05/21 11:11:58 INFO namenode.FSNamesystem: HA Enabled: false
+21/05/21 11:11:58 INFO namenode.FSNamesystem: Append Enabled: true
+21/05/21 11:11:58 INFO util.GSet: Computing capacity for map INodeMap
+21/05/21 11:11:58 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:58 INFO util.GSet: 1.0% max memory 3.5 GB = 35.5 MB
+21/05/21 11:11:58 INFO util.GSet: capacity      = 2^22 = 4194304 entries
+21/05/21 11:11:58 INFO namenode.FSDirectory: ACLs enabled? false
+21/05/21 11:11:58 INFO namenode.FSDirectory: XAttrs enabled? true
+21/05/21 11:11:58 INFO namenode.FSDirectory: Maximum size of an xattr: 16384
+21/05/21 11:11:58 INFO namenode.NameNode: Caching file names occuring more than 10 times
+21/05/21 11:11:58 INFO util.GSet: Computing capacity for map cachedBlocks
+21/05/21 11:11:58 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:58 INFO util.GSet: 0.25% max memory 3.5 GB = 8.9 MB
+21/05/21 11:11:58 INFO util.GSet: capacity      = 2^20 = 1048576 entries
+21/05/21 11:11:58 INFO namenode.FSNamesystem: dfs.namenode.safemode.threshold-pct = 0.9990000128746033
+21/05/21 11:11:58 INFO namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+21/05/21 11:11:58 INFO namenode.FSNamesystem: dfs.namenode.safemode.extension     = 0
+21/05/21 11:11:58 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.window.num.buckets = 10
+21/05/21 11:11:58 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.num.users = 10
+21/05/21 11:11:58 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.windows.minutes = 1,5,25
+21/05/21 11:11:58 INFO namenode.FSNamesystem: Retry cache on namenode is enabled
+21/05/21 11:11:58 INFO namenode.FSNamesystem: Retry cache will use 0.03 of total heap and retry cache entry expiry time is 600000 millis
+21/05/21 11:11:58 INFO util.GSet: Computing capacity for map NameNodeRetryCache
+21/05/21 11:11:58 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:58 INFO util.GSet: 0.029999999329447746% max memory 3.5 GB = 1.1 MB
+21/05/21 11:11:58 INFO util.GSet: capacity      = 2^17 = 131072 entries
+21/05/21 11:11:58 INFO namenode.FSImage: Allocated new BlockPoolId: BP-1036060867-127.0.1.1-1621609918812
+21/05/21 11:11:58 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1 has been successfully formatted.
+21/05/21 11:11:59 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2 has been successfully formatted.
+21/05/21 11:11:59 INFO namenode.NNStorageRetentionManager: Going to retain 1 images with txid >= 0
+21/05/21 11:11:59 INFO namenode.NameNode: createNameNode []
+21/05/21 11:11:59 INFO impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+21/05/21 11:11:59 INFO impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+21/05/21 11:11:59 INFO impl.MetricsSystemImpl: NameNode metrics system started
+21/05/21 11:11:59 INFO namenode.NameNode: fs.defaultFS is hdfs://127.0.0.1:0
+21/05/21 11:11:59 INFO hdfs.DFSUtil: Starting Web-server for hdfs at: http://localhost:0
+21/05/21 11:11:59 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+21/05/21 11:11:59 INFO server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+21/05/21 11:11:59 INFO http.HttpRequestLog: Http request log for http.requests.namenode is not defined
+21/05/21 11:11:59 INFO http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+21/05/21 11:11:59 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context hdfs
+21/05/21 11:11:59 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/05/21 11:11:59 INFO http.HttpServer2: Added filter 'org.apache.hadoop.hdfs.web.AuthFilter' (class=org.apache.hadoop.hdfs.web.AuthFilter)
+21/05/21 11:11:59 INFO http.HttpServer2: addJerseyResourcePackage: packageName=org.apache.hadoop.hdfs.server.namenode.web.resources;org.apache.hadoop.hdfs.web.resources, pathSpec=/webhdfs/v1/*
+21/05/21 11:11:59 INFO http.HttpServer2: Jetty bound to port 36177
+21/05/21 11:11:59 INFO mortbay.log: jetty-6.1.26
+21/05/21 11:11:59 INFO mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:36177
+21/05/21 11:11:59 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/05/21 11:11:59 INFO namenode.FSNamesystem: No KeyProvider found.
+21/05/21 11:11:59 INFO namenode.FSNamesystem: fsLock is fair:true
+21/05/21 11:11:59 INFO blockmanagement.DatanodeManager: dfs.block.invalidate.limit=1000
+21/05/21 11:11:59 INFO blockmanagement.DatanodeManager: dfs.namenode.datanode.registration.ip-hostname-check=true
+21/05/21 11:11:59 INFO blockmanagement.BlockManager: dfs.namenode.startup.delay.block.deletion.sec is set to 000:00:00:00.000
+21/05/21 11:11:59 INFO blockmanagement.BlockManager: The block deletion will start around 2021 May 21 11:11:59
+21/05/21 11:11:59 INFO util.GSet: Computing capacity for map BlocksMap
+21/05/21 11:11:59 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:59 INFO util.GSet: 2.0% max memory 3.5 GB = 71.0 MB
+21/05/21 11:11:59 INFO util.GSet: capacity      = 2^23 = 8388608 entries
+21/05/21 11:11:59 INFO blockmanagement.BlockManager: dfs.block.access.token.enable=false
+21/05/21 11:11:59 INFO blockmanagement.BlockManager: defaultReplication         = 1
+21/05/21 11:11:59 INFO blockmanagement.BlockManager: maxReplication             = 512
+21/05/21 11:11:59 INFO blockmanagement.BlockManager: minReplication             = 1
+21/05/21 11:11:59 INFO blockmanagement.BlockManager: maxReplicationStreams      = 2
+21/05/21 11:11:59 INFO blockmanagement.BlockManager: shouldCheckForEnoughRacks  = false
+21/05/21 11:11:59 INFO blockmanagement.BlockManager: replicationRecheckInterval = 3000
+21/05/21 11:11:59 INFO blockmanagement.BlockManager: encryptDataTransfer        = false
+21/05/21 11:11:59 INFO blockmanagement.BlockManager: maxNumBlocksToLog          = 1000
+21/05/21 11:11:59 INFO namenode.FSNamesystem: fsOwner             = jhe16 (auth:SIMPLE)
+21/05/21 11:11:59 INFO namenode.FSNamesystem: supergroup          = supergroup
+21/05/21 11:11:59 INFO namenode.FSNamesystem: isPermissionEnabled = true
+21/05/21 11:11:59 INFO namenode.FSNamesystem: HA Enabled: false
+21/05/21 11:11:59 INFO namenode.FSNamesystem: Append Enabled: true
+21/05/21 11:11:59 INFO util.GSet: Computing capacity for map INodeMap
+21/05/21 11:11:59 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:59 INFO util.GSet: 1.0% max memory 3.5 GB = 35.5 MB
+21/05/21 11:11:59 INFO util.GSet: capacity      = 2^22 = 4194304 entries
+21/05/21 11:11:59 INFO namenode.FSDirectory: ACLs enabled? false
+21/05/21 11:11:59 INFO namenode.FSDirectory: XAttrs enabled? true
+21/05/21 11:11:59 INFO namenode.FSDirectory: Maximum size of an xattr: 16384
+21/05/21 11:11:59 INFO namenode.NameNode: Caching file names occuring more than 10 times
+21/05/21 11:11:59 INFO util.GSet: Computing capacity for map cachedBlocks
+21/05/21 11:11:59 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:59 INFO util.GSet: 0.25% max memory 3.5 GB = 8.9 MB
+21/05/21 11:11:59 INFO util.GSet: capacity      = 2^20 = 1048576 entries
+21/05/21 11:11:59 INFO namenode.FSNamesystem: dfs.namenode.safemode.threshold-pct = 0.9990000128746033
+21/05/21 11:11:59 INFO namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+21/05/21 11:11:59 INFO namenode.FSNamesystem: dfs.namenode.safemode.extension     = 0
+21/05/21 11:11:59 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.window.num.buckets = 10
+21/05/21 11:11:59 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.num.users = 10
+21/05/21 11:11:59 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.windows.minutes = 1,5,25
+21/05/21 11:11:59 INFO namenode.FSNamesystem: Retry cache on namenode is enabled
+21/05/21 11:11:59 INFO namenode.FSNamesystem: Retry cache will use 0.03 of total heap and retry cache entry expiry time is 600000 millis
+21/05/21 11:11:59 INFO util.GSet: Computing capacity for map NameNodeRetryCache
+21/05/21 11:11:59 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:11:59 INFO util.GSet: 0.029999999329447746% max memory 3.5 GB = 1.1 MB
+21/05/21 11:11:59 INFO util.GSet: capacity      = 2^17 = 131072 entries
+21/05/21 11:11:59 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/in_use.lock acquired by nodename 30310@santaclara
+21/05/21 11:11:59 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2/in_use.lock acquired by nodename 30310@santaclara
+21/05/21 11:11:59 INFO namenode.FileJournalManager: Recovering unfinalized segments in /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/current
+21/05/21 11:11:59 INFO namenode.FileJournalManager: Recovering unfinalized segments in /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2/current
+21/05/21 11:11:59 INFO namenode.FSImage: No edit log streams selected.
+21/05/21 11:11:59 INFO namenode.FSImageFormatPBINode: Loading 1 INodes.
+21/05/21 11:11:59 INFO namenode.FSImageFormatProtobuf: Loaded FSImage in 0 seconds.
+21/05/21 11:11:59 INFO namenode.FSImage: Loaded image for txid 0 from /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/current/fsimage_0000000000000000000
+21/05/21 11:11:59 INFO namenode.FSNamesystem: Need to save fs image? false (staleImage=false, haEnabled=false, isRollingUpgrade=false)
+21/05/21 11:11:59 INFO namenode.FSEditLog: Starting log segment at 1
+21/05/21 11:11:59 INFO namenode.NameCache: initialized with 0 entries 0 lookups
+21/05/21 11:11:59 INFO namenode.FSNamesystem: Finished loading FSImage in 260 msecs
+21/05/21 11:11:59 INFO namenode.NameNode: RPC server is binding to localhost:0
+21/05/21 11:11:59 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/05/21 11:11:59 INFO ipc.Server: Starting Socket Reader #1 for port 35931
+21/05/21 11:11:59 INFO namenode.NameNode: Clients are to use localhost:35931 to access this namenode/service.
+21/05/21 11:11:59 INFO namenode.FSNamesystem: Registered FSNamesystemState MBean
+21/05/21 11:12:00 INFO namenode.LeaseManager: Number of blocks under construction: 0
+21/05/21 11:12:00 INFO namenode.LeaseManager: Number of blocks under construction: 0
+21/05/21 11:12:00 INFO namenode.FSNamesystem: initializing replication queues
+21/05/21 11:12:00 INFO hdfs.StateChange: STATE* Leaving safe mode after 0 secs
+21/05/21 11:12:00 INFO hdfs.StateChange: STATE* Network topology has 0 racks and 0 datanodes
+21/05/21 11:12:00 INFO hdfs.StateChange: STATE* UnderReplicatedBlocks has 0 blocks
+21/05/21 11:12:00 INFO blockmanagement.DatanodeDescriptor: Number of failed storage changes from 0 to 0
+21/05/21 11:12:00 INFO blockmanagement.BlockManager: Total number of blocks            = 0
+21/05/21 11:12:00 INFO blockmanagement.BlockManager: Number of invalid blocks          = 0
+21/05/21 11:12:00 INFO blockmanagement.BlockManager: Number of under-replicated blocks = 0
+21/05/21 11:12:00 INFO blockmanagement.BlockManager: Number of  over-replicated blocks = 0
+21/05/21 11:12:00 INFO blockmanagement.BlockManager: Number of blocks being written    = 0
+21/05/21 11:12:00 INFO hdfs.StateChange: STATE* Replication Queue initialization scan for invalid, over- and under-replicated blocks completed in 10 msec
+21/05/21 11:12:00 INFO ipc.Server: IPC Server Responder: starting
+21/05/21 11:12:00 INFO ipc.Server: IPC Server listener on 35931: starting
+21/05/21 11:12:00 INFO namenode.NameNode: NameNode RPC up at: localhost/127.0.0.1:35931
+21/05/21 11:12:00 INFO namenode.FSNamesystem: Starting services required for active state
+21/05/21 11:12:00 INFO blockmanagement.CacheReplicationMonitor: Starting CacheReplicationMonitor with interval 30000 milliseconds
+21/05/21 11:12:00 INFO hdfs.MiniDFSCluster: Starting DataNode 0 with dfs.datanode.data.dir: [DISK]file:/home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1,[DISK]file:/home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2
+21/05/21 11:12:00 INFO impl.MetricsSystemImpl: DataNode metrics system started (again)
+21/05/21 11:12:00 INFO datanode.BlockScanner: Disabled block scanner.
+21/05/21 11:12:00 INFO datanode.DataNode: Configured hostname is 127.0.0.1
+21/05/21 11:12:00 INFO datanode.DataNode: Starting DataNode with maxLockedMemory = 0
+21/05/21 11:12:00 INFO datanode.DataNode: Opened streaming server at /127.0.0.1:36819
+21/05/21 11:12:00 INFO datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+21/05/21 11:12:00 INFO datanode.DataNode: Number threads for balancing is 5
+21/05/21 11:12:00 INFO server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+21/05/21 11:12:00 INFO http.HttpRequestLog: Http request log for http.requests.datanode is not defined
+21/05/21 11:12:00 INFO http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+21/05/21 11:12:00 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context datanode
+21/05/21 11:12:00 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/05/21 11:12:00 INFO http.HttpServer2: Jetty bound to port 46591
+21/05/21 11:12:00 INFO mortbay.log: jetty-6.1.26
+21/05/21 11:12:00 INFO mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:46591
+21/05/21 11:12:00 INFO web.DatanodeHttpServer: Listening HTTP traffic on /127.0.0.1:45203
+21/05/21 11:12:00 INFO datanode.DataNode: dnUserName = jhe16
+21/05/21 11:12:00 INFO datanode.DataNode: supergroup = supergroup
+21/05/21 11:12:00 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/05/21 11:12:00 INFO ipc.Server: Starting Socket Reader #1 for port 34591
+21/05/21 11:12:00 INFO datanode.DataNode: Opened IPC server at /127.0.0.1:34591
+21/05/21 11:12:00 INFO datanode.DataNode: Refresh request received for nameservices: null
+21/05/21 11:12:00 INFO datanode.DataNode: Starting BPOfferServices for nameservices: <default>
+21/05/21 11:12:00 INFO datanode.DataNode: Block pool <registering> (Datanode Uuid unassigned) service to localhost/127.0.0.1:35931 starting to offer service
+21/05/21 11:12:00 INFO ipc.Server: IPC Server Responder: starting
+21/05/21 11:12:00 INFO ipc.Server: IPC Server listener on 34591: starting
+21/05/21 11:12:00 WARN security.ShellBasedUnixGroupsMapping: got exception trying to get groups for user jhe16: id: cannot find name for group ID 1000842239
+id: cannot find name for group ID 1000359299
+
+21/05/21 11:12:00 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:12:00 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/in_use.lock acquired by nodename 30310@santaclara
+21/05/21 11:12:00 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1 is not formatted for BP-1036060867-127.0.1.1-1621609918812
+21/05/21 11:12:00 INFO common.Storage: Formatting ...
+21/05/21 11:12:00 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:12:00 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:12:00 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:12:00 INFO common.Storage: Analyzing storage directories for bpid BP-1036060867-127.0.1.1-1621609918812
+21/05/21 11:12:00 INFO common.Storage: Locking is disabled for /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current/BP-1036060867-127.0.1.1-1621609918812
+21/05/21 11:12:00 INFO common.Storage: Block pool storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current/BP-1036060867-127.0.1.1-1621609918812 is not formatted for BP-1036060867-127.0.1.1-1621609918812
+21/05/21 11:12:00 INFO common.Storage: Formatting ...
+21/05/21 11:12:00 INFO common.Storage: Formatting block pool BP-1036060867-127.0.1.1-1621609918812 directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current/BP-1036060867-127.0.1.1-1621609918812/current
+21/05/21 11:12:00 INFO common.Storage: Restored 0 block files from trash.
+21/05/21 11:12:00 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:12:00 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:12:00 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:12:00 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/in_use.lock acquired by nodename 30310@santaclara
+21/05/21 11:12:00 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2 is not formatted for BP-1036060867-127.0.1.1-1621609918812
+21/05/21 11:12:00 INFO common.Storage: Formatting ...
+21/05/21 11:12:00 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:12:00 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:12:00 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:12:00 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:12:00 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:12:00 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:12:00 INFO common.Storage: Analyzing storage directories for bpid BP-1036060867-127.0.1.1-1621609918812
+21/05/21 11:12:00 INFO common.Storage: Locking is disabled for /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current/BP-1036060867-127.0.1.1-1621609918812
+21/05/21 11:12:00 INFO common.Storage: Block pool storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current/BP-1036060867-127.0.1.1-1621609918812 is not formatted for BP-1036060867-127.0.1.1-1621609918812
+21/05/21 11:12:00 INFO common.Storage: Formatting ...
+21/05/21 11:12:00 INFO common.Storage: Formatting block pool BP-1036060867-127.0.1.1-1621609918812 directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current/BP-1036060867-127.0.1.1-1621609918812/current
+21/05/21 11:12:00 INFO common.Storage: Restored 0 block files from trash.
+21/05/21 11:12:00 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:12:00 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:12:00 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:12:00 INFO datanode.DataNode: Setting up storage: nsid=32423827;bpid=BP-1036060867-127.0.1.1-1621609918812;lv=-56;nsInfo=lv=-63;cid=testClusterID;nsid=32423827;c=0;bpid=BP-1036060867-127.0.1.1-1621609918812;dnuuid=null
+21/05/21 11:12:01 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:12:01 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:12:01 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:12:01 INFO datanode.DataNode: Generated and persisted new Datanode UUID 37c6a96e-ee27-4ae1-b20f-6fc706f410db
+21/05/21 11:12:01 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:12:01 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:12:01 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:12:01 INFO impl.FsDatasetImpl: Added new volume: DS-a1de3536-7e18-4d5c-99fb-5891ee13fb9c
+21/05/21 11:12:01 INFO impl.FsDatasetImpl: Added volume - /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current, StorageType: DISK
+21/05/21 11:12:01 INFO impl.FsDatasetImpl: Added new volume: DS-bebe625a-ae19-4613-b96e-63a3ccee782d
+21/05/21 11:12:01 INFO impl.FsDatasetImpl: Added volume - /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current, StorageType: DISK
+21/05/21 11:12:01 INFO impl.FsDatasetImpl: Registered FSDatasetState MBean
+21/05/21 11:12:01 INFO datanode.DirectoryScanner: Periodic Directory Tree Verification scan starting at 1621613738195 with interval 21600000
+21/05/21 11:12:01 INFO impl.FsDatasetImpl: Adding block pool BP-1036060867-127.0.1.1-1621609918812
+21/05/21 11:12:01 INFO impl.FsDatasetImpl: Scanning block pool BP-1036060867-127.0.1.1-1621609918812 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current...
+21/05/21 11:12:01 INFO impl.FsDatasetImpl: Scanning block pool BP-1036060867-127.0.1.1-1621609918812 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current...
+21/05/21 11:12:01 INFO impl.FsDatasetImpl: Time taken to scan block pool BP-1036060867-127.0.1.1-1621609918812 on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current: 6ms
+21/05/21 11:12:01 INFO impl.FsDatasetImpl: Time taken to scan block pool BP-1036060867-127.0.1.1-1621609918812 on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current: 6ms
+21/05/21 11:12:01 INFO impl.FsDatasetImpl: Total time to scan all replicas for block pool BP-1036060867-127.0.1.1-1621609918812: 7ms
+21/05/21 11:12:01 INFO impl.FsDatasetImpl: Adding replicas to map for block pool BP-1036060867-127.0.1.1-1621609918812 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current...
+21/05/21 11:12:01 INFO impl.FsDatasetImpl: Adding replicas to map for block pool BP-1036060867-127.0.1.1-1621609918812 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current...
+21/05/21 11:12:01 INFO impl.FsDatasetImpl: Time to add replicas to map for block pool BP-1036060867-127.0.1.1-1621609918812 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data1/current: 1ms
+21/05/21 11:12:01 INFO impl.FsDatasetImpl: Time to add replicas to map for block pool BP-1036060867-127.0.1.1-1621609918812 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/data/data2/current: 0ms
+21/05/21 11:12:01 INFO impl.FsDatasetImpl: Total time to add all replicas to map: 1ms
+21/05/21 11:12:01 INFO datanode.DataNode: Block pool BP-1036060867-127.0.1.1-1621609918812 (Datanode Uuid null) service to localhost/127.0.0.1:35931 beginning handshake with NN
+21/05/21 11:12:01 INFO hdfs.StateChange: BLOCK* registerDatanode: from DatanodeRegistration(127.0.0.1:36819, datanodeUuid=37c6a96e-ee27-4ae1-b20f-6fc706f410db, infoPort=45203, infoSecurePort=0, ipcPort=34591, storageInfo=lv=-56;cid=testClusterID;nsid=32423827;c=0) storage 37c6a96e-ee27-4ae1-b20f-6fc706f410db
+21/05/21 11:12:01 INFO blockmanagement.DatanodeDescriptor: Number of failed storage changes from 0 to 0
+21/05/21 11:12:01 INFO net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:36819
+21/05/21 11:12:01 INFO datanode.DataNode: Block pool Block pool BP-1036060867-127.0.1.1-1621609918812 (Datanode Uuid null) service to localhost/127.0.0.1:35931 successfully registered with NN
+21/05/21 11:12:01 INFO datanode.DataNode: For namenode localhost/127.0.0.1:35931 using DELETEREPORT_INTERVAL of 300000 msec  BLOCKREPORT_INTERVAL of 21600000msec CACHEREPORT_INTERVAL of 10000msec Initial delay: 0msec; heartBeatInterval=3000
+21/05/21 11:12:01 INFO blockmanagement.DatanodeDescriptor: Number of failed storage changes from 0 to 0
+21/05/21 11:12:01 INFO blockmanagement.DatanodeDescriptor: Adding new storage ID DS-a1de3536-7e18-4d5c-99fb-5891ee13fb9c for DN 127.0.0.1:36819
+21/05/21 11:12:01 INFO blockmanagement.DatanodeDescriptor: Adding new storage ID DS-bebe625a-ae19-4613-b96e-63a3ccee782d for DN 127.0.0.1:36819
+21/05/21 11:12:01 INFO datanode.DataNode: Namenode Block pool BP-1036060867-127.0.1.1-1621609918812 (Datanode Uuid 37c6a96e-ee27-4ae1-b20f-6fc706f410db) service to localhost/127.0.0.1:35931 trying to claim ACTIVE state with txid=1
+21/05/21 11:12:01 INFO datanode.DataNode: Acknowledging ACTIVE Namenode Block pool BP-1036060867-127.0.1.1-1621609918812 (Datanode Uuid 37c6a96e-ee27-4ae1-b20f-6fc706f410db) service to localhost/127.0.0.1:35931
+21/05/21 11:12:01 INFO BlockStateChange: BLOCK* processReport: from storage DS-bebe625a-ae19-4613-b96e-63a3ccee782d node DatanodeRegistration(127.0.0.1:36819, datanodeUuid=37c6a96e-ee27-4ae1-b20f-6fc706f410db, infoPort=45203, infoSecurePort=0, ipcPort=34591, storageInfo=lv=-56;cid=testClusterID;nsid=32423827;c=0), blocks: 0, hasStaleStorage: true, processing time: 1 msecs
+21/05/21 11:12:01 INFO BlockStateChange: BLOCK* processReport: from storage DS-a1de3536-7e18-4d5c-99fb-5891ee13fb9c node DatanodeRegistration(127.0.0.1:36819, datanodeUuid=37c6a96e-ee27-4ae1-b20f-6fc706f410db, infoPort=45203, infoSecurePort=0, ipcPort=34591, storageInfo=lv=-56;cid=testClusterID;nsid=32423827;c=0), blocks: 0, hasStaleStorage: false, processing time: 1 msecs
+21/05/21 11:12:01 INFO datanode.DataNode: Successfully sent block report 0xd5b05041aaf9,  containing 2 storage report(s), of which we sent 2. The reports had 0 total blocks and used 1 RPC(s). This took 3 msec to generate and 26 msecs for RPC and NN processing. Got back one command: FinalizeCommand/5.
+21/05/21 11:12:01 INFO datanode.DataNode: Got finalize command for block pool BP-1036060867-127.0.1.1-1621609918812
+21/05/21 11:12:01 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:12:01 INFO hdfs.MiniDFSCluster: Cluster is active
+21/05/21 11:12:01 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:12:01 INFO hdfs.MiniDFSCluster: Cluster is active
+21/05/21 11:12:03 INFO hdfs.MiniDFSCluster: Shutting down the Mini HDFS Cluster
+21/05/21 11:12:03 INFO hdfs.MiniDFSCluster: Shutting down DataNode 0
+21/05/21 11:12:03 WARN datanode.DirectoryScanner: DirectoryScanner: shutdown has been called
+21/05/21 11:12:03 INFO datanode.DataNode: Closing all peers.
+21/05/21 11:12:03 INFO mortbay.log: Stopped HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:0
+21/05/21 11:12:03 INFO ipc.Server: Stopping server on 34591
+21/05/21 11:12:03 INFO ipc.Server: Stopping IPC Server listener on 34591
+21/05/21 11:12:03 INFO ipc.Server: Stopping IPC Server Responder
+21/05/21 11:12:03 WARN datanode.DataNode: BPOfferService for Block pool BP-1036060867-127.0.1.1-1621609918812 (Datanode Uuid 37c6a96e-ee27-4ae1-b20f-6fc706f410db) service to localhost/127.0.0.1:35931 interrupted
+21/05/21 11:12:03 WARN datanode.DataNode: Ending block pool service for: Block pool BP-1036060867-127.0.1.1-1621609918812 (Datanode Uuid 37c6a96e-ee27-4ae1-b20f-6fc706f410db) service to localhost/127.0.0.1:35931
+21/05/21 11:12:03 INFO datanode.DataNode: Removed Block pool BP-1036060867-127.0.1.1-1621609918812 (Datanode Uuid 37c6a96e-ee27-4ae1-b20f-6fc706f410db)
+21/05/21 11:12:03 INFO impl.FsDatasetImpl: Removing block pool BP-1036060867-127.0.1.1-1621609918812
+21/05/21 11:12:03 INFO impl.FsDatasetImpl: LazyWriter was interrupted, exiting
+21/05/21 11:12:03 INFO impl.FsDatasetAsyncDiskService: Shutting down all async disk service threads
+21/05/21 11:12:03 INFO impl.FsDatasetAsyncDiskService: All async disk service threads have been shut down
+21/05/21 11:12:03 INFO impl.RamDiskAsyncLazyPersistService: Shutting down all async lazy persist service threads
+21/05/21 11:12:03 INFO impl.RamDiskAsyncLazyPersistService: All async lazy persist service threads have been shut down
+21/05/21 11:12:03 INFO datanode.DataNode: Shutdown complete.
+21/05/21 11:12:03 INFO namenode.FSNamesystem: Stopping services started for active state
+21/05/21 11:12:03 INFO namenode.FSEditLog: Ending log segment 1
+21/05/21 11:12:03 INFO namenode.FSNamesystem: LazyPersistFileScrubber was interrupted, exiting
+21/05/21 11:12:03 INFO namenode.FSEditLog: Number of transactions: 2 Total time for transactions(ms): 0 Number of transactions batched in Syncs: 0 Number of syncs: 3 SyncTimes(ms): 1 1 
+21/05/21 11:12:03 INFO namenode.FSNamesystem: NameNodeEditLogRoller was interrupted, exiting
+21/05/21 11:12:03 INFO namenode.FileJournalManager: Finalizing edits file /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/current/edits_inprogress_0000000000000000001 -> /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name1/current/edits_0000000000000000001-0000000000000000002
+21/05/21 11:12:03 INFO namenode.FileJournalManager: Finalizing edits file /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2/current/edits_inprogress_0000000000000000001 -> /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/normal/build/test/data/dfs/name2/current/edits_0000000000000000001-0000000000000000002
+21/05/21 11:12:03 INFO ipc.Server: Stopping server on 35931
+21/05/21 11:12:03 INFO ipc.Server: Stopping IPC Server Responder
+21/05/21 11:12:03 INFO ipc.Server: Stopping IPC Server listener on 35931
+21/05/21 11:12:03 INFO blockmanagement.BlockManager: Stopping ReplicationMonitor.
+21/05/21 11:12:03 INFO namenode.FSNamesystem: Stopping services started for active state
+21/05/21 11:12:03 INFO namenode.FSNamesystem: Stopping services started for standby state
+21/05/21 11:12:03 INFO mortbay.log: Stopped HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:0
+21/05/21 11:12:03 INFO impl.MetricsSystemImpl: Stopping DataNode metrics system...
+21/05/21 11:12:03 INFO impl.MetricsSystemImpl: DataNode metrics system stopped.
+21/05/21 11:12:03 INFO impl.MetricsSystemImpl: DataNode metrics system shutdown complete.
+bug trigger!!!
+Fri May 21 11:12:13 EDT 2021
+21/05/21 11:12:14 INFO hdfs.MiniDFSCluster: starting cluster: numNameNodes=1, numDataNodes=1
+21/05/21 11:12:14 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Formatting using clusterid: testClusterID
+21/05/21 11:12:14 INFO namenode.FSNamesystem: No KeyProvider found.
+21/05/21 11:12:14 INFO namenode.FSNamesystem: fsLock is fair:true
+21/05/21 11:12:14 INFO Configuration.deprecation: hadoop.configured.node.mapping is deprecated. Instead, use net.topology.configured.node.mapping
+21/05/21 11:12:14 INFO blockmanagement.DatanodeManager: dfs.block.invalidate.limit=1000
+21/05/21 11:12:14 INFO blockmanagement.DatanodeManager: dfs.namenode.datanode.registration.ip-hostname-check=true
+21/05/21 11:12:14 INFO blockmanagement.BlockManager: dfs.namenode.startup.delay.block.deletion.sec is set to 000:00:00:00.000
+21/05/21 11:12:14 INFO blockmanagement.BlockManager: The block deletion will start around 2021 May 21 11:12:14
+21/05/21 11:12:14 INFO util.GSet: Computing capacity for map BlocksMap
+21/05/21 11:12:14 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:12:14 INFO util.GSet: 2.0% max memory 3.5 GB = 71.0 MB
+21/05/21 11:12:14 INFO util.GSet: capacity      = 2^23 = 8388608 entries
+21/05/21 11:12:14 INFO blockmanagement.BlockManager: dfs.block.access.token.enable=false
+21/05/21 11:12:14 INFO blockmanagement.BlockManager: defaultReplication         = 1
+21/05/21 11:12:14 INFO blockmanagement.BlockManager: maxReplication             = 512
+21/05/21 11:12:14 INFO blockmanagement.BlockManager: minReplication             = 1
+21/05/21 11:12:14 INFO blockmanagement.BlockManager: maxReplicationStreams      = 2
+21/05/21 11:12:14 INFO blockmanagement.BlockManager: shouldCheckForEnoughRacks  = false
+21/05/21 11:12:14 INFO blockmanagement.BlockManager: replicationRecheckInterval = 3000
+21/05/21 11:12:14 INFO blockmanagement.BlockManager: encryptDataTransfer        = false
+21/05/21 11:12:14 INFO blockmanagement.BlockManager: maxNumBlocksToLog          = 1000
+21/05/21 11:12:14 INFO namenode.FSNamesystem: fsOwner             = jhe16 (auth:SIMPLE)
+21/05/21 11:12:14 INFO namenode.FSNamesystem: supergroup          = supergroup
+21/05/21 11:12:14 INFO namenode.FSNamesystem: isPermissionEnabled = true
+21/05/21 11:12:14 INFO namenode.FSNamesystem: HA Enabled: false
+21/05/21 11:12:14 INFO namenode.FSNamesystem: Append Enabled: true
+21/05/21 11:12:14 INFO util.GSet: Computing capacity for map INodeMap
+21/05/21 11:12:14 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:12:14 INFO util.GSet: 1.0% max memory 3.5 GB = 35.5 MB
+21/05/21 11:12:14 INFO util.GSet: capacity      = 2^22 = 4194304 entries
+21/05/21 11:12:14 INFO namenode.FSDirectory: ACLs enabled? false
+21/05/21 11:12:14 INFO namenode.FSDirectory: XAttrs enabled? true
+21/05/21 11:12:14 INFO namenode.FSDirectory: Maximum size of an xattr: 16384
+21/05/21 11:12:14 INFO namenode.NameNode: Caching file names occuring more than 10 times
+21/05/21 11:12:14 INFO util.GSet: Computing capacity for map cachedBlocks
+21/05/21 11:12:14 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:12:14 INFO util.GSet: 0.25% max memory 3.5 GB = 8.9 MB
+21/05/21 11:12:14 INFO util.GSet: capacity      = 2^20 = 1048576 entries
+21/05/21 11:12:14 INFO namenode.FSNamesystem: dfs.namenode.safemode.threshold-pct = 0.9990000128746033
+21/05/21 11:12:14 INFO namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+21/05/21 11:12:14 INFO namenode.FSNamesystem: dfs.namenode.safemode.extension     = 0
+21/05/21 11:12:14 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.window.num.buckets = 10
+21/05/21 11:12:14 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.num.users = 10
+21/05/21 11:12:14 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.windows.minutes = 1,5,25
+21/05/21 11:12:14 INFO namenode.FSNamesystem: Retry cache on namenode is enabled
+21/05/21 11:12:14 INFO namenode.FSNamesystem: Retry cache will use 0.03 of total heap and retry cache entry expiry time is 600000 millis
+21/05/21 11:12:14 INFO util.GSet: Computing capacity for map NameNodeRetryCache
+21/05/21 11:12:14 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:12:14 INFO util.GSet: 0.029999999329447746% max memory 3.5 GB = 1.1 MB
+21/05/21 11:12:14 INFO util.GSet: capacity      = 2^17 = 131072 entries
+21/05/21 11:12:14 INFO namenode.FSImage: Allocated new BlockPoolId: BP-1536471476-127.0.1.1-1621609934828
+21/05/21 11:12:14 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/name1 has been successfully formatted.
+21/05/21 11:12:15 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/name2 has been successfully formatted.
+21/05/21 11:12:15 INFO namenode.NNStorageRetentionManager: Going to retain 1 images with txid >= 0
+21/05/21 11:12:15 INFO namenode.NameNode: createNameNode []
+21/05/21 11:12:15 INFO impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+21/05/21 11:12:15 INFO impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+21/05/21 11:12:15 INFO impl.MetricsSystemImpl: NameNode metrics system started
+21/05/21 11:12:15 INFO namenode.NameNode: fs.defaultFS is hdfs://127.0.0.1:0
+21/05/21 11:12:15 INFO hdfs.DFSUtil: Starting Web-server for hdfs at: http://localhost:0
+21/05/21 11:12:15 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+21/05/21 11:12:15 INFO server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+21/05/21 11:12:15 INFO http.HttpRequestLog: Http request log for http.requests.namenode is not defined
+21/05/21 11:12:15 INFO http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+21/05/21 11:12:15 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context hdfs
+21/05/21 11:12:15 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/05/21 11:12:15 INFO http.HttpServer2: Added filter 'org.apache.hadoop.hdfs.web.AuthFilter' (class=org.apache.hadoop.hdfs.web.AuthFilter)
+21/05/21 11:12:15 INFO http.HttpServer2: addJerseyResourcePackage: packageName=org.apache.hadoop.hdfs.server.namenode.web.resources;org.apache.hadoop.hdfs.web.resources, pathSpec=/webhdfs/v1/*
+21/05/21 11:12:15 INFO http.HttpServer2: Jetty bound to port 45679
+21/05/21 11:12:15 INFO mortbay.log: jetty-6.1.26
+21/05/21 11:12:15 INFO mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:45679
+21/05/21 11:12:15 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/05/21 11:12:15 INFO namenode.FSNamesystem: No KeyProvider found.
+21/05/21 11:12:15 INFO namenode.FSNamesystem: fsLock is fair:true
+21/05/21 11:12:15 INFO blockmanagement.DatanodeManager: dfs.block.invalidate.limit=1000
+21/05/21 11:12:15 INFO blockmanagement.DatanodeManager: dfs.namenode.datanode.registration.ip-hostname-check=true
+21/05/21 11:12:15 INFO blockmanagement.BlockManager: dfs.namenode.startup.delay.block.deletion.sec is set to 000:00:00:00.000
+21/05/21 11:12:15 INFO blockmanagement.BlockManager: The block deletion will start around 2021 May 21 11:12:15
+21/05/21 11:12:15 INFO util.GSet: Computing capacity for map BlocksMap
+21/05/21 11:12:15 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:12:15 INFO util.GSet: 2.0% max memory 3.5 GB = 71.0 MB
+21/05/21 11:12:15 INFO util.GSet: capacity      = 2^23 = 8388608 entries
+21/05/21 11:12:15 INFO blockmanagement.BlockManager: dfs.block.access.token.enable=false
+21/05/21 11:12:15 INFO blockmanagement.BlockManager: defaultReplication         = 1
+21/05/21 11:12:15 INFO blockmanagement.BlockManager: maxReplication             = 512
+21/05/21 11:12:15 INFO blockmanagement.BlockManager: minReplication             = 1
+21/05/21 11:12:15 INFO blockmanagement.BlockManager: maxReplicationStreams      = 2
+21/05/21 11:12:15 INFO blockmanagement.BlockManager: shouldCheckForEnoughRacks  = false
+21/05/21 11:12:15 INFO blockmanagement.BlockManager: replicationRecheckInterval = 3000
+21/05/21 11:12:15 INFO blockmanagement.BlockManager: encryptDataTransfer        = false
+21/05/21 11:12:15 INFO blockmanagement.BlockManager: maxNumBlocksToLog          = 1000
+21/05/21 11:12:15 INFO namenode.FSNamesystem: fsOwner             = jhe16 (auth:SIMPLE)
+21/05/21 11:12:15 INFO namenode.FSNamesystem: supergroup          = supergroup
+21/05/21 11:12:15 INFO namenode.FSNamesystem: isPermissionEnabled = true
+21/05/21 11:12:15 INFO namenode.FSNamesystem: HA Enabled: false
+21/05/21 11:12:15 INFO namenode.FSNamesystem: Append Enabled: true
+21/05/21 11:12:15 INFO util.GSet: Computing capacity for map INodeMap
+21/05/21 11:12:15 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:12:15 INFO util.GSet: 1.0% max memory 3.5 GB = 35.5 MB
+21/05/21 11:12:15 INFO util.GSet: capacity      = 2^22 = 4194304 entries
+21/05/21 11:12:15 INFO namenode.FSDirectory: ACLs enabled? false
+21/05/21 11:12:15 INFO namenode.FSDirectory: XAttrs enabled? true
+21/05/21 11:12:15 INFO namenode.FSDirectory: Maximum size of an xattr: 16384
+21/05/21 11:12:15 INFO namenode.NameNode: Caching file names occuring more than 10 times
+21/05/21 11:12:15 INFO util.GSet: Computing capacity for map cachedBlocks
+21/05/21 11:12:15 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:12:15 INFO util.GSet: 0.25% max memory 3.5 GB = 8.9 MB
+21/05/21 11:12:15 INFO util.GSet: capacity      = 2^20 = 1048576 entries
+21/05/21 11:12:15 INFO namenode.FSNamesystem: dfs.namenode.safemode.threshold-pct = 0.9990000128746033
+21/05/21 11:12:15 INFO namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+21/05/21 11:12:15 INFO namenode.FSNamesystem: dfs.namenode.safemode.extension     = 0
+21/05/21 11:12:15 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.window.num.buckets = 10
+21/05/21 11:12:15 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.num.users = 10
+21/05/21 11:12:15 INFO metrics.TopMetrics: NNTop conf: dfs.namenode.top.windows.minutes = 1,5,25
+21/05/21 11:12:15 INFO namenode.FSNamesystem: Retry cache on namenode is enabled
+21/05/21 11:12:15 INFO namenode.FSNamesystem: Retry cache will use 0.03 of total heap and retry cache entry expiry time is 600000 millis
+21/05/21 11:12:15 INFO util.GSet: Computing capacity for map NameNodeRetryCache
+21/05/21 11:12:15 INFO util.GSet: VM type       = 64-bit
+21/05/21 11:12:15 INFO util.GSet: 0.029999999329447746% max memory 3.5 GB = 1.1 MB
+21/05/21 11:12:15 INFO util.GSet: capacity      = 2^17 = 131072 entries
+21/05/21 11:12:15 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/name1/in_use.lock acquired by nodename 30462@santaclara
+21/05/21 11:12:15 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/name2/in_use.lock acquired by nodename 30462@santaclara
+21/05/21 11:12:15 INFO namenode.FileJournalManager: Recovering unfinalized segments in /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/name1/current
+21/05/21 11:12:15 INFO namenode.FileJournalManager: Recovering unfinalized segments in /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/name2/current
+21/05/21 11:12:15 INFO namenode.FSImage: No edit log streams selected.
+21/05/21 11:12:15 INFO namenode.FSImageFormatPBINode: Loading 1 INodes.
+21/05/21 11:12:15 INFO namenode.FSImageFormatProtobuf: Loaded FSImage in 0 seconds.
+21/05/21 11:12:15 INFO namenode.FSImage: Loaded image for txid 0 from /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/name1/current/fsimage_0000000000000000000
+21/05/21 11:12:15 INFO namenode.FSNamesystem: Need to save fs image? false (staleImage=false, haEnabled=false, isRollingUpgrade=false)
+21/05/21 11:12:15 INFO namenode.FSEditLog: Starting log segment at 1
+21/05/21 11:12:15 INFO namenode.NameCache: initialized with 0 entries 0 lookups
+21/05/21 11:12:15 INFO namenode.FSNamesystem: Finished loading FSImage in 302 msecs
+21/05/21 11:12:15 INFO namenode.NameNode: RPC server is binding to localhost:0
+21/05/21 11:12:15 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/05/21 11:12:16 INFO ipc.Server: Starting Socket Reader #1 for port 35537
+21/05/21 11:12:16 INFO namenode.NameNode: Clients are to use localhost:35537 to access this namenode/service.
+21/05/21 11:12:16 INFO namenode.FSNamesystem: Registered FSNamesystemState MBean
+21/05/21 11:12:16 INFO namenode.LeaseManager: Number of blocks under construction: 0
+21/05/21 11:12:16 INFO namenode.LeaseManager: Number of blocks under construction: 0
+21/05/21 11:12:16 INFO namenode.FSNamesystem: initializing replication queues
+21/05/21 11:12:16 INFO hdfs.StateChange: STATE* Leaving safe mode after 0 secs
+21/05/21 11:12:16 INFO hdfs.StateChange: STATE* Network topology has 0 racks and 0 datanodes
+21/05/21 11:12:16 INFO hdfs.StateChange: STATE* UnderReplicatedBlocks has 0 blocks
+21/05/21 11:12:16 INFO blockmanagement.DatanodeDescriptor: Number of failed storage changes from 0 to 0
+21/05/21 11:12:16 INFO blockmanagement.BlockManager: Total number of blocks            = 0
+21/05/21 11:12:16 INFO blockmanagement.BlockManager: Number of invalid blocks          = 0
+21/05/21 11:12:16 INFO blockmanagement.BlockManager: Number of under-replicated blocks = 0
+21/05/21 11:12:16 INFO blockmanagement.BlockManager: Number of  over-replicated blocks = 0
+21/05/21 11:12:16 INFO blockmanagement.BlockManager: Number of blocks being written    = 0
+21/05/21 11:12:16 INFO hdfs.StateChange: STATE* Replication Queue initialization scan for invalid, over- and under-replicated blocks completed in 9 msec
+21/05/21 11:12:16 INFO ipc.Server: IPC Server Responder: starting
+21/05/21 11:12:16 INFO ipc.Server: IPC Server listener on 35537: starting
+21/05/21 11:12:16 INFO namenode.NameNode: NameNode RPC up at: localhost/127.0.0.1:35537
+21/05/21 11:12:16 INFO namenode.FSNamesystem: Starting services required for active state
+21/05/21 11:12:16 INFO blockmanagement.CacheReplicationMonitor: Starting CacheReplicationMonitor with interval 30000 milliseconds
+21/05/21 11:12:16 INFO hdfs.MiniDFSCluster: Starting DataNode 0 with dfs.datanode.data.dir: [DISK]file:/home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data1,[DISK]file:/home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data2
+21/05/21 11:12:16 INFO impl.MetricsSystemImpl: DataNode metrics system started (again)
+21/05/21 11:12:16 INFO datanode.BlockScanner: Disabled block scanner.
+21/05/21 11:12:16 INFO datanode.DataNode: Configured hostname is 127.0.0.1
+21/05/21 11:12:16 INFO datanode.DataNode: Starting DataNode with maxLockedMemory = 0
+21/05/21 11:12:16 INFO datanode.DataNode: Opened streaming server at /127.0.0.1:40833
+21/05/21 11:12:16 INFO datanode.DataNode: Balancing bandwith is 1048576 bytes/s
+21/05/21 11:12:16 INFO datanode.DataNode: Number threads for balancing is 5
+21/05/21 11:12:16 INFO server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+21/05/21 11:12:16 INFO http.HttpRequestLog: Http request log for http.requests.datanode is not defined
+21/05/21 11:12:16 INFO http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+21/05/21 11:12:16 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context datanode
+21/05/21 11:12:16 INFO http.HttpServer2: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/05/21 11:12:16 INFO http.HttpServer2: Jetty bound to port 43555
+21/05/21 11:12:16 INFO mortbay.log: jetty-6.1.26
+21/05/21 11:12:16 INFO mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@localhost:43555
+21/05/21 11:12:16 INFO web.DatanodeHttpServer: Listening HTTP traffic on /127.0.0.1:45473
+21/05/21 11:12:16 INFO datanode.DataNode: dnUserName = jhe16
+21/05/21 11:12:16 INFO datanode.DataNode: supergroup = supergroup
+21/05/21 11:12:16 INFO ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+21/05/21 11:12:16 INFO ipc.Server: Starting Socket Reader #1 for port 39093
+21/05/21 11:12:16 INFO datanode.DataNode: Opened IPC server at /127.0.0.1:39093
+21/05/21 11:12:16 INFO datanode.DataNode: Refresh request received for nameservices: null
+21/05/21 11:12:16 INFO datanode.DataNode: Starting BPOfferServices for nameservices: <default>
+21/05/21 11:12:16 INFO datanode.DataNode: Block pool <registering> (Datanode Uuid unassigned) service to localhost/127.0.0.1:35537 starting to offer service
+21/05/21 11:12:16 INFO ipc.Server: IPC Server Responder: starting
+21/05/21 11:12:16 INFO ipc.Server: IPC Server listener on 39093: starting
+21/05/21 11:12:16 WARN security.ShellBasedUnixGroupsMapping: got exception trying to get groups for user jhe16: id: cannot find name for group ID 1000842239
+id: cannot find name for group ID 1000359299
+
+21/05/21 11:12:16 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:12:16 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data1/in_use.lock acquired by nodename 30462@santaclara
+21/05/21 11:12:16 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data1 is not formatted for BP-1536471476-127.0.1.1-1621609934828
+21/05/21 11:12:16 INFO common.Storage: Formatting ...
+21/05/21 11:12:16 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:12:16 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:12:16 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:12:16 INFO common.Storage: Analyzing storage directories for bpid BP-1536471476-127.0.1.1-1621609934828
+21/05/21 11:12:16 INFO common.Storage: Locking is disabled for /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data1/current/BP-1536471476-127.0.1.1-1621609934828
+21/05/21 11:12:16 INFO common.Storage: Block pool storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data1/current/BP-1536471476-127.0.1.1-1621609934828 is not formatted for BP-1536471476-127.0.1.1-1621609934828
+21/05/21 11:12:16 INFO common.Storage: Formatting ...
+21/05/21 11:12:16 INFO common.Storage: Formatting block pool BP-1536471476-127.0.1.1-1621609934828 directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data1/current/BP-1536471476-127.0.1.1-1621609934828/current
+21/05/21 11:12:16 INFO common.Storage: Restored 0 block files from trash.
+21/05/21 11:12:16 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:12:16 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:12:16 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:12:16 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:12:16 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:12:16 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:12:16 INFO common.Storage: Lock on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data2/in_use.lock acquired by nodename 30462@santaclara
+21/05/21 11:12:16 INFO common.Storage: Storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data2 is not formatted for BP-1536471476-127.0.1.1-1621609934828
+21/05/21 11:12:16 INFO common.Storage: Formatting ...
+21/05/21 11:12:16 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:12:16 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:12:16 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:12:16 INFO common.Storage: Analyzing storage directories for bpid BP-1536471476-127.0.1.1-1621609934828
+21/05/21 11:12:16 INFO common.Storage: Locking is disabled for /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data2/current/BP-1536471476-127.0.1.1-1621609934828
+21/05/21 11:12:16 INFO common.Storage: Block pool storage directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data2/current/BP-1536471476-127.0.1.1-1621609934828 is not formatted for BP-1536471476-127.0.1.1-1621609934828
+21/05/21 11:12:16 INFO common.Storage: Formatting ...
+21/05/21 11:12:16 INFO common.Storage: Formatting block pool BP-1536471476-127.0.1.1-1621609934828 directory /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data2/current/BP-1536471476-127.0.1.1-1621609934828/current
+21/05/21 11:12:16 INFO common.Storage: Restored 0 block files from trash.
+21/05/21 11:12:16 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:12:16 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:12:16 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:12:17 INFO datanode.DataNode: Setting up storage: nsid=585242272;bpid=BP-1536471476-127.0.1.1-1621609934828;lv=-56;nsInfo=lv=-63;cid=testClusterID;nsid=585242272;c=0;bpid=BP-1536471476-127.0.1.1-1621609934828;dnuuid=null
+21/05/21 11:12:17 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:12:17 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:12:17 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:12:17 INFO datanode.DataNode: Generated and persisted new Datanode UUID e948a866-4244-48d8-9d8c-4efb4ea7dc75
+21/05/21 11:12:17 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:12:17 INFO hdfs.MiniDFSCluster: dnInfo.length != numDataNodes
+21/05/21 11:12:17 INFO hdfs.MiniDFSCluster: Waiting for cluster to become active
+21/05/21 11:12:17 INFO impl.FsDatasetImpl: Added new volume: DS-f437ba1d-bd0f-4bcd-a819-4770e4e52c6e
+21/05/21 11:12:17 INFO impl.FsDatasetImpl: Added volume - /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data1/current, StorageType: DISK
+21/05/21 11:12:17 INFO impl.FsDatasetImpl: Added new volume: DS-8cb190a9-10c4-49b7-859f-7c558e05d06f
+21/05/21 11:12:17 INFO impl.FsDatasetImpl: Added volume - /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data2/current, StorageType: DISK
+21/05/21 11:12:17 INFO impl.FsDatasetImpl: Registered FSDatasetState MBean
+21/05/21 11:12:17 INFO datanode.DirectoryScanner: Periodic Directory Tree Verification scan starting at 1621620485214 with interval 21600000
+21/05/21 11:12:17 INFO impl.FsDatasetImpl: Adding block pool BP-1536471476-127.0.1.1-1621609934828
+21/05/21 11:12:17 INFO impl.FsDatasetImpl: Scanning block pool BP-1536471476-127.0.1.1-1621609934828 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data1/current...
+21/05/21 11:12:17 INFO impl.FsDatasetImpl: Scanning block pool BP-1536471476-127.0.1.1-1621609934828 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data2/current...
+21/05/21 11:12:17 INFO impl.FsDatasetImpl: Time taken to scan block pool BP-1536471476-127.0.1.1-1621609934828 on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data1/current: 6ms
+21/05/21 11:12:17 INFO impl.FsDatasetImpl: Time taken to scan block pool BP-1536471476-127.0.1.1-1621609934828 on /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data2/current: 5ms
+21/05/21 11:12:17 INFO impl.FsDatasetImpl: Total time to scan all replicas for block pool BP-1536471476-127.0.1.1-1621609934828: 6ms
+21/05/21 11:12:17 INFO impl.FsDatasetImpl: Adding replicas to map for block pool BP-1536471476-127.0.1.1-1621609934828 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data1/current...
+21/05/21 11:12:17 INFO impl.FsDatasetImpl: Adding replicas to map for block pool BP-1536471476-127.0.1.1-1621609934828 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data2/current...
+21/05/21 11:12:17 INFO impl.FsDatasetImpl: Time to add replicas to map for block pool BP-1536471476-127.0.1.1-1621609934828 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data1/current: 0ms
+21/05/21 11:12:17 INFO impl.FsDatasetImpl: Time to add replicas to map for block pool BP-1536471476-127.0.1.1-1621609934828 on volume /home/jhe16/Documents/ExtractSignature/benchmark/hdfs7005/build/test/data/dfs/data/data2/current: 0ms
+21/05/21 11:12:17 INFO impl.FsDatasetImpl: Total time to add all replicas to map: 1ms
+21/05/21 11:12:17 INFO datanode.DataNode: Block pool BP-1536471476-127.0.1.1-1621609934828 (Datanode Uuid null) service to localhost/127.0.0.1:35537 beginning handshake with NN
+21/05/21 11:12:17 INFO hdfs.StateChange: BLOCK* registerDatanode: from DatanodeRegistration(127.0.0.1:40833, datanodeUuid=e948a866-4244-48d8-9d8c-4efb4ea7dc75, infoPort=45473, infoSecurePort=0, ipcPort=39093, storageInfo=lv=-56;cid=testClusterID;nsid=585242272;c=0) storage e948a866-4244-48d8-9d8c-4efb4ea7dc75
+21/05/21 11:12:17 INFO blockmanagement.DatanodeDescriptor: Number of failed storage changes from 0 to 0
+21/05/21 11:12:17 INFO net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:40833
+21/05/21 11:12:17 INFO datanode.DataNode: Block pool Block pool BP-1536471476-127.0.1.1-1621609934828 (Datanode Uuid null) service to localhost/127.0.0.1:35537 successfully registered with NN
+21/05/21 11:12:17 INFO datanode.DataNode: For namenode localhost/127.0.0.1:35537 using DELETEREPORT_INTERVAL of 300000 msec  BLOCKREPORT_INTERVAL of 21600000msec CACHEREPORT_INTERVAL of 10000msec Initial delay: 0msec; heartBeatInterval=3000
+21/05/21 11:12:17 INFO blockmanagement.DatanodeDescriptor: Number of failed storage changes from 0 to 0
+21/05/21 11:12:17 INFO blockmanagement.DatanodeDescriptor: Adding new storage ID DS-f437ba1d-bd0f-4bcd-a819-4770e4e52c6e for DN 127.0.0.1:40833
+21/05/21 11:12:17 INFO blockmanagement.DatanodeDescriptor: Adding new storage ID DS-8cb190a9-10c4-49b7-859f-7c558e05d06f for DN 127.0.0.1:40833
+21/05/21 11:12:17 INFO datanode.DataNode: Namenode Block pool BP-1536471476-127.0.1.1-1621609934828 (Datanode Uuid e948a866-4244-48d8-9d8c-4efb4ea7dc75) service to localhost/127.0.0.1:35537 trying to claim ACTIVE state with txid=1
+21/05/21 11:12:17 INFO datanode.DataNode: Acknowledging ACTIVE Namenode Block pool BP-1536471476-127.0.1.1-1621609934828 (Datanode Uuid e948a866-4244-48d8-9d8c-4efb4ea7dc75) service to localhost/127.0.0.1:35537
+21/05/21 11:12:17 INFO BlockStateChange: BLOCK* processReport: from storage DS-8cb190a9-10c4-49b7-859f-7c558e05d06f node DatanodeRegistration(127.0.0.1:40833, datanodeUuid=e948a866-4244-48d8-9d8c-4efb4ea7dc75, infoPort=45473, infoSecurePort=0, ipcPort=39093, storageInfo=lv=-56;cid=testClusterID;nsid=585242272;c=0), blocks: 0, hasStaleStorage: true, processing time: 1 msecs
+21/05/21 11:12:17 INFO BlockStateChange: BLOCK* processReport: from storage DS-f437ba1d-bd0f-4bcd-a819-4770e4e52c6e node DatanodeRegistration(127.0.0.1:40833, datanodeUuid=e948a866-4244-48d8-9d8c-4efb4ea7dc75, infoPort=45473, infoSecurePort=0, ipcPort=39093, storageInfo=lv=-56;cid=testClusterID;nsid=585242272;c=0), blocks: 0, hasStaleStorage: false, processing time: 0 msecs
+21/05/21 11:12:17 INFO datanode.DataNode: Successfully sent block report 0xd5b40afbaa0c,  containing 2 storage report(s), of which we sent 2. The reports had 0 total blocks and used 1 RPC(s). This took 4 msec to generate and 25 msecs for RPC and NN processing. Got back one command: FinalizeCommand/5.
+21/05/21 11:12:17 INFO datanode.DataNode: Got finalize command for block pool BP-1536471476-127.0.1.1-1621609934828
+21/05/21 11:12:17 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:12:17 INFO hdfs.MiniDFSCluster: Cluster is active
+21/05/21 11:12:17 WARN security.UserGroupInformation: No groups available for user jhe16
+21/05/21 11:12:17 INFO hdfs.MiniDFSCluster: Cluster is active

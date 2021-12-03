@@ -1,0 +1,86 @@
+50..
+nohup: appending output to 'nohup.out'
+21/04/09 11:14:03 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+21/04/09 11:14:03 INFO http.HttpServer: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+21/04/09 11:14:03 INFO http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context test
+21/04/09 11:14:03 INFO http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/04/09 11:14:03 INFO http.HttpServer: Jetty bound to port 37277
+21/04/09 11:14:03 INFO mortbay.log: jetty-6.1.26
+21/04/09 11:14:03 INFO mortbay.log: Extract jar:file:/home/jhe16/Downloads/hadoop-2.7.0/share/hadoop/common/hadoop-common-2.7.0-tests.jar!/webapps/test to /tmp/Jetty_0_0_0_0_37277_test____.z5u0dd/webapp
+21/04/09 11:14:03 INFO mortbay.log: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+21/04/09 11:14:03 INFO mortbay.log: Started HttpServer$SelectChannelConnectorWithSafeStartup@0.0.0.0:37277
+21/04/09 11:14:03 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/09 11:14:03 INFO Configuration.deprecation: job.end.retry.attempts is deprecated. Instead, use mapreduce.job.end-notification.retry.attempts
+21/04/09 11:14:03 INFO Configuration.deprecation: job.end.retry.interval is deprecated. Instead, use mapreduce.job.end-notification.retry.interval
+21/04/09 11:14:04 INFO mortbay.log: Stopped HttpServer$SelectChannelConnectorWithSafeStartup@0.0.0.0:0
+40..
+21/04/09 11:14:14 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+21/04/09 11:14:14 INFO http.HttpServer: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+21/04/09 11:14:14 INFO http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context test
+21/04/09 11:14:14 INFO http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/04/09 11:14:14 INFO http.HttpServer: Jetty bound to port 46287
+21/04/09 11:14:14 INFO mortbay.log: jetty-6.1.26
+21/04/09 11:14:14 INFO mortbay.log: Extract jar:file:/home/jhe16/Downloads/hadoop-2.7.0/share/hadoop/common/hadoop-common-2.7.0-tests.jar!/webapps/test to /tmp/Jetty_0_0_0_0_46287_test____pmqqqo/webapp
+21/04/09 11:14:14 INFO mortbay.log: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+21/04/09 11:14:14 INFO mortbay.log: Started HttpServer$SelectChannelConnectorWithSafeStartup@0.0.0.0:46287
+21/04/09 11:14:14 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/09 11:14:15 INFO Configuration.deprecation: job.end.retry.attempts is deprecated. Instead, use mapreduce.job.end-notification.retry.attempts
+21/04/09 11:14:15 INFO Configuration.deprecation: job.end.retry.interval is deprecated. Instead, use mapreduce.job.end-notification.retry.interval
+21/04/09 11:14:15 INFO mortbay.log: Stopped HttpServer$SelectChannelConnectorWithSafeStartup@0.0.0.0:0
+30..
+21/04/09 11:14:25 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+21/04/09 11:14:25 INFO http.HttpServer: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+21/04/09 11:14:25 INFO http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context test
+21/04/09 11:14:25 INFO http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/04/09 11:14:25 INFO http.HttpServer: Jetty bound to port 43189
+21/04/09 11:14:25 INFO mortbay.log: jetty-6.1.26
+21/04/09 11:14:25 INFO mortbay.log: Extract jar:file:/home/jhe16/Downloads/hadoop-2.7.0/share/hadoop/common/hadoop-common-2.7.0-tests.jar!/webapps/test to /tmp/Jetty_0_0_0_0_43189_test____.au6gvw/webapp
+21/04/09 11:14:25 INFO mortbay.log: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+21/04/09 11:14:26 INFO mortbay.log: Started HttpServer$SelectChannelConnectorWithSafeStartup@0.0.0.0:43189
+21/04/09 11:14:26 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/09 11:14:26 INFO Configuration.deprecation: job.end.retry.attempts is deprecated. Instead, use mapreduce.job.end-notification.retry.attempts
+21/04/09 11:14:26 INFO Configuration.deprecation: job.end.retry.interval is deprecated. Instead, use mapreduce.job.end-notification.retry.interval
+21/04/09 11:14:26 INFO mortbay.log: Stopped HttpServer$SelectChannelConnectorWithSafeStartup@0.0.0.0:0
+20..
+21/04/09 11:14:36 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+21/04/09 11:14:36 INFO http.HttpServer: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+21/04/09 11:14:37 INFO http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context test
+21/04/09 11:14:37 INFO http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/04/09 11:14:37 INFO http.HttpServer: Jetty bound to port 38265
+21/04/09 11:14:37 INFO mortbay.log: jetty-6.1.26
+21/04/09 11:14:37 INFO mortbay.log: Extract jar:file:/home/jhe16/Downloads/hadoop-2.7.0/share/hadoop/common/hadoop-common-2.7.0-tests.jar!/webapps/test to /tmp/Jetty_0_0_0_0_38265_test____u08ov1/webapp
+21/04/09 11:14:37 INFO mortbay.log: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+21/04/09 11:14:37 INFO mortbay.log: Started HttpServer$SelectChannelConnectorWithSafeStartup@0.0.0.0:38265
+21/04/09 11:14:37 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/09 11:14:37 INFO Configuration.deprecation: job.end.retry.attempts is deprecated. Instead, use mapreduce.job.end-notification.retry.attempts
+21/04/09 11:14:37 INFO Configuration.deprecation: job.end.retry.interval is deprecated. Instead, use mapreduce.job.end-notification.retry.interval
+21/04/09 11:14:37 INFO mortbay.log: Stopped HttpServer$SelectChannelConnectorWithSafeStartup@0.0.0.0:0
+10..
+21/04/09 11:14:48 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+21/04/09 11:14:48 INFO http.HttpServer: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+21/04/09 11:14:48 INFO http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context test
+21/04/09 11:14:48 INFO http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/04/09 11:14:48 INFO http.HttpServer: Jetty bound to port 41763
+21/04/09 11:14:48 INFO mortbay.log: jetty-6.1.26
+21/04/09 11:14:48 INFO mortbay.log: Extract jar:file:/home/jhe16/Downloads/hadoop-2.7.0/share/hadoop/common/hadoop-common-2.7.0-tests.jar!/webapps/test to /tmp/Jetty_0_0_0_0_41763_test____.7kd7js/webapp
+21/04/09 11:14:48 INFO mortbay.log: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+21/04/09 11:14:48 INFO mortbay.log: Started HttpServer$SelectChannelConnectorWithSafeStartup@0.0.0.0:41763
+21/04/09 11:14:48 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/09 11:14:48 INFO Configuration.deprecation: job.end.retry.attempts is deprecated. Instead, use mapreduce.job.end-notification.retry.attempts
+21/04/09 11:14:48 INFO Configuration.deprecation: job.end.retry.interval is deprecated. Instead, use mapreduce.job.end-notification.retry.interval
+21/04/09 11:14:48 INFO mortbay.log: Stopped HttpServer$SelectChannelConnectorWithSafeStartup@0.0.0.0:0
+trigger the bug===============
+21/04/09 11:14:59 INFO mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+21/04/09 11:14:59 INFO http.HttpServer: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+21/04/09 11:14:59 INFO http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context test
+21/04/09 11:14:59 INFO http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+21/04/09 11:14:59 INFO http.HttpServer: Jetty bound to port 42753
+21/04/09 11:14:59 INFO mortbay.log: jetty-6.1.26
+21/04/09 11:14:59 INFO mortbay.log: Extract jar:file:/home/jhe16/Downloads/hadoop-2.7.0/share/hadoop/common/hadoop-common-2.7.0-tests.jar!/webapps/test to /tmp/Jetty_0_0_0_0_42753_test____.26ijw8/webapp
+21/04/09 11:14:59 INFO mortbay.log: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+21/04/09 11:14:59 INFO mortbay.log: Started HttpServer$SelectChannelConnectorWithSafeStartup@0.0.0.0:42753
+21/04/09 11:14:59 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/09 11:14:59 INFO Configuration.deprecation: job.end.retry.attempts is deprecated. Instead, use mapreduce.job.end-notification.retry.attempts
+21/04/09 11:14:59 INFO Configuration.deprecation: job.end.retry.interval is deprecated. Instead, use mapreduce.job.end-notification.retry.interval
+================
+11:14:59

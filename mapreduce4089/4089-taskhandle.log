@@ -1,0 +1,35 @@
+50..
+nohup: appending output to 'nohup.out'
+21/04/16 11:39:23 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/16 11:39:23 INFO buggycode.AbstractService: Service:TaskHeartbeatHandler is inited.
+21/04/16 11:39:23 INFO buggycode.AbstractService: Service:TaskHeartbeatHandler is started.
+21/04/16 11:39:23 INFO buggycode.AbstractService: Service:TaskHeartbeatHandler is stopped.
+21/04/16 11:39:23 INFO buggycode.TaskHeartbeatHandler: TaskHeartbeatHandler thread interrupted
+40..
+21/04/16 11:39:33 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/16 11:39:34 INFO buggycode.AbstractService: Service:TaskHeartbeatHandler is inited.
+21/04/16 11:39:34 INFO buggycode.AbstractService: Service:TaskHeartbeatHandler is started.
+21/04/16 11:39:34 INFO buggycode.AbstractService: Service:TaskHeartbeatHandler is stopped.
+21/04/16 11:39:34 INFO buggycode.TaskHeartbeatHandler: TaskHeartbeatHandler thread interrupted
+30..
+21/04/16 11:39:44 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/16 11:39:44 INFO buggycode.AbstractService: Service:TaskHeartbeatHandler is inited.
+21/04/16 11:39:44 INFO buggycode.AbstractService: Service:TaskHeartbeatHandler is started.
+21/04/16 11:39:45 INFO buggycode.AbstractService: Service:TaskHeartbeatHandler is stopped.
+21/04/16 11:39:45 INFO buggycode.TaskHeartbeatHandler: TaskHeartbeatHandler thread interrupted
+20..
+21/04/16 11:39:55 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/16 11:39:55 INFO buggycode.AbstractService: Service:TaskHeartbeatHandler is inited.
+21/04/16 11:39:55 INFO buggycode.AbstractService: Service:TaskHeartbeatHandler is started.
+21/04/16 11:39:55 INFO buggycode.AbstractService: Service:TaskHeartbeatHandler is stopped.
+21/04/16 11:39:55 INFO buggycode.TaskHeartbeatHandler: TaskHeartbeatHandler thread interrupted
+10..
+21/04/16 11:40:06 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/16 11:40:06 INFO buggycode.AbstractService: Service:TaskHeartbeatHandler is inited.
+21/04/16 11:40:06 INFO buggycode.AbstractService: Service:TaskHeartbeatHandler is started.
+21/04/16 11:40:06 INFO buggycode.AbstractService: Service:TaskHeartbeatHandler is stopped.
+21/04/16 11:40:06 INFO buggycode.TaskHeartbeatHandler: TaskHeartbeatHandler thread interrupted
+trigger the bug===============
+21/04/16 11:40:17 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/16 11:40:17 INFO buggycode.AbstractService: Service:TaskHeartbeatHandler is inited.
+21/04/16 11:40:17 INFO buggycode.AbstractService: Service:TaskHeartbeatHandler is started.

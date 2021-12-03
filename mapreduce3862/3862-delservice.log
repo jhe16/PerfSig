@@ -1,0 +1,39 @@
+50..
+21/04/16 00:08:25 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/16 00:08:26 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/16 00:08:26 INFO buggycode.AbstractService: Service:buggycode.DeletionService is inited.
+21/04/16 00:08:26 INFO buggycode.AbstractService: Service:buggycode.DeletionService is started.
+21/04/16 00:08:26 INFO buggycode.AbstractService: Service:buggycode.DeletionService is stopped.
+40..
+21/04/16 00:08:37 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/16 00:08:37 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/16 00:08:38 INFO buggycode.AbstractService: Service:buggycode.DeletionService is inited.
+21/04/16 00:08:38 INFO buggycode.AbstractService: Service:buggycode.DeletionService is started.
+21/04/16 00:08:38 INFO nodemanager.DefaultContainerExecutor: Deleting absolute path : file:/home/jhe16/Documents/ExtractSignature/benchmark/mapreduce3862/normal/target/TestDeletionService/-5034876314023210211
+21/04/16 00:08:38 INFO nodemanager.DefaultContainerExecutor: Deleting absolute path : file:/home/jhe16/Documents/ExtractSignature/benchmark/mapreduce3862/normal/target/TestDeletionService/-7702195108695539757
+21/04/16 00:08:38 INFO buggycode.AbstractService: Service:buggycode.DeletionService is stopped.
+30..
+21/04/16 00:08:49 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/16 00:08:49 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/16 00:08:49 INFO buggycode.AbstractService: Service:buggycode.DeletionService is inited.
+21/04/16 00:08:49 INFO buggycode.AbstractService: Service:buggycode.DeletionService is started.
+21/04/16 00:08:49 INFO buggycode.AbstractService: Service:buggycode.DeletionService is stopped.
+20..
+21/04/16 00:09:01 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/16 00:09:01 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/16 00:09:01 INFO buggycode.AbstractService: Service:buggycode.DeletionService is inited.
+21/04/16 00:09:01 INFO buggycode.AbstractService: Service:buggycode.DeletionService is started.
+21/04/16 00:09:01 INFO buggycode.AbstractService: Service:buggycode.DeletionService is stopped.
+10..
+21/04/16 00:09:12 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/16 00:09:13 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/16 00:09:13 INFO buggycode.AbstractService: Service:buggycode.DeletionService is inited.
+21/04/16 00:09:13 INFO buggycode.AbstractService: Service:buggycode.DeletionService is started.
+21/04/16 00:09:13 INFO nodemanager.DefaultContainerExecutor: Deleting absolute path : file:/home/jhe16/Documents/ExtractSignature/benchmark/mapreduce3862/normal/target/TestDeletionService/1069005207159718123
+21/04/16 00:09:13 INFO nodemanager.DefaultContainerExecutor: Deleting absolute path : file:/home/jhe16/Documents/ExtractSignature/benchmark/mapreduce3862/normal/target/TestDeletionService/9140047317449805549
+21/04/16 00:09:13 INFO buggycode.AbstractService: Service:buggycode.DeletionService is stopped.
+21/04/16 00:09:23 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/04/16 00:09:23 INFO tracing.SpanReceiverHost: Loaded SpanReceiver org.apache.htrace.impl.LocalFileSpanReceiver successfully.
+21/04/16 00:09:24 INFO buggycode.AbstractService: Service:buggycode.DeletionService is inited.
+21/04/16 00:09:24 INFO buggycode.AbstractService: Service:buggycode.DeletionService is started.
+21/04/16 00:09:34 INFO buggycode.AbstractService: Service:buggycode.DeletionService is stopped.
